@@ -6,6 +6,7 @@ from engine import *
 SHORT_TITLE = 'How AI Chatbots Work'      # shown top-right on every frame
 VOICE, SPEED = 'am_michael', 0.96
 CAPTION_FIXES = {'A.I.': 'AI'}             # narration spelling -> caption spelling
+SHORT_HOOK = 'How do AI chatbots actually work?'   # headline on the vertical Short
 THUMB_AT = 17                              # second of the video used as thumbnail
 
 # ---------------------------------------------------------------- scenes

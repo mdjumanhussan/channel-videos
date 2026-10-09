@@ -141,6 +141,30 @@ def render(part, nparts):
         if (f - a) % 300 == 0: print(part, f - a, b - a, flush=True)
     p.stdin.close(); p.wait()
 
+def build_short(max_len=55.0):
+    """Vertical 1080x1920 Short: the opening scenes (hook) of the finished video inside a branded frame."""
+    global W, H
+    tl = json.load(open(OUT + '/tl.json'))
+    ends = [sc['end'] for sc in tl if sc['end'] <= max_len]
+    end = ends[-1] if ends else min(max_len, tl[0]['end'])
+    w0, h0 = W, H; W, H = 1080, 1920
+    img = background(); c = C(img)
+    head = getattr(EP, 'SHORT_HOOK', EP.SHORT_TITLE)
+    ls = wrap(c, head, 92, 940, 'Bold'); y0 = 400 - (len(ls) - 1) * 56
+    for i, l in enumerate(ls): c.text(540, y0 + i * 112, l, 92, INK if i % 2 == 0 else CY, w='Bold')
+    c.line([(400, 590), (680, 590)], YE, 8)
+    c.rr(22, 661, 1058, 1259, 24, CARD, outline=(44, 52, 100), ow=4)
+    c.text(540, 1420, 'Full video on the channel', 56, INK, w='Bold')
+    c.rr(300, 1520, 780, 1640, 60, (235, 50, 60)); c.text(540, 1580, 'SUBSCRIBE', 54, INK, w='Bold', bg=(235, 50, 60))
+    c.text(540, 1720, getattr(EP, 'CHANNEL', 'Md Juman Hussan JP'), 40, CY, w='Medium')
+    img.reduce(S).save(OUT + '/short_bg.png'); W, H = w0, h0
+    fo = max(0.0, end - 0.4)
+    subprocess.check_call(['ffmpeg', '-y', '-loglevel', 'error', '-loop', '1', '-framerate', str(FPS), '-i', OUT + '/short_bg.png', '-t', f'{end:.2f}', '-i', OUT + '/video.mp4',
+        '-filter_complex', f'[1:v]scale=1000:-2[v];[0:v][v]overlay=40:(1920-562)/2:shortest=1,fade=t=out:st={fo:.2f}:d=0.4[o];[1:a]afade=t=out:st={fo:.2f}:d=0.4[a]',
+        '-map', '[o]', '-map', '[a]', '-t', f'{end:.2f}', '-c:v', 'libx264', '-preset', 'medium', '-crf', '19', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '160k',
+        '-movflags', '+faststart', OUT + '/short.mp4'])
+    print('DONE', OUT + '/short.mp4', f'{end:.1f}s')
+
 def caption(s):
     for a, b in getattr(EP, 'CAPTION_FIXES', {}).items(): s = s.replace(a, b)
     return s
@@ -153,13 +177,14 @@ def load(path):
     OUT = os.path.normpath(OUT); os.makedirs(OUT, exist_ok=True)
 
 if __name__ == '__main__':
-    # usage: python3 pipeline/engine.py episodes/NAME.py audio | still T1 T2 ... | render | all
+    # usage: python3 pipeline/engine.py episodes/NAME.py audio | still T1 T2 ... | render | short | all
     ep, cmd = sys.argv[1], sys.argv[2]
     load(ep)
     if cmd in ('audio', 'all'): build_audio()
     if cmd == 'still':
         tl = json.load(open(OUT + '/tl.json')); bg = background()
         for s in sys.argv[3:]: frame(tl, bg, float(s)).save(OUT + f'/still_{float(s):06.1f}.png')
+    if cmd == 'short': build_short()
     if cmd == 'part': render(int(sys.argv[3]), int(sys.argv[4]))
     if cmd in ('render', 'all'):
         ps = [subprocess.Popen([sys.executable, os.path.abspath(__file__), ep, 'part', str(i), '2']) for i in range(2)]

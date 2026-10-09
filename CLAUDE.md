@@ -15,7 +15,7 @@ The owner (Juman) checks YouTube about once a week, so runs are unattended. Nobo
 
 ## Daily run
 
-1. **Check last run.** Call Metricool `getScheduledPosts` (blogId `7328099`) for the past 3 days and next 7 days. Note any post that failed to publish; mention it in the final report. If 3 or more videos are already queued for future days, stop and report — do not pile up more.
+1. **Check last run.** Call Metricool `getScheduledPosts` (blogId `7328099`) for the past 3 days and next 7 days. Note any post that failed to publish; mention it in the final report. If 3 or more long videos are already queued for future days, stop and report — do not pile up more.
 2. **Pick a topic.** Read `topics.md`. Never repeat a topic. Rotate across: science, technology/AI, money and everyday economics, health basics, how-things-work, psychology of learning. Use WebSearch to see what people are asking about right now, then pick one question with broad curiosity and a clear, settled answer.
 3. **Write the script.** 350–450 words, 8–10 scenes, 2.5–4 minutes. Rules:
    - Hook in the first 5 seconds: a question or a surprising true statement.
@@ -33,12 +33,17 @@ The owner (Juman) checks YouTube about once a week, so runs are unattended. Nobo
    ```bash
    python3 pipeline/engine.py episodes/NAME.py render   # ~5 min, writes build/NAME/video.mp4 and thumb.png
    ```
+   Then build the vertical Short (first scenes, up to 55 s, inside a branded frame). Set `SHORT_HOOK` in the episode file to a short question (under 40 characters):
+   ```bash
+   python3 pipeline/engine.py episodes/NAME.py short    # writes build/NAME/short.mp4 (1080x1920)
+   ```
    Run `render` with a 10-minute timeout. Confirm with `ffprobe` that the file is 1920x1080, has audio, and runs 2–5 minutes.
-7. **Publish the file.** Copy `build/NAME/video.mp4` to `videos/NAME.mp4`, commit with the episode file, push to `main`. The public link is
+7. **Publish the files.** Copy `build/NAME/video.mp4` to `videos/NAME.mp4` and `build/NAME/short.mp4` to `videos/NAME-short.mp4`, commit with the episode file, push to `main`. The public link is
    `https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/NAME.mp4`. Check it returns HTTP 200 with `curl -sIL`.
    Then delete `videos/*.mp4` files older than 7 days in the same or a follow-up commit (Metricool keeps its own copy once a post is scheduled).
 8. **Schedule.** Metricool `createScheduledPost`, blogId `7328099`, provider `youtube`, timezone `Australia/Sydney`, at **18:00 on the first day from today that has no post yet** (if today 18:00 is less than 1 hour away, start from tomorrow). Use `type: video`, `privacy: public`, `category: EDUCATION` (or `SCIENCE_TECHNOLOGY`), `madeForKids: false`, `autoPublish: true`. Do not send a thumbnail field unless a previous run proved it works.
 8b. **Promote.** Call Metricool `getBrandSettings`. For every other network connected there (linkedin, instagram, tiktok, twitter), schedule the same video as a native post 30 minutes after the YouTube time. **Never post to Facebook, even if it is connected — the owner said no.** Caption: the hook line, 2 lines on what the viewer learns, then "More on YouTube: https://youtube.com/@md.jumanhussan3821". If no other network is connected, skip this step and say so in the report. Never spend money: no boosts, no ads.
+8c. **Short.** Schedule `videos/NAME-short.mp4` on YouTube 1 hour after the long video (19:00), `type: short`, same privacy/category/madeForKids settings. Title: the hook question plus ` #Shorts` (under 60 characters). Description: one line on the answer, then "Full video on the channel."
 9. **Log.** Append one line to `topics.md`: date, title, category, scheduled time, sources used. Commit and push.
 10. **Report** in the final message: title, scheduled time, and anything that failed.
 
@@ -49,7 +54,7 @@ The owner (Juman) checks YouTube about once a week, so runs are unattended. Nobo
 
 ## Hard limits
 
-- **One video per run. Never more than one scheduled per day.** Bulk posting risks the channel being flagged as mass-produced content.
+- **One video per run: one long video plus its one Short. Never more than that per day.** Bulk posting risks the channel being flagged as mass-produced content.
 - **Do not make videos on:** religion or religious stories, politics, elections, wars and current conflicts, medical diagnosis or treatment advice, legal advice, specific investment advice, named private individuals, or breaking news. The channel carries the owner's name and his Justice of the Peace title; these need his eyes first. If a topic idea falls here, pick another.
 - No copyrighted music, footage, logos, or characters. Everything on screen is drawn by the engine.
 - If any step fails (voice engine, render, push, Metricool), stop. Do not publish a partial or unchecked video. Report what failed.
