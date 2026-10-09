@@ -18,7 +18,7 @@ This is separate from the YouTube channel job (root `CLAUDE.md`). Never post the
 ## Daily run
 
 1. **Check Metricool.** `getBrandSettings`: the brand (blogId `7328099`) must list a Facebook page in `networksData`. If Facebook is not connected, stop and report: "Connect the Quranic Story Facebook page in Metricool." Then `getScheduledPosts` for the past 3 and next 7 days. Report any failed Facebook post. If 3 or more Facebook Reels are already queued for future days, stop and report.
-2. **Pick the story.** First row in `series.md` with an empty "Built" column. Do not skip ahead, do not repeat.
+2. **Pick the story.** If a row is Built but not Scheduled and its file is in `videos/quranic/`, skip to step 8 and schedule that one (its caption is `CAPTION` and title is `TITLE` in the episode file). Build nothing new that day. Otherwise take the first row in `series.md` with an empty "Built" column. Do not skip ahead, do not repeat.
 3. **Research.** Read every verse of the story in `data/quran.json` (Python: `json.load(open('quranic/data/quran.json'))['verses']['2:30']`). For hadith episodes, open the hadith on sunnah.com with WebFetch and confirm: collection is Sahih al-Bukhari or Sahih Muslim, the number, and the English wording. If it cannot be confirmed, skip that story (mark it "skipped: could not verify" in `series.md`) and take the next one.
 4. **Write the script.** 190–240 words, 9–11 scenes, 85–105 seconds.
    - Scene 1 is a title card with a hook line that makes people stop scrolling (a question or a striking true moment from the story).

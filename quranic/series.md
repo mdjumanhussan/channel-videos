@@ -8,7 +8,7 @@ Verse references are starting points. The daily job confirms every quoted verse 
 
 | # | Story | Main references | Built | Scheduled (Sydney) |
 |---|---|---|---|---|
-| 1 | Prophet Adam: the first human and the first repentance | 2:30–37, 7:11–23, 15:28–29, 20:121–122 | 2026-10-10 | see log |
+| 1 | Prophet Adam: the first human and the first repentance | 2:30–37, 7:11–23, 15:28–29, 20:121–122 | 2026-10-10 | |
 | 2 | The two sons of Adam (Habil and Qabil) — names not in the Quran; say "the two sons of Adam" | 5:27–31 | | |
 | 3 | Prophet Nuh and the Ark | 11:25–48, 71:1–28, 23:23–30 | | |
 | 4 | Prophet Hud and the people of 'Ad | 7:65–72, 11:50–60, 69:6–8 | | |
