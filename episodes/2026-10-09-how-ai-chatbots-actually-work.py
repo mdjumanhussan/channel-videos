@@ -7,6 +7,14 @@ SHORT_TITLE = 'How AI Chatbots Work'      # shown top-right on every frame
 VOICE, SPEED = 'am_michael', 0.96
 CAPTION_FIXES = {'A.I.': 'AI'}             # narration spelling -> caption spelling
 SHORT_HOOK = 'How do AI chatbots actually work?'   # headline on the vertical Short
+HITS = [(0, 3, 0.0), (0, 5, 0.25), (8, 4, 0.0)]   # (scene, line, offset s): deep hit on key reveals
+THUMB = ['HOW AI', 'CHATBOTS', 'ACTUALLY WORK']
+
+def thumb_art(c):
+    c.rr(1230, 250, 1820, 470, 60, CY); c.text(1525, 360, 'Why?', 130, BG, w='Bold', bg=CY)
+    c.rr(1180, 560, 1700, 800, 60, (44, 52, 100), outline=PU, ow=8)
+    for i in range(3): c.circ(1330 + i * 110, 680, 34, YE)
+
 THUMB_AT = 17                              # second of the video used as thumbnail
 
 # ---------------------------------------------------------------- scenes
