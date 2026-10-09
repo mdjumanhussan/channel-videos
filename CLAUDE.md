@@ -12,10 +12,11 @@ The owner (Juman) checks YouTube about once a week, so runs are unattended. Nobo
 - `topics.md` — log of every video made. Read it before picking a topic. Append after scheduling.
 - `videos/` — published video files (public links for Metricool).
 - `build/` — scratch output, git-ignored.
+- `quranic/` — separate pipeline for the Quranic Story Facebook page. Not part of the YouTube run; see `quranic/RUNBOOK.md`.
 
 ## Daily run
 
-1. **Check last run.** Call Metricool `getScheduledPosts` (blogId `7328099`) for the past 3 days and next 7 days. Note any post that failed to publish; mention it in the final report. If 3 or more long videos are already queued for future days, stop and report — do not pile up more.
+1. **Check last run.** Call Metricool `getScheduledPosts` (blogId `7328099`) for the past 3 days and next 7 days. Ignore Facebook posts (they belong to the Quranic Story job). Note any YouTube post that failed to publish; mention it in the final report. If 3 or more long YouTube videos are already queued for future days, stop and report — do not pile up more.
 2. **Pick a topic.** Read `topics.md`. Never repeat a topic. Rotate across: science, technology/AI, money and everyday economics, health basics, how-things-work, psychology of learning. Use WebSearch to see what people are asking about right now, then pick one question with broad curiosity and a clear, settled answer.
 3. **Write the script.** 350–450 words, 8–10 scenes, 2.5–4 minutes. Rules:
    - Hook in the first 5 seconds: a question or a surprising true statement.
@@ -42,7 +43,7 @@ The owner (Juman) checks YouTube about once a week, so runs are unattended. Nobo
    `https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/NAME.mp4`. Check it returns HTTP 200 with `curl -sIL`.
    Then delete `videos/*.mp4` files older than 7 days in the same or a follow-up commit (Metricool keeps its own copy once a post is scheduled).
 8. **Schedule.** Metricool `createScheduledPost`, blogId `7328099`, provider `youtube`, timezone `Australia/Sydney`, at **18:00 on the first day from today that has no post yet** (if today 18:00 is less than 1 hour away, start from tomorrow). Use `type: video`, `privacy: public`, `category: EDUCATION` (or `SCIENCE_TECHNOLOGY`), `madeForKids: false`, `autoPublish: true`. Do not send a thumbnail field unless a previous run proved it works.
-8b. **Promote.** Call Metricool `getBrandSettings`. For every other network connected there (linkedin, instagram, tiktok, twitter), schedule the same video as a native post 30 minutes after the YouTube time. **Never post to Facebook, even if it is connected — the owner said no.** Caption: the hook line, 2 lines on what the viewer learns, then "More on YouTube: https://youtube.com/@md.jumanhussan3821". If no other network is connected, skip this step and say so in the report. Never spend money: no boosts, no ads.
+8b. **Promote.** Call Metricool `getBrandSettings`. For every other network connected there (linkedin, instagram, tiktok, twitter), schedule the same video as a native post 30 minutes after the YouTube time. **Never post YouTube videos to Facebook, even if it is connected — the owner said no.** (The Facebook page "Quranic Story" is run by a separate daily job: `quranic/RUNBOOK.md`. Leave its posts alone.) Caption: the hook line, 2 lines on what the viewer learns, then "More on YouTube: https://youtube.com/@md.jumanhussan3821". If no other network is connected, skip this step and say so in the report. Never spend money: no boosts, no ads.
 8c. **Short.** Schedule `videos/NAME-short.mp4` on YouTube 1 hour after the long video (19:00), `type: short`, same privacy/category/madeForKids settings. Title: the hook question plus ` #Shorts` (under 60 characters). Description: one line on the answer, then "Full video on the channel."
 9. **Log.** Append one line to `topics.md`: date, title, category, scheduled time, sources used. Commit and push.
 10. **Report** in the final message: title, scheduled time, and anything that failed.
