@@ -152,7 +152,7 @@ CAPTION = """The very first human. The very first mistake. And the very first "I
 
 Before a single human walked the Earth, Allah told the angels: "Indeed, I will make upon the earth a successive authority." (Quran 2:30)
 
-Adam (peace be upon him) was created from clay and taught the names of all things. Iblees refused to bow out of pride. Adam slipped, but he turned straight back to Allah with this dua:
+Adam (peace be upon him) was created from clay and taught the names, all of them. Iblees refused to bow out of pride. Adam slipped, but he turned straight back to Allah with this dua:
 
 "Our Lord, we have wronged ourselves, and if You do not forgive us and have mercy upon us, we will surely be among the losers." (Quran 7:23)
 
