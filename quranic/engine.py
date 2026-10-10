@@ -383,8 +383,8 @@ def draw_caption(img, line, t0, t1, tt):
         if idx <= cur < idx + len(ch): break
         idx += len(ch)
     d = ImageDraw.Draw(img); f = F(74, 'ExtraBold') if os.path.exists(GF + 'Poppins-ExtraBold.ttf') else F(74, 'Bold')
-    lines = wrap(d, ' '.join(ch).upper(), f, 900)
-    y0 = 1360 - (len(lines) - 1) * 46; k = idx
+    lines = wrap(d, ' '.join(ch).upper(), f, 820)
+    y0 = 1190 - (len(lines) - 1) * 46; k = idx
     for li, ln in enumerate(lines):
         ws = ln.split(); sp = d.textlength(' ', font=f); widths = [d.textlength(w, font=f) for w in ws]
         x = W / 2 - (sum(widths) + sp * (len(ws) - 1)) / 2
@@ -431,7 +431,7 @@ def draw_verse(img, vs, tt):
     img.alpha_composite(panel)
 
 def draw_title(img, sc, tt):
-    ti = sc['title']; p = ease(tt / .5)
+    ti = sc['title']; p = 1.0 if tt < 0 else .82 + .18 * ease(tt / .35)
     orn = Image.new('RGBA', (W, H), (0, 0, 0, 0)); od = ImageDraw.Draw(orn); cy = 560
     for r, rot0, wdt in ((330, 0, 5), (250, 22.5, 3)):
         for rot in (0, 45):
@@ -553,7 +553,7 @@ def frame(tl, tt):
                 od.line(pts + [pts[0]], fill=GOLD + (230,), width=10)
             img.alpha_composite(ol.filter(ImageFilter.GaussianBlur(3))); img.alpha_composite(ol)
     draw_chrome(img, tt, tl[-1]['end'])
-    if tt < .35: img = Image.blend(Image.new('RGBA', (W, H), (0, 0, 0, 255)), img, ease(tt / .35))
+    
     return img.convert('RGB')
 
 # ------------------------------------------------------------------ audio
@@ -578,9 +578,9 @@ def build_audio():
     from kokoro_onnx import Kokoro
     import soundfile as sf
     k = Kokoro(MODELS + '/kokoro.onnx', MODELS + '/voices.bin')
-    voice = getattr(EP, 'VOICE', 'bm_george'); speed = getattr(EP, 'SPEED', .9); lang = 'en-gb' if voice[:1] == 'b' else 'en-us'
-    gap, sgap = .35, .75
-    chunks, tl, cur = [np.zeros(int(.5 * SR), np.float32)], [], .5
+    voice = getattr(EP, 'VOICE', 'bm_george'); speed = getattr(EP, 'SPEED', 1.0); lang = 'en-gb' if voice[:1] == 'b' else 'en-us'
+    gap, sgap = .22, .45
+    chunks, tl, cur = [np.zeros(int(.25 * SR), np.float32)], [], .25
     for si, sc in enumerate(SC):
         starts = []; s0 = cur
         for li, ln in enumerate(sc['lines']):
@@ -599,6 +599,11 @@ def build_audio():
     bw, aw = butter(2, [300 / (SR / 2), 2500 / (SR / 2)], 'band'); wh = lfilter(bw, aw, rng.standard_normal(int(.9 * SR)).astype(np.float32))
     env = np.sin(np.linspace(0, math.pi, len(wh))) ** 2; wh = wh / np.abs(wh).max() * .10 * env
     mix = voice_a + amb
+    hl = int(1.6 * SR); th = np.arange(hl) / SR
+    boom = (np.sin(2 * math.pi * (38 * th + 30 * (1 - np.exp(-th * 6)) / 6)) * np.exp(-th * 3.2)).astype(np.float32)
+    boom[:int(.01 * SR)] *= np.linspace(0, 1, int(.01 * SR)); boom *= .45
+    for si, li, off in [(0, 0, 0.0)] + list(getattr(EP, 'HITS', [])):
+        i0 = int(max(0, tl[si]['lines'][li][0] + off - .05) * SR); i1 = min(n, i0 + hl); mix[i0:i1] += boom[:i1 - i0]
     for s in tl[:-1]:
         i0 = int((s['end'] - TRANS) * SR); i1 = min(n, i0 + len(wh)); mix[i0:i1] += wh[:i1 - i0]
     sf.write(OUT + '/voice.wav', mix.astype(np.float32), SR); json.dump(tl, open(OUT + '/tl.json', 'w'))
@@ -622,7 +627,7 @@ def check():
     for sc in SC:
         if sc.get('verse'): a, e, r = verse_parts(sc['verse']['key'], sc['verse'].get('ar'), sc['verse'].get('en')); print('VERSE', r, '|', e)
     words = sum(len(l.split()) for sc in SC for l in sc['lines'])
-    print('scenes', len(SC), 'words', words); assert 150 <= words <= 260, 'script should be 150-260 words (~75-95 s)'
+    print('scenes', len(SC), 'words', words); assert 115 <= words <= 185, 'script should be 115-185 words (~45-70 s)'
 
 def load(path):
     global EP, SC, OUT
@@ -646,6 +651,6 @@ if __name__ == '__main__':
         assert all(p.wait() == 0 for p in ps), 'render failed'
         open(OUT + '/list.txt', 'w').write('file part0.mp4\nfile part1.mp4\n')
         subprocess.check_call(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'concat', '-i', OUT + '/list.txt', '-i', OUT + '/voice.wav', '-c:v', 'copy',
-                               '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', '-af', 'loudnorm=I=-14:TP=-1.5', '-shortest', '-movflags', '+faststart', OUT + '/video.mp4'])
+                               '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', '-af', 'highpass=f=70,equalizer=f=3200:t=q:w=1:g=2.5,acompressor=threshold=-20dB:ratio=3:attack=5:release=90,loudnorm=I=-14:TP=-1.5', '-shortest', '-movflags', '+faststart', OUT + '/video.mp4'])
         subprocess.check_call(['ffmpeg', '-y', '-loglevel', 'error', '-ss', str(getattr(EP, 'THUMB_AT', 1.5)), '-i', OUT + '/video.mp4', '-frames:v', '1', OUT + '/thumb.jpg'])
         print('DONE', OUT + '/video.mp4')
