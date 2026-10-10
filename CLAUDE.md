@@ -9,6 +9,7 @@ The owner (Juman) checks YouTube about once a week, so runs are unattended. Nobo
 - `pipeline/engine.py` — drawing helpers, narration (Kokoro TTS), renderer.
 - `pipeline/setup.sh` — installs the voice engine and downloads its models. Run once per session.
 - `episodes/YYYY-MM-DD-slug.py` — one file per video: narration lines + one draw function per scene.
+- `learnings.md` — running notes on what works in viral educational videos and on this channel. Read and add to it every run.
 - `topics.md` — log of every video made. Read it before picking a topic. Append after scheduling.
 - `videos/` — published video files (public links for Metricool).
 - `build/` — scratch output, git-ignored.
@@ -17,6 +18,9 @@ The owner (Juman) checks YouTube about once a week, so runs are unattended. Nobo
 ## Daily run
 
 1. **Check last run.** Call Metricool `getScheduledPosts` (blogId `7328099`) for the past 3 days and next 7 days. Ignore Facebook posts (they belong to the Quranic Story job). Note any YouTube post that failed to publish; mention it in the final report. If 3 or more long YouTube videos are already queued for future days, stop and report — do not pile up more.
+1b. **Learn from what is working (15–20 minutes, every run).** Read `learnings.md` first. Then study 3–5 educational videos or Shorts that are performing unusually well right now (WebSearch/WebFetch: trending explainers, "most viewed this week" lists, creator breakdowns, and any transcript or description you can open). You cannot watch or hear video, so work from what is readable: title wording, thumbnail description, the first lines of the script, length, structure, pacing notes, and what commentators say about the visuals and sound. For each one note what it does in four areas: **content** (hook, structure, payoff), **visuals** (framing, motion, colour), **graphic design** (thumbnail, type, layout), **sound** (music, effects, voice pacing).
+   Then: append 2–4 dated, specific, sourced lessons to `learnings.md`; choose **one** lesson and apply it in today's video; write which one under "Applied" in `learnings.md`. If a lesson needs an engine change, make it small, test it on stills, and keep the old behaviour as the default if unsure. Learn patterns only. Never copy another creator's script, wording, footage, music, thumbnail or characters.
+   Once a week (Sundays), also pull the channel's own numbers with Metricool analytics (views, watch time, per-video results) and record in `learnings.md` which topics and hooks did best. Lean topic choice toward those.
 2. **Pick a topic.** Read `topics.md`. Never repeat a topic. Rotate across: science, technology/AI, money and everyday economics, health basics, how-things-work, psychology of learning. Use WebSearch to see what people are asking about right now, then pick one question with broad curiosity and a clear, settled answer.
 3. **Write the script.** 350–450 words, 8–10 scenes, 2.5–4 minutes. Rules:
    - Hook in the first 5 seconds: a question or a surprising true statement.
