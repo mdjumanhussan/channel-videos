@@ -7,7 +7,7 @@ Each daily run adds the latest numbers and one improvement. Goal: more people wa
 | Reel | Published | Views | Avg watch time | Reactions | Comments | Shares | Notes |
 |---|---|---|---|---|---|---|---|
 | 1 Adam | 2026-10-10 21:45 | 235 (read 2026-10-11, ~15 h after posting) | 6 s of 104 s | 4 likes | not given by Metricool | not given by Metricool | First Reel. https://facebook.com/reel/1585985946611581 . Total watch time 1260 s. Most people left inside the title card. |
-| (unlogged) | 2026-10-10 01:08 | 58 | 2 s | 1 like | — | — | https://www.facebook.com/reel/1145973374759751/ . Not made by this job's log; seen in Metricool analytics. |
+| (unlogged) | 2026-10-10 01:08 | 58 | 2 s | 1 like | — | — | https://www.facebook.com/reel/1145973374759751/ . Not in this job's log; seen in Metricool analytics. Juman said on 2026-10-11 to leave it alone: do not report it again. |
 
 ## Improvements tried
 
