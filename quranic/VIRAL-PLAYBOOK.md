@@ -53,3 +53,4 @@ Accuracy and the visual rules in RUNBOOK.md always win over anything here.
 - https://sounddesign.irpr.agency/guides/sound-design-for-reels-complete-guide/
 
 ## New findings (daily job appends here)
+- 2026-10-11: Open one question in the first frame and do not answer it until late. Give enough context that a stranger knows the topic within a second, then hold the most interesting part back; closing the loop early makes people leave. For faith Reels: plain hook, focused middle, end on a strong line people are proud to share; stay sincere, no controversy. Applied in episode 2 (hook "Why did Allah send a crow?", answer in scene 6). The hook must still be true to the verses. Sources: https://postiz.com/blog/why-your-reels-arent-going-viral-hook-framework , https://onepathnetwork.com/?p=20642

@@ -34,7 +34,7 @@ This is separate from the YouTube channel job (root `CLAUDE.md`). Never post the
    - Never draw any prophet, any companion, angels, Iblees, or Allah in any form — no faces, no silhouettes, no figures, no light-shaped "person". Show places, nature, light, sky, objects (the Ark, the well, the fire, the sea, the Kabah, the whale, the cave) and symbolism instead.
    - No ordinary human figures either. Keep every scene landscape, object or symbol.
    - No music or instruments. Voice + the engine's soft ambience only.
-   - Each episode paints its own scenes with the engine's helpers (`sky`, `dunes`, `mountains`, `sea`, `cloud_bank`, `clouds`, `rays`, `moon`, `sun`, `stars`, `mosque`, `city`, `palm`, `tree`, `kaaba`, `ark`, `whale`, `well`, `fire`, `cave_frame`, `pyramids`, `lantern`). Add a new helper when a story needs a new object. Use fresh colour palettes per story.
+   - Each episode paints its own scenes with the engine's helpers (`sky`, `dunes`, `mountains`, `sea`, `cloud_bank`, `clouds`, `rays`, `moon`, `sun`, `stars`, `mosque`, `city`, `palm`, `tree`, `kaaba`, `ark`, `whale`, `well`, `fire`, `cave_frame`, `pyramids`, `lantern`, `crow`). Add a new helper when a story needs a new object. Use fresh colour palettes per story.
    - Verse cards sit in the upper half (`y` around 600–650). Captions sit at the lower third. Keep important art in the middle.
 6. **Build.**
    ```bash

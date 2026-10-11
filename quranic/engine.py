@@ -281,6 +281,30 @@ def well(p, cx, base, s, col=(120, 100, 80)):
     p.ell(cx, base - 120 * s, 150 * s, 40 * s, lc(col, (255, 255, 255), .15)); p.ell(cx, base - 120 * s, 120 * s, 28 * s, (10, 8, 8))
     for k in range(4): p.line([(cx - 150 * s, base - 30 * k * s), (cx + 150 * s, base - 30 * k * s)], lc(col, (0, 0, 0), .3), 2)
 
+def crow(p, cx, base, s=1.0, col=(14, 14, 20), peck=True, flip=False):
+    """A crow standing on the ground at (cx, base). peck=True lowers the head to the earth. Bird only."""
+    k = -1 if flip else 1
+    def X(dx): return cx + k * dx * s
+    def Y(dy): return base + dy * s
+    sheen = lc(col, (120, 140, 190), .35)
+    for lx in (-12, 16):                                     # legs
+        p.line([(X(lx), Y(-60)), (X(lx + 6), Y(-4))], col, 5 * s)
+        p.line([(X(lx - 12), Y(0)), (X(lx + 6), Y(-4)), (X(lx + 26), Y(0))], col, 4 * s)
+    p.poly([(X(-60), Y(-110)), (X(-185), Y(-150)), (X(-175), Y(-118)), (X(-70), Y(-70))], col)      # tail
+    p.ell(X(-5), Y(-100), 82 * s, 50 * s, col)                                                      # body
+    p.poly([(X(-70), Y(-120)), (X(20), Y(-135)), (X(-20), Y(-78)), (X(-120), Y(-96))], sheen)       # folded wing
+    if peck:
+        hx, hy = 92, -62
+        p.poly([(X(30), Y(-135)), (X(70), Y(-110)), (X(105), Y(-45)), (X(60), Y(-60))], col)        # neck, bent down
+        p.ell(X(hx), Y(hy), 30 * s, 27 * s, col)
+        p.poly([(X(hx + 14), Y(hy - 6)), (X(hx + 62), Y(hy + 46)), (X(hx - 4), Y(hy + 24))], lc(col, (70, 70, 80), .5))   # beak to the ground
+    else:
+        hx, hy = 70, -165
+        p.poly([(X(20), Y(-135)), (X(48), Y(-180)), (X(90), Y(-150)), (X(60), Y(-100))], col)
+        p.ell(X(hx), Y(hy), 30 * s, 27 * s, col)
+        p.poly([(X(hx + 22), Y(hy - 14)), (X(hx + 82), Y(hy + 2)), (X(hx + 22), Y(hy + 14))], lc(col, (70, 70, 80), .5))
+    p.ell(X(hx + 8), Y(hy - 6), 4.5 * s, 4.5 * s, (235, 235, 240))                                  # eye
+
 def pyramids(p, base, col, shade, seed=1):
     for cx, w in ((250, 300), (640, 420), (980, 220)):
         p.poly([(cx - w, base), (cx, base - w * .9), (cx + w, base)], col)
