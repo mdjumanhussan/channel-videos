@@ -18,12 +18,17 @@ Each run adds 2–4 lessons and applies one. Lessons are patterns, never copied 
 | 2026-10-11 | Content | "One question, one payoff" (TED-Ed pattern): a question-led title, the payoff framed early, very little dead air, about five minutes or less. | https://vidpros.com/best-explainer-youtube-channels/ ; https://timeskip.io/blog/educational-youtube-channels |
 | 2026-10-11 | Graphic design / visuals | The first frame must carry the hook with the sound off: short, high-contrast on-screen text that repeats the spoken hook and stays at least 2 seconds. No dark or empty opening frame. This matters most for the Short. | https://www.opus.pro/blog/youtube-shorts-hook-formulas |
 | 2026-10-11 | Sound | Say the whole hook in about 2 to 2.5 seconds, at a confident pace, with no greeting and no dead air. (Sources read today said almost nothing else about music or effects. Look for sound-specific breakdowns next run.) | https://www.opus.pro/blog/youtube-shorts-hook-formulas |
+| 2026-10-12 | Graphic design | Thumbnail text: 2 to 4 words, and one main subject shown very large, with everything else removed. Test it by squinting or shrinking it to phone size. | https://alici.ai/blog/youtube-thumbnail-formulas-get-clicks-veritasium |
+| 2026-10-12 | Content | Titles: a specific object or action beats an abstract noun, and a clearer title can beat a more dramatic one. Check: after 60 seconds, would the viewer feel the title was honest? | https://alici.ai/blog/youtube-thumbnail-formulas-get-clicks-veritasium |
+| 2026-10-12 | Sound | Use sound effects like punctuation: only on key actions and scene changes, kept subtle. Music stays under the voice. No abrupt cut at the end; fade out. (Agency write-up of a listening comparison, no measurements.) | https://www.motiontheagency.com/blog/sound-design-for-explainer-videos |
+| 2026-10-12 | Visuals | On-screen labels should carry the whole message with the sound off; narration adds a second layer. One idea per scene, and the payoff must answer the hook. | https://videoai.me/blog/why-vox-style-explainers-go-viral-2026 |
 
 ## Applied
 
 | Date | Video | Lesson applied | Result (fill in from the weekly numbers) |
 |---|---|---|---|
 | 2026-10-11 | Why You Forget What You Study (and How to Fix It) | Misconception-first structure: opens on the belief "I read it three times, so I know it", then overturns it with the 2006 test results. | |
+| 2026-10-12 | How Compound Interest Works: Interest on Interest | Thumbnail: 3 words only (MONEY MAKES MONEY) and one large subject (growing coin stacks). Earlier thumbnails used 6 to 7 words. | |
 
 ## Channel numbers (weekly, Sundays)
 
@@ -34,3 +39,4 @@ Each run adds 2–4 lessons and applies one. Lessons are patterns, never copied 
 ## Notes on method
 
 - 2026-10-11: Searches for "most viewed this week" returned channel round-ups and creator breakdowns, not individual trending videos. Lessons above come from those breakdowns. They are patterns reported by commentators, not measured results.
+- 2026-10-12: Again no readable breakdowns of single trending videos; lessons come from published formula and agency write-ups. The 11 Oct microwave video published, but YouTube refused the custom thumbnail (Metricool: "Could not upload video thumbnail"). The likely cause is that the channel is not phone-verified (YouTube requires that for custom thumbnails). Until the owner verifies it, thumbnail lessons cannot be measured until the owner verifies it.
