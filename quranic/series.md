@@ -10,7 +10,7 @@ Verse references are starting points. The daily job confirms every quoted verse 
 |---|---|---|---|---|
 | 1 | Prophet Adam: the first human and the first repentance | 2:30–37, 7:11–23, 15:28–29, 20:121–122 | 2026-10-10 | 2026-10-10 21:45 |
 | 2 | The two sons of Adam (Habil and Qabil) — names not in the Quran; say "the two sons of Adam" | 5:27–31 | 2026-10-11 | 2026-10-11 21:45 |
-| 3 | Prophet Nuh and the Ark | 11:25–48, 71:1–28, 23:23–30 | | |
+| 3 | Prophet Nuh and the Ark | 11:25–48, 71:1–28, 23:23–30 | 2026-10-12 | 2026-10-12 21:45 |
 | 4 | Prophet Hud and the people of 'Ad | 7:65–72, 11:50–60, 69:6–8 | | |
 | 5 | Prophet Salih and the she-camel | 7:73–79, 11:61–68, 91:11–15 | | |
 | 6 | Young Ibrahim and the idols | 21:51–67, 6:74–79 | | |
