@@ -22,6 +22,9 @@ Each run adds 2–4 lessons and applies one. Lessons are patterns, never copied 
 | 2026-10-12 | Content | Titles: a specific object or action beats an abstract noun, and a clearer title can beat a more dramatic one. Check: after 60 seconds, would the viewer feel the title was honest? | https://alici.ai/blog/youtube-thumbnail-formulas-get-clicks-veritasium |
 | 2026-10-12 | Sound | Use sound effects like punctuation: only on key actions and scene changes, kept subtle. Music stays under the voice. No abrupt cut at the end; fade out. (Agency write-up of a listening comparison, no measurements.) | https://www.motiontheagency.com/blog/sound-design-for-explainer-videos |
 | 2026-10-12 | Visuals | On-screen labels should carry the whole message with the sound off; narration adds a second layer. One idea per scene, and the payoff must answer the hook. | https://videoai.me/blog/why-vox-style-explainers-go-viral-2026 |
+| 2026-10-13 | Content | Add one mid-video question (a quick "pause and guess" knowledge check) at a key moment. A write-up citing a study says even a single mid-video question measurably improves retention; the same piece puts a sensible ceiling at about five minutes. | https://www.techloy.com/how-to-make-e-learning-videos-people-actually-finish/ |
+| 2026-10-13 | Visuals / graphic design | Show the structure on screen (chapter or title cards) so viewers always know where they are. The engine's chapter label already does this; keep chapter names short and concrete ("THE RED", not "PART 5"). | https://www.techloy.com/how-to-make-e-learning-videos-people-actually-finish/ |
+| 2026-10-13 | Sound | If a script runs long, cut lines before speeding up the voice. Give any scene with a label to read a short beat before the next spoken step. Check the export once muted and once on a phone speaker. (No numbers given for words per minute or music level.) | https://shortsfast.com/blog/pace-a-45-second-voiceover-without-rushing/ |
 
 ## Applied
 
@@ -29,6 +32,7 @@ Each run adds 2–4 lessons and applies one. Lessons are patterns, never copied 
 |---|---|---|---|
 | 2026-10-11 | Why You Forget What You Study (and How to Fix It) | Misconception-first structure: opens on the belief "I read it three times, so I know it", then overturns it with the 2006 test results. | |
 | 2026-10-12 | How Compound Interest Works: Interest on Interest | Thumbnail: 3 words only (MONEY MAKES MONEY) and one large subject (growing coin stacks). Earlier thumbnails used 6 to 7 words. | |
+| 2026-10-13 | Why Leaves Turn Yellow, Orange and Red | Mid-video question: scene 4 asks "Was the red hiding all summer too?" with two on-screen choices and a 3-2-1 countdown ring, then reveals the answer. | |
 
 ## Channel numbers (weekly, Sundays)
 
@@ -40,3 +44,4 @@ Each run adds 2–4 lessons and applies one. Lessons are patterns, never copied 
 
 - 2026-10-11: Searches for "most viewed this week" returned channel round-ups and creator breakdowns, not individual trending videos. Lessons above come from those breakdowns. They are patterns reported by commentators, not measured results.
 - 2026-10-12: Again no readable breakdowns of single trending videos; lessons come from published formula and agency write-ups. The 11 Oct microwave video published, but YouTube refused the custom thumbnail (Metricool: "Could not upload video thumbnail"). The likely cause is that the channel is not phone-verified (YouTube requires that for custom thumbnails). Until the owner verifies it, thumbnail lessons cannot be measured until the owner verifies it.
+- 2026-10-13: Searches again returned general write-ups, not breakdowns of single trending videos. The 12 Oct video also published with "Could not upload video thumbnail", so two videos in a row have hit this. Thumbnails keep being sent in case the owner verifies the channel.
