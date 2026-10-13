@@ -359,6 +359,12 @@ def fx_particles(img, kind, t, seed=3, n=None, alpha=1.0):
         for i in range(n or 140):
             x0, sp = rnd.uniform(-200, W), rnd.uniform(1400, 2200); y = (rnd.uniform(0, H) + t * sp) % (H + 100) - 50; x = x0 + (y / H) * 160
             d.line([(x, y), (x + 12, y + 60)], fill=(200, 215, 235, 110), width=2)
+    elif kind == 'sand':      # blowing sand: fast sideways streaks and grains (wind, sandstorm)
+        d = ImageDraw.Draw(img); col = (230, 190, 130)
+        for i in range(n or 120):
+            y0, sp, ln = rnd.uniform(0, H), rnd.uniform(900, 1700), rnd.uniform(30, 110)
+            x = (rnd.uniform(0, W + 300) + t * sp) % (W + 300) - 150; y = y0 + 30 * math.sin(t * 1.5 + i)
+            d.line([(x, y), (x - ln, y - ln * .12)], fill=col + (int(rnd.uniform(50, 130) * alpha),), width=rnd.choice([2, 2, 3]))
     elif kind == 'bubbles':
         d = ImageDraw.Draw(img)
         for i in range(n or 30):
