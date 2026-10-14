@@ -469,3 +469,16 @@ SCENES = [
             "The yellow was always there. The red is brand new.",
             "If this helped, subscribe for more."], s_recap),
 ]
+
+# The Short: its own complete mini-story (hook -> core idea -> payoff), 40-60 s.
+SHORT_SCENES = [
+ ('WHY LEAVES CHANGE', ["Here is a surprising fact. The yellow in autumn leaves was there all summer.", "You just could not see it."], s_hook),
+ ('THE SIGNAL', ["So what changes in autumn?", "The nights get longer.", "Cool air helps too.", "Long nights work like a calendar.",
+                 "So the tree stops making green chlorophyll."], s_trigger),
+ ('THE YELLOW', ["As the green fades, other colours show through.", "Yellow and orange pigments, called carotenoids.",
+                 "They were hiding under the green all summer."], s_yellow),
+ ('THE RED', ["Red is different. It comes from pigments called anthocyanins.", "In autumn, a seal grows where the leaf meets the twig.",
+              "It traps sugar inside the leaf.", "Sugar plus bright sun makes brand new red pigment."], s_red),
+ ('THE ANSWER', ["So the yellow was always there.", "The red is brand new.", "Follow for more."], card('Yellow: always there', 'Red: brand new')),
+]
+SHORT_HITS = [(4, 1, 0.0)]

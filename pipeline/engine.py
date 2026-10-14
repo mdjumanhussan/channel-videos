@@ -16,7 +16,7 @@ CARD = (28, 34, 68)
 GF = '/usr/share/fonts/truetype/google-fonts/'
 _fc = {}
 MODELS = os.environ.get('KOKORO_MODELS', os.path.expanduser('~/.cache/kokoro'))
-EP = None; SCENES = []; OUT = 'build'
+EP = None; SCENES = []; OUT = 'build'; SHORT_MODE = False
 
 def F(size, w='SemiBold', sc=None):
     if w == 'SemiBold': w = 'Bold'
@@ -131,7 +131,7 @@ def mix_audio():
         m = int(.8 * SR); u = np.arange(m) / m
         w = np.convolve(rng.standard_normal(m + 40), np.ones(28) / 28, 'same')[:m]
         add((w / np.abs(w).max() * np.sin(np.pi * u) ** 3 * .05).astype(np.float32), sc['start'] - .45)
-    for (si, li, off) in getattr(EP, 'HITS', []):       # deep cinematic hit on key reveals
+    for (si, li, off) in (getattr(EP, 'SHORT_HITS', []) if SHORT_MODE else getattr(EP, 'HITS', [])):       # deep cinematic hit on key reveals
         m = int(1.6 * SR); u = np.arange(m) / SR
         h = (np.sin(2 * np.pi * 55 * u) + .6 * np.sin(2 * np.pi * 82.4 * u)) * np.exp(-u * 3.2) * np.clip(u / .012, 0, 1)
         add((h * .16).astype(np.float32), tl[si]['lines'][li][0] + off)
@@ -250,12 +250,34 @@ def render(part, nparts):
         if (f - a) % 300 == 0: print(part, f - a, b - a, flush=True)
     p.stdin.close(); p.wait()
 
-def build_short(max_len=55.0):
-    """Vertical 1080x1920 Short: the opening scenes (hook) of the finished video inside a branded frame."""
+def card(*big, size=84):
+    """Generic payoff scene for Shorts: narration line i reveals big[i]; the last line is yellow."""
+    def fn(c, T, t):
+        n = len(big); y0 = 470 - (n - 1) * size * .85
+        for i, l in enumerate(big):
+            a = fd(T(i)); c.text(960, y0 + i * size * 1.7 + 24 * (1 - a), l, size, YE if i == n - 1 else INK, a, w='Bold')
+    return fn
+
+def short_mode():
+    """Switch to the episode's own Short script: SHORT_SCENES, output in build/NAME/short_src."""
+    global SCENES, OUT, SHORT_MODE
+    ss = getattr(EP, 'SHORT_SCENES', None)
+    if not ss:
+        raise SystemExit('SHORT_SCENES missing. A Short must be its own complete mini-story (hook, core idea, payoff), not a cut of the long video.')
+    SCENES, SHORT_MODE = ss, True; OUT = OUT + '/short_src'; os.makedirs(OUT, exist_ok=True)
+
+def build_short(max_len=60.0):
+    """Vertical 1080x1920 Short rendered from EP.SHORT_SCENES (a complete 40-60 s story) inside a branded frame."""
     global W, H
-    tl = json.load(open(OUT + '/tl.json'))
-    ends = [sc['end'] for sc in tl if sc['end'] <= max_len]
-    end = ends[-1] if ends else min(max_len, tl[0]['end'])
+    base = OUT; ep = sys.argv[1]
+    short_mode(); build_audio(); src = OUT
+    ps = [subprocess.Popen([sys.executable, os.path.abspath(__file__), ep, 'shortpart', str(i), '2']) for i in range(2)]
+    assert all(p.wait() == 0 for p in ps), 'short render failed'
+    open(src + '/list.txt', 'w').write("file part0.mp4\nfile part1.mp4\n")
+    subprocess.check_call(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'concat', '-i', src + '/list.txt', '-i', src + '/voice.wav', '-c:v', 'copy',
+                           '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', '-af', 'loudnorm=I=-16:TP=-1.5', '-shortest', src + '/video.mp4'])
+    end = json.load(open(src + '/tl.json'))[-1]['end']
+    if end > max_len: print(f'WARNING: Short runs {end:.1f}s; keep it under {max_len:.0f}s')
     w0, h0 = W, H; W, H = 1080, 1920
     img = background(); c = C(img)
     head = getattr(EP, 'SHORT_HOOK', EP.SHORT_TITLE)
@@ -266,13 +288,13 @@ def build_short(max_len=55.0):
     c.text(540, 1420, 'Full video on the channel', 56, INK, w='Bold')
     c.rr(300, 1520, 780, 1640, 60, (235, 50, 60)); c.text(540, 1580, 'SUBSCRIBE', 54, INK, w='Bold', bg=(235, 50, 60))
     c.text(540, 1720, getattr(EP, 'CHANNEL', 'Md Juman Hussan JP'), 40, CY, w='Medium')
-    img.reduce(S).save(OUT + '/short_bg.png'); W, H = w0, h0
+    img.reduce(S).save(base + '/short_bg.png'); W, H = w0, h0
     fo = max(0.0, end - 0.4)
-    subprocess.check_call(['ffmpeg', '-y', '-loglevel', 'error', '-loop', '1', '-framerate', str(FPS), '-i', OUT + '/short_bg.png', '-t', f'{end:.2f}', '-i', OUT + '/video.mp4',
+    subprocess.check_call(['ffmpeg', '-y', '-loglevel', 'error', '-loop', '1', '-framerate', str(FPS), '-i', base + '/short_bg.png', '-t', f'{end:.2f}', '-i', src + '/video.mp4',
         '-filter_complex', f'[1:v]scale=1000:-2[v];[0:v][v]overlay=40:(1920-562)/2:shortest=1,fade=t=out:st={fo:.2f}:d=0.4[o];[1:a]afade=t=out:st={fo:.2f}:d=0.4[a]',
         '-map', '[o]', '-map', '[a]', '-t', f'{end:.2f}', '-c:v', 'libx264', '-preset', 'medium', '-crf', '19', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '160k',
-        '-movflags', '+faststart', OUT + '/short.mp4'])
-    print('DONE', OUT + '/short.mp4', f'{end:.1f}s')
+        '-movflags', '+faststart', base + '/short.mp4'])
+    print('DONE', base + '/short.mp4', f'{end:.1f}s')
 
 def caption(s):
     for a, b in getattr(EP, 'CAPTION_FIXES', {}).items(): s = s.replace(a, b)
@@ -296,6 +318,11 @@ if __name__ == '__main__':
     if cmd == 'mix': mix_audio()
     if cmd == 'thumb': make_thumb()
     if cmd == 'short': build_short()
+    if cmd == 'shortpart': short_mode(); render(int(sys.argv[3]), int(sys.argv[4]))
+    if cmd == 'shortaudio': short_mode(); build_audio()
+    if cmd == 'shortstill':
+        short_mode(); tl = json.load(open(OUT + '/tl.json')); bg = background()
+        for s_ in sys.argv[3:]: frame(tl, bg, float(s_)).save(OUT + f'/still_{float(s_):06.1f}.png')
     if cmd == 'part': render(int(sys.argv[3]), int(sys.argv[4]))
     if cmd in ('render', 'all'):
         ps = [subprocess.Popen([sys.executable, os.path.abspath(__file__), ep, 'part', str(i), '2']) for i in range(2)]

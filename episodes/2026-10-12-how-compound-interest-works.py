@@ -425,3 +425,15 @@ SCENES = [
             "Three. On debt, the same rule works against you.", "Small numbers. Long time. Big difference.",
             "If this helped, subscribe for more."], s_recap),
 ]
+
+# The Short: its own complete mini-story (hook -> core idea -> payoff), 40-60 s.
+SHORT_SCENES = [
+ ('COMPOUND INTEREST', ["Put one thousand dollars in at five percent a year.", "With compound interest, the interest is added to your balance. Then it earns interest too.",
+                        "In year one, you earn fifty dollars. In year two, fifty-two dollars fifty.",
+                        "Like a snowball. The bigger it gets, the more snow it picks up."], s_compound),
+ ('THE GAP', ["At first, the difference looks tiny.", "But wait thirty years.", "Simple interest gives two thousand five hundred dollars.",
+              "Compound interest gives about four thousand three hundred.", "Same money. Same rate. Only the rule changed."], s_gap),
+ ('THE WARNING', ["But it works against you too.", "On a debt, unpaid interest is added to what you owe.", "Then you pay interest on that interest."], s_debt),
+ ('THE ANSWER', ["Interest on interest.", "It grows your savings, and your debts.", "Follow for more."], card('Interest on interest', 'Savings and debts')),
+]
+SHORT_HITS = [(1, 3, 0.0)]

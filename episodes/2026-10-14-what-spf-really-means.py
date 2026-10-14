@@ -469,3 +469,16 @@ SCENES = [
             "Three. Choose broad spectrum, and check the UV index, not the temperature.",
             "If this helped, subscribe for more."], s_recap),
 ]
+
+# The Short: its own complete mini-story (hook -> core idea -> payoff), 40-60 s.
+SHORT_SCENES = [
+ ('SPF 50 VS 30', ["Is SPF 50 almost twice as strong as SPF 30?", "It is not. The difference is much smaller than you think."], s_hook),
+ ('THE PERCENTAGES', ["Look at the percentages.", "SPF 15 blocks about 93 percent of UVB.", "SPF 30 blocks about 97 percent.",
+                      "SPF 50 blocks about 98 percent.", "From 30 to 50 adds only about one percent."], s_percent),
+ ('THE CATCH', ["But here is the bigger catch.", "Lab tests use a thick layer.", "Most people put on far less.",
+                "One estimate: most people get a third to a quarter of the labelled protection.",
+                "So a thin layer of SPF 50 may work more like SPF 15."], s_catch),
+ ('THE ANSWER', ["So the amount matters more than the number.", "For an adult's whole body, about 7 teaspoons. Reapply every 2 hours.", "Follow for more."],
+               card('Amount beats the number', 'About 7 teaspoons')),
+]
+SHORT_HITS = [(3, 0, 0.0)]
