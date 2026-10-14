@@ -42,9 +42,13 @@ The owner (Juman) checks YouTube about once a week, so runs are unattended. Nobo
    ```bash
    python3 pipeline/engine.py episodes/NAME.py render   # writes build/NAME/video.mp4 and thumb.jpg
    ```
-   Then build the vertical Short (first scenes, up to 55 s, inside a branded frame). Set `SHORT_HOOK` in the episode file to a short question (under 40 characters):
+   Then build the vertical Short. **A Short is its own complete mini-story, never a cut of the long video.** Viewers must get the full answer inside the Short. In the episode file set:
+   - `SHORT_SCENES` — 3–5 scenes, 40–58 s of narration in total (about 110–130 words): hook question → the core idea explained → the payoff that actually answers the hook. Reuse the long video's draw functions where they fit (pass narration lines whose order matches what each scene draws) and end with `card('Line one', 'Payoff line')` for the answer. Check: if someone watched only the Short, would they know the answer? If not, rewrite it.
+   - `SHORT_HITS` — 1 hit on the payoff, indexed into `SHORT_SCENES`.
+   - `SHORT_HOOK` — the question shown above the video (under 40 characters).
+   Inspect with `python3 pipeline/engine.py episodes/NAME.py shortaudio` then `shortstill T1 T2 ...` (frames land in `build/NAME/short_src/`), then:
    ```bash
-   python3 pipeline/engine.py episodes/NAME.py short    # writes build/NAME/short.mp4 (1080x1920)
+   python3 pipeline/engine.py episodes/NAME.py short    # ~8 min; writes build/NAME/short.mp4 (1080x1920)
    ```
    `render` takes about 30–40 minutes for a 3-minute video. Start it in the background (`nohup ... > build/render.log 2>&1 &`) and poll the log for the line starting `DONE`. Never wait on it with `pgrep -f`, which matches its own shell. Confirm with `ffprobe` that the file is 1920x1080, has audio, and runs 2–5 minutes.
 7. **Publish the files.** Copy `build/NAME/video.mp4` to `videos/NAME.mp4` and `build/NAME/short.mp4` to `videos/NAME-short.mp4`, commit with the episode file, push to `main`. The public link is
@@ -52,7 +56,7 @@ The owner (Juman) checks YouTube about once a week, so runs are unattended. Nobo
    Then delete `videos/*.mp4` files older than 7 days in the same or a follow-up commit (Metricool keeps its own copy once a post is scheduled).
 8. **Schedule.** Metricool `createScheduledPost`, blogId `7328099`, provider `youtube`, timezone `Australia/Sydney`, at **18:00 on the first day from today that has no post yet** (if today 18:00 is less than 1 hour away, start from tomorrow). Use `type: video`, `privacy: public`, `category: EDUCATION` (or `SCIENCE_TECHNOLOGY`), `madeForKids: false`, `autoPublish: true`. Thumbnail: **do not send `videoThumbnailUrl` for now.** YouTube refused the custom thumbnail on 11, 12 and 13 Oct 2026 ("Could not upload video thumbnail") because the channel is not yet verified for custom thumbnails; each attempt emails Juman a warning. Still commit `build/NAME/thumb.jpg` as `videos/NAME.jpg`. Resume sending it only after Juman confirms he verified the channel at youtube.com/verify.
 8b. **Promote.** Call Metricool `getBrandSettings`. For every other network connected there (linkedin, instagram, tiktok, twitter), schedule the same video as a native post 30 minutes after the YouTube time. **Never post YouTube videos to Facebook, even if it is connected — the owner said no.** (The Facebook page "Quranic Story" is run by a separate daily job: `quranic/RUNBOOK.md`. Leave its posts alone.) Caption: the hook line, 2 lines on what the viewer learns, then "More on YouTube: https://youtube.com/@md.jumanhussan3821". If no other network is connected, skip this step and say so in the report. Never spend money: no boosts, no ads.
-8c. **Short.** Schedule `videos/NAME-short.mp4` on YouTube 1 hour after the long video (19:00), `type: short`, same privacy/category/madeForKids settings. Title: the hook question plus ` #Shorts` (under 60 characters). Description: one line on the answer, then "Full video on the channel."
+8c. **Short.** Schedule `videos/NAME-short.mp4` on YouTube 1 hour after the long video (19:00), `type: short`, same privacy/category/madeForKids settings. Title: the hook question plus ` #Shorts` (under 60 characters). Description: one line stating the answer the Short gives, then "Full video on the channel."
 9. **Log.** Append one line to `topics.md`: date, title, category, scheduled time, sources used. Commit and push.
 10. **Report** in the final message: title, scheduled time, and anything that failed.
 
