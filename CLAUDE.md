@@ -1,6 +1,6 @@
 # channel-videos
 
-Pipeline for the YouTube channel **Md Juman Hussan JP** (`@md.jumanhussan3821`).
+Pipeline for the YouTube channel **Short Story Long Thinking** (`@md.jumanhussan3821`, renamed from "Md Juman Hussan JP" on 14 Oct 2026). Any on-screen channel name in new episodes (end card, recap) must say "Short Story Long Thinking".
 One animated explainer video per day, built here and published through Metricool.
 The owner (Juman) checks YouTube about once a week, so runs are unattended. Nobody reviews a video before it goes live. Act accordingly: accuracy and restraint matter more than volume.
 

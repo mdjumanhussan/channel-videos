@@ -287,7 +287,7 @@ def build_short(max_len=60.0):
     c.rr(22, 661, 1058, 1259, 24, CARD, outline=(44, 52, 100), ow=4)
     c.text(540, 1420, 'Full video on the channel', 56, INK, w='Bold')
     c.rr(300, 1520, 780, 1640, 60, (235, 50, 60)); c.text(540, 1580, 'SUBSCRIBE', 54, INK, w='Bold', bg=(235, 50, 60))
-    c.text(540, 1720, getattr(EP, 'CHANNEL', 'Md Juman Hussan JP'), 40, CY, w='Medium')
+    c.text(540, 1720, getattr(EP, 'CHANNEL', 'Short Story Long Thinking'), 40, CY, w='Medium')
     img.reduce(S).save(base + '/short_bg.png'); W, H = w0, h0
     fo = max(0.0, end - 0.4)
     subprocess.check_call(['ffmpeg', '-y', '-loglevel', 'error', '-loop', '1', '-framerate', str(FPS), '-i', base + '/short_bg.png', '-t', f'{end:.2f}', '-i', src + '/video.mp4',
