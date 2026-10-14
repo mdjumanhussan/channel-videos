@@ -461,16 +461,17 @@ def draw_verse(img, vs, tt):
     img.alpha_composite(panel)
 
 def draw_title(img, sc, tt):
-    ti = sc['title']; p = 1.0 if tt < 0 else .82 + .18 * ease(tt / .35)
+    ti = sc['title']; p = 1.0 if (tt < 0 or ti.get('plain')) else .82 + .18 * ease(tt / .35)
+    # plain=True: no star ornament, no kicker, fully visible on frame 1 (opens like a story moment, not a title card)
     orn = Image.new('RGBA', (W, H), (0, 0, 0, 0)); od = ImageDraw.Draw(orn); cy = 560
-    for r, rot0, wdt in ((330, 0, 5), (250, 22.5, 3)):
+    for r, rot0, wdt in (() if ti.get('plain') else ((330, 0, 5), (250, 22.5, 3))):
         for rot in (0, 45):
             a0 = rot0 + rot + tt * 8
             pts = [(W / 2 + r * p * math.cos(math.radians(a0 + 90 * k)), cy + r * p * math.sin(math.radians(a0 + 90 * k))) for k in range(4)]
             od.line(pts + [pts[0]], fill=GOLD + (int(110 * p),), width=wdt)
     img.alpha_composite(orn.filter(ImageFilter.GaussianBlur(6))); img.alpha_composite(orn)
     d = ImageDraw.Draw(img)
-    if ti.get('kicker'): stroke_text(d, (W / 2, 330), ti['kicker'].upper(), F(40, 'SemiBold'), GOLD + (int(255 * p),), 4)
+    if ti.get('kicker') and not ti.get('plain'): stroke_text(d, (W / 2, 330), ti['kicker'].upper(), F(40, 'SemiBold'), GOLD + (int(255 * p),), 4)
     f = F(118, 'ExtraBold') if os.path.exists(GF + 'Poppins-ExtraBold.ttf') else F(118, 'Bold')
     ls = wrap(d, ti['text'].upper(), f, 960)
     for i, l in enumerate(ls):
