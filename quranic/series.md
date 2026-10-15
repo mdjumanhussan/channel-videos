@@ -13,7 +13,7 @@ Verse references are starting points. The daily job confirms every quoted verse 
 | 3 | Prophet Nuh and the Ark | 11:25–48, 71:1–28, 23:23–30 | 2026-10-12 | 2026-10-12 21:45 |
 | 4 | Prophet Hud and the people of 'Ad | 7:65–72, 11:50–60, 69:6–8 | 2026-10-13 | 2026-10-13 21:45 |
 | 5 | Prophet Salih and the she-camel | 7:73–79, 11:61–68, 91:11–15 | 2026-10-14 | 2026-10-14 21:45 |
-| 6 | Young Ibrahim and the idols | 21:51–67, 6:74–79 | | |
+| 6 | Young Ibrahim and the idols | 21:51–67, 6:74–79 | 2026-10-15 | 2026-10-15 21:45 |
 | 7 | Ibrahim and the fire that turned cool | 21:68–70, 29:24 | | |
 | 8 | Ibrahim's dream and the great sacrifice | 37:99–111 | | |
 | 9 | Ibrahim and Ismail build the Kabah | 2:125–129, 14:35–41 | | |

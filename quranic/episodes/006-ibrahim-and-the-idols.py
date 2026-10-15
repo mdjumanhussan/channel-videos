@@ -11,7 +11,7 @@ from engine import *
 BADGE = 'Quranic Story  ·  6'
 VOICE, SPEED = 'bm_george', 1.1
 THUMB_AT = 1.2
-TITLE = 'Young Ibrahim and the Idols: "Ask Them, If They Can Speak"'
+TITLE = 'Young Ibrahim and the Idols: "So Ask Them"'
 HITS = [(7, 1, 0.0)]
 # "Rather, this - the largest of them - did it", taken straight from the text of 21:63
 TITLE_AR = ' '.join(quran()['verses']['21:63']['ar'].split()[1:5])
