@@ -8,3 +8,4 @@
 | 2026-10-13 | 4 | Prophet Hud and the People of 'Aad: The Cloud That Was Not Rain | 2026-10-13 21:45 | Quran 46:21–26, 7:65–72, 11:50–60, 41:15–16, 69:6–8, 89:6–8 |
 | 2026-10-14 | 5 | Prophet Salih and the She-Camel of Allah | 2026-10-14 21:45 | Quran 7:73–79, 11:61–68, 26:141–159, 54:23–31, 91:11–15, 17:59 |
 | 2026-10-15 | 6 | Young Ibrahim and the Idols: "So Ask Them" | 2026-10-15 21:45 | Quran 21:51–67, 6:74, 37:83–96, 26:69–77 |
+| 2026-10-16 | 7 | Ibrahim and the Fire: "Be Coolness and Safety" | 2026-10-16 21:45 | Quran 21:66–70, 29:24, 37:97–98 |
