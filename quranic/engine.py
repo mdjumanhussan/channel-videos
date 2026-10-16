@@ -323,8 +323,26 @@ def sprite(r, col):
         g[..., 3] = np.clip(a * 255, 0, 255); _sprites[k] = Image.fromarray(g, 'RGBA')
     return _sprites[k]
 
-def fx_particles(img, kind, t, seed=3, n=None, alpha=1.0):
+def fx_particles(img, kind, t, seed=3, n=None, alpha=1.0, **kw):
     rnd = random.Random(seed)
+    if kind == 'flames':      # live flickering fire drawn every frame (kw: cx, base, w, h, cool=False). Use with a still camera.
+        cx, base, w, h = kw.get('cx', W / 2), kw.get('base', 1400), kw.get('w', 600), kw.get('h', 700)
+        pal = ((90, 170, 230), (140, 210, 245), (200, 240, 255), (245, 252, 255)) if kw.get('cool') else ((200, 50, 20), (255, 120, 30), (255, 200, 80), (255, 245, 200))
+        lay = Image.new('RGBA', (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(lay)
+        for li, (col, sc) in enumerate(zip(pal, (1, .75, .5, .27))):
+            for i in range(n or 13):
+                ph = rnd.uniform(0, 6.3); fr = rnd.uniform(5, 9)
+                x = cx + rnd.uniform(-w * .5, w * .5) * sc + w * .02 * math.sin(t * 3 + ph)
+                hh = h * sc * rnd.uniform(.55, 1) * (.84 + .16 * math.sin(t * fr + ph) + .05 * math.sin(t * 13 + i))
+                ww = w * .11 * sc * rnd.uniform(.8, 1.2); sway = ww * .9 * math.sin(t * 4 + ph + li)
+                left, right = [], []
+                for k in range(11):                       # smooth tongue: widest near the base, curling to a tip
+                    f = k / 10; y = base - hh * f; half = ww * (1 - f) ** .7 * (1 + .25 * math.sin(f * 3.14)) * (1 + .08 * math.sin(t * 9 + k + ph))
+                    xc = x + sway * f * f
+                    left.append((xc - half, y)); right.append((xc + half, y))
+                d.polygon(left + right[::-1], fill=col + (int(215 * alpha),))
+        img.alpha_composite(lay.filter(ImageFilter.GaussianBlur(14))); img.alpha_composite(lay.filter(ImageFilter.GaussianBlur(5)))
+        return
     if kind == 'dust':        # golden motes drifting up
         n = n or 45
         for i in range(n):
@@ -433,7 +451,7 @@ def caption_text(s):
 
 def verse_parts(key, ar=None, en=None):
     v = quran()['verses'][key]; words = v['ar'].split()
-    a = ' '.join(words[ar[0]:ar[1]]) if ar else v['ar']
+    a = ' '.join(words[ar[0]:ar[1]]).rstrip('\u06d6\u06d7\u06d8\u06d9\u06da\u06db\u06dc') if ar else v['ar']   # an excerpt drops a pause mark left dangling at its end
     if en:
         assert en.rstrip('.') in v['en'] + '.', f'English for {key} is not an exact excerpt of Saheeh International: {en!r}'
     e = en or v['en']
