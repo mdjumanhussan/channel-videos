@@ -15,6 +15,10 @@ Typical Facebook Reels pay is about $1–10 per 1,000 views, and less for mixed-
 
 Sources: https://www.shortsync.app/resources/facebook-content-monetization-program-2026 , https://air.io/en/monetization/youtube-partner-program-requirements-2026-the-complete-guide , https://vidiq.com/blog/post/youtube-ai-monetization/
 
+## Metricool plan limit
+
+Metricool's free plan allows **20 posts a month** (17 used by 17 Oct 2026). The daily jobs need about 3 posts a day. Juman has not yet decided whether to upgrade, post less, or pause until the 1st. Until he decides, the jobs stop and report when Metricool refuses a post.
+
 ## Milestones
 
 | Milestone | Quranic Story (Facebook followers) | YouTube (subscribers) |
