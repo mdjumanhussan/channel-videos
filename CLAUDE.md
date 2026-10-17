@@ -74,10 +74,19 @@ The owner (Juman) checks YouTube about once a week, so runs are unattended. Nobo
 
 Read `GROWTH.md` every run. On Sundays, update its YouTube numbers from Metricool. To stay clear of YouTube's "inauthentic / mass-produced content" policy (needed to be approved for ads): vary the hook style, scene layout, title pattern and thumbnail layout from one video to the next, and never reuse a script structure word for word.
 
+## Manual mode (when Metricool refuses the post)
+
+Juman is on Metricool's free plan (20 posts a month) and cannot pay for more. When `createScheduledPost` is refused because the monthly post limit is reached, do **not** stop. Finish the build and push (steps 1–7), then:
+
+1. Write `videos/NAME.txt` with: the long-video title, description, tags, first comment; the Short's title and description; and the times to post (18:00 long video, 19:00 Short, Sydney). Commit and push it.
+2. Send ONE `PushNotification`. Banner (first sentence): "YouTube video ready to upload by hand at 18:00: <title>". Then (it becomes the email): the long video link `https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/NAME.mp4`, the Short link `.../videos/NAME-short.mp4`, the text link `https://github.com/mdjumanhussan/channel-videos/blob/main/videos/NAME.txt`, and the titles and descriptions in full. Remind him: audience "No, it's not made for kids"; upload the Short as a Short.
+3. In `topics.md`, write "manual (Metricool limit)" instead of the scheduled time.
+If Metricool accepts the long video but refuses the Short, schedule what it accepts and put only the rest in the notification. Manual mode ends by itself when Metricool accepts posts again (the count resets on the 1st of each month). Try Metricool first every day.
+
 ## Hard limits
 
 - **One video per run: one long video plus its one Short. Never more than that per day.** Bulk posting risks the channel being flagged as mass-produced content.
 - **Do not make videos on:** religion or religious stories, politics, elections, wars and current conflicts, medical diagnosis or treatment advice, legal advice, specific investment advice, named private individuals, or breaking news. The channel carries the owner's name and his Justice of the Peace title; these need his eyes first. If a topic idea falls here, pick another.
 - No copyrighted music, footage, logos, or characters. Everything on screen is drawn by the engine.
-- If any step fails (voice engine, render, push, Metricool), stop. Do not publish a partial or unchecked video. Report what failed.
+- If any step fails (voice engine, render, push, Metricool), stop. Do not publish a partial or unchecked video. Report what failed. Exception: Metricool refusing a post because of the monthly post limit is not a failure; use "Manual mode" above.
 - Only post to networks that `getBrandSettings` lists as connected. At setup time that was YouTube only.

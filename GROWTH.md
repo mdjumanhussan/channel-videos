@@ -17,7 +17,7 @@ Sources: https://www.shortsync.app/resources/facebook-content-monetization-progr
 
 ## Metricool plan limit
 
-Metricool's free plan allows **20 posts a month** (17 used by 17 Oct 2026). The daily jobs need about 3 posts a day. Juman has not yet decided whether to upgrade, post less, or pause until the 1st. Until he decides, the jobs stop and report when Metricool refuses a post.
+Metricool's free plan allows **20 posts a month** (17 used by 17 Oct 2026). The daily jobs need about 3 posts a day. Juman decided on 17 Oct 2026 not to pay for a plan. When Metricool refuses a post, the jobs still make the video and send him a notification with the video link and caption so he can post it himself ("Manual mode" in `CLAUDE.md` and `quranic/RUNBOOK.md`). Automatic posting resumes when the count resets on the 1st.
 
 ## Milestones
 

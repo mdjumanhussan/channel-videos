@@ -59,9 +59,19 @@ This is separate from the YouTube channel job (root `CLAUDE.md`). Never post the
 10. **Report.** Short plain-English report: story, scheduled time, which networks it went to, the one improvement made today, yesterday's views, anything that failed or needs Juman.
 11. **Growth targets.** Read `GROWTH.md`. On Sundays, update the Quranic Story numbers there (followers, weekly views, weekly minutes watched) from Metricool and say in the report whether the page is on track for the next milestone.
 
+## Manual mode (when Metricool refuses the post)
+
+Juman is on Metricool's free plan (20 posts a month) and cannot pay for more. When `createScheduledPost` is refused because the monthly post limit is reached, do **not** stop and do not throw the Reel away. Switch to manual mode for that day:
+
+1. Still finish steps 1–7 (build, check, push the video to `videos/quranic/`).
+2. Write `videos/quranic/NNN-slug.txt` with: the title, the full caption, the first comment, and the time to post (21:45 Sydney on the first free day). Commit and push it.
+3. Send ONE `PushNotification`. Banner (first sentence): "Quranic Reel ready to post by hand tonight at 21:45: <title>". Then in the same message (it becomes the email): the video link `https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/quranic/NNN-slug.mp4`, the caption text link `https://github.com/mdjumanhussan/channel-videos/blob/main/videos/quranic/NNN-slug.txt`, the full caption, the first comment, and "Post it as a Reel on Facebook (Quranic Story page), Instagram and TikTok (quranicstory.reels). Turn on the AI-generated label where the app offers it."
+4. In `series.md` write "manual (Metricool limit)" in the Scheduled column, and log it in `log.md`.
+Manual mode ends by itself when Metricool accepts posts again (the count resets on the 1st of each month). Try Metricool first every day.
+
 ## Hard limits
 
 - One Reel per day. Never more. (Confirmed again by Juman on 17 Oct 2026.) The same Reel may also go to Instagram and TikTok (step 8a).
 - Quran quotes only from `data/quran.json`. Hadith only Sahih al-Bukhari / Sahih Muslim, confirmed on sunnah.com. No fiqh rulings, no fatwas, no sectarian or political topics, no current events.
 - No depictions of prophets, companions, angels, jinn/Iblees or Allah. No music.
-- If any step fails (voice engine, render, push, Metricool, Facebook not connected), stop. Do not publish a partial or unchecked video.
+- If any step fails (voice engine, render, push, Metricool, Facebook not connected), stop. Do not publish a partial or unchecked video. Exception: Metricool refusing a post because of the monthly post limit is not a failure; use "Manual mode" above.
