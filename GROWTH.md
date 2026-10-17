@@ -41,3 +41,4 @@ If a milestone is missed by more than half, say so plainly in the Sunday report 
 | Week ending | FB followers | FB Reel views (week) | FB minutes watched (week) | YT subscribers | YT views (week) | On track? |
 |---|---|---|---|---|---|---|
 | 2026-10-17 (baseline) | 55 | about 2,600 (Reels 1–7, lifetime) | about 355 | 4 | very low | baseline |
+| 2026-10-18 (YouTube job) | (Quranic job) | (Quranic job) | (Quranic job) | 4 | about 45 (11–14 Oct; later days not reported yet) | Too early to tell. 30 Nov target is 50 subscribers. |
