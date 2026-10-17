@@ -51,12 +51,17 @@ This is separate from the YouTube channel job (root `CLAUDE.md`). Never post the
    `https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/quranic/NNN-slug.mp4` — check HTTP 200 with `curl -sIL`. Delete `videos/quranic/*.mp4` older than 7 days.
 8. **Schedule.** Metricool `createScheduledPost`, blogId `7328099`, providers `[{"network":"facebook"}]`, `facebookData: {"type":"REEL","title":<title>}`, timezone `Australia/Sydney`, `autoPublish: true`, at **21:45 Sydney** on the first day from today with no Facebook post (if less than 1 hour away, start tomorrow). Once the page has 30+ days of data, use `getBestTimeToPostByNetwork` for facebook instead. Never boost, never spend money.
    Also set `firstCommentText` to a soft question inviting comments plus the full references (and "Part 2 tomorrow, in sha Allah" when split). Caption (the `text`): a 1-line hook, 3–5 short lines telling the heart of the story with one verse quoted exactly with its reference, a 1-line lesson, a sources line ("📖 Sources: Quran …, Saheeh International"), "Share this with someone who needs it. Follow for a new story every day.", then 3 hashtags (#QuranicStories #Prophet<Name> #IslamicReminder).
+8a. **Cross-post the same Reel** (same file, same day, same time 21:45) to Instagram and TikTok, but only the ones `getBrandSettings` lists as connected (`instagramData` / `tiktokData` in `networksData`). Juman approved this on 17 Oct 2026. Use separate `createScheduledPost` calls so one failure does not block the others.
+   - Instagram: providers `[{"network":"instagram"}]`, `instagramData: {"type":"REEL","showReelOnFeed":true,"isAiGenerated":true}`, same caption and first comment as Facebook.
+   - TikTok: providers `[{"network":"tiktok"}]`, `tiktokData: {"privacyOption":"PUBLIC_TO_EVERYONE","isAigc":true,"autoAddMusic":false,"title":<TITLE>}`. Caption: the hook line, the one quoted verse with its reference, the lesson line, then 3–4 hashtags (#QuranicStories #IslamicReminder #Quran #Prophet<Name>). Keep it under 2,000 characters.
+   - Never post these Reels to YouTube. If Facebook succeeds and another network fails, keep the Facebook post and report the failure.
 9. **Log.** Note the improvement and whether it was kept in `improvements.md`. Fill in "Built" and "Scheduled" in `series.md`, append to `log.md` (date, number, title, scheduled time, references). Commit and push.
-10. **Report.** Short plain-English report: story, scheduled time, the one improvement made today, yesterday's views, anything that failed or needs Juman.
+10. **Report.** Short plain-English report: story, scheduled time, which networks it went to, the one improvement made today, yesterday's views, anything that failed or needs Juman.
+11. **Growth targets.** Read `GROWTH.md`. On Sundays, update the Quranic Story numbers there (followers, weekly views, weekly minutes watched) from Metricool and say in the report whether the page is on track for the next milestone.
 
 ## Hard limits
 
-- One Reel per day. Never more.
+- One Reel per day. Never more. (Confirmed again by Juman on 17 Oct 2026.) The same Reel may also go to Instagram and TikTok (step 8a).
 - Quran quotes only from `data/quran.json`. Hadith only Sahih al-Bukhari / Sahih Muslim, confirmed on sunnah.com. No fiqh rulings, no fatwas, no sectarian or political topics, no current events.
 - No depictions of prophets, companions, angels, jinn/Iblees or Allah. No music.
 - If any step fails (voice engine, render, push, Metricool, Facebook not connected), stop. Do not publish a partial or unchecked video.

@@ -1,0 +1,39 @@
+# Growth and earning targets
+
+Set on 17 Oct 2026 with Juman. Both channels get equal effort. One video per channel per day (no more). Never spend money on ads or boosts.
+Both daily jobs read this file. Update the numbers on Sundays from Metricool.
+
+## What it takes to start earning (checked 17 Oct 2026)
+
+| Platform | Requirement for ad money | Where we are (17 Oct 2026) |
+|---|---|---|
+| Facebook (Quranic Story) — Content Monetization | 10,000 Page followers + 600,000 minutes watched in the last 60 days (about 10,000 min a day) + 5 videos + Page 30+ days old. Australia is eligible. Meta also has to invite the Page. | 55 followers. All Reels together get about 350 minutes watched a week. |
+| YouTube (Short Story Long Thinking) — full YPP (ads) | 1,000 subscribers + 4,000 public watch hours in 12 months, or 10 million Shorts views in 90 days. **From 1 Feb 2027 new applicants need 8,000 hours or 20 million Shorts views.** | 4 subscribers. |
+| YouTube — first tier (fan funding, no ads) | 500 subscribers + 3,000 watch hours in 12 months, or 3 million Shorts views in 90 days + 3 uploads in 90 days. | 4 subscribers. |
+
+Typical Facebook Reels pay is about $1–10 per 1,000 views, and less for mixed-country audiences, so the first money will be small. This is a 6–12 month project, not weeks.
+
+Sources: https://www.shortsync.app/resources/facebook-content-monetization-program-2026 , https://air.io/en/monetization/youtube-partner-program-requirements-2026-the-complete-guide , https://vidiq.com/blog/post/youtube-ai-monetization/
+
+## Milestones
+
+| Milestone | Quranic Story (Facebook followers) | YouTube (subscribers) |
+|---|---|---|
+| 30 Nov 2026 | 300 | 50 |
+| 31 Dec 2026 | 1,000 | 150 |
+| 31 Mar 2027 | 3,000 | 500 (fan funding tier, if watch hours also hit 3,000) |
+| 30 Jun 2027 | 10,000 (+ watch-minutes target) | 1,000 |
+
+If a milestone is missed by more than half, say so plainly in the Sunday report and suggest one change.
+
+## What we do to get there
+
+- **Quranic Story:** the same Reel goes to Facebook, Instagram and TikTok once Juman connects them in Metricool (step 8a of `quranic/RUNBOOK.md`). Repeat what made Reel 6 (the idols) the breakout: faster voice, a second question halfway through, and a cliffhanger into the next story. Each ending gives people a reason to share ("Share this with someone who …").
+- **YouTube:** Shorts bring most new viewers; every long video gets its own Short. Vary hooks, layouts, titles and thumbnails so the channel does not look mass-produced. YouTube's 2025–2026 "inauthentic content" rule is the biggest risk to getting approved for ads.
+- **Juman, weekly (5 minutes, highest impact):** reply to comments in the first hour after a post, share the best video of the week to WhatsApp and community groups (the Sunday report includes a ready-to-paste message), and add a short personal touch where possible. Original human input is what YouTube looks for before it approves a channel for ads.
+
+## Weekly log (Sundays)
+
+| Week ending | FB followers | FB Reel views (week) | FB minutes watched (week) | YT subscribers | YT views (week) | On track? |
+|---|---|---|---|---|---|---|
+| 2026-10-17 (baseline) | 55 | about 2,600 (Reels 1–7, lifetime) | about 355 | 4 | very low | baseline |

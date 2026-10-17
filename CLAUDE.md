@@ -57,7 +57,7 @@ The owner (Juman) checks YouTube about once a week, so runs are unattended. Nobo
 8. **Schedule.** Metricool `createScheduledPost`, blogId `7328099`, provider `youtube`, timezone `Australia/Sydney`, at **18:00 on the first day from today that has no post yet** (if today 18:00 is less than 1 hour away, start from tomorrow). Use `type: video`, `privacy: public`, `category: EDUCATION` (or `SCIENCE_TECHNOLOGY`), `madeForKids: false`, `autoPublish: true`. Thumbnail: **do not send `videoThumbnailUrl` for now.** YouTube refused the custom thumbnail on 11, 12 and 13 Oct 2026 ("Could not upload video thumbnail") because the channel is not yet verified for custom thumbnails; each attempt emails Juman a warning. Still commit `build/NAME/thumb.jpg` as `videos/NAME.jpg`. Resume sending it only after Juman confirms he verified the channel at youtube.com/verify.
 8b. **Promote.** Never spend money: no boosts, no ads. Never post YouTube videos to Facebook, even if it is connected — the owner said no. (The Facebook page "Quranic Story" is run by a separate daily job: `quranic/RUNBOOK.md`. Leave its posts alone.)
    - **First comment on every YouTube post:** set `firstCommentText` to one short, easy question that invites a reply and relates to the video (e.g. "Which surprised you more, X or Y?"). Comments help a new channel get recommended. No "like and subscribe" begging, no fake urgency.
-   - **Cross-post the vertical Short** (`videos/NAME-short.mp4`, not the long video) to every vertical-video network `getBrandSettings` lists as connected: tiktok (`isAigc: true`), instagram (`type: REEL`, `isAiGenerated: true`), threads, bluesky (text under 300 characters). Schedule at 19:30. Caption: the hook question, one line with the answer, then "Full video: https://youtube.com/@md.jumanhussan3821" and 3 hashtags.
+   - **Cross-post the vertical Short** (`videos/NAME-short.mp4`, not the long video) to threads and bluesky (text under 300 characters) if `getBrandSettings` lists them as connected. **Never post to instagram or tiktok from this job:** on 17 Oct 2026 Juman decided the Instagram and TikTok accounts in brand 7328099 are for Quranic Story Reels only (see `quranic/RUNBOOK.md`). If he later adds explainer accounts, they will be in a separate Metricool brand. Schedule at 19:30. Caption: the hook question, one line with the answer, then "Full video: https://youtube.com/@md.jumanhussan3821" and 3 hashtags.
    - **LinkedIn**, if connected: the long video at 18:30 with a 3-line professional caption.
    - If no other network is connected, skip cross-posting and say so in the report.
    - **Sundays:** end the report with a ready-to-paste "share message" for Juman: 2–3 lines plus the links to that week's best two videos, written for WhatsApp, Messenger and community groups.
@@ -69,6 +69,10 @@ The owner (Juman) checks YouTube about once a week, so runs are unattended. Nobo
 
 - Title under 60 characters. Promise exactly what the video delivers. No fake urgency, no false claims, no ALL CAPS.
 - Description: 2-sentence summary, bullet list of what is covered, sources as plain links, 3 hashtags.
+
+## Growth and earning targets
+
+Read `GROWTH.md` every run. On Sundays, update its YouTube numbers from Metricool. To stay clear of YouTube's "inauthentic / mass-produced content" policy (needed to be approved for ads): vary the hook style, scene layout, title pattern and thumbnail layout from one video to the next, and never reuse a script structure word for word.
 
 ## Hard limits
 
