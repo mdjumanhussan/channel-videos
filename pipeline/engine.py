@@ -88,7 +88,8 @@ def build_audio():
     from kokoro_onnx import Kokoro
     import soundfile as sf
     k = Kokoro(MODELS + '/kokoro.onnx', MODELS + '/voices.bin')
-    chunks, tl, cur = [np.zeros(int(.6 * SR), np.float32)], [], .6
+    lead = getattr(EP, 'LEAD_IN', .6)                  # silence before the first word (episode may shorten it)
+    chunks, tl, cur = [np.zeros(int(lead * SR), np.float32)], [], lead
     for si, (_, lines, _) in enumerate(SCENES):
         starts = []; s0 = cur
         for li, ln in enumerate(lines):
