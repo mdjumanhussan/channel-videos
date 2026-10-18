@@ -42,3 +42,4 @@ If a milestone is missed by more than half, say so plainly in the Sunday report 
 |---|---|---|---|---|---|---|
 | 2026-10-17 (baseline) | 55 | about 2,600 (Reels 1–7, lifetime) | about 355 | 4 | very low | baseline |
 | 2026-10-18 (YouTube job) | (Quranic job) | (Quranic job) | (Quranic job) | 4 | about 45 (11–14 Oct; later days not reported yet) | Too early to tell. 30 Nov target is 50 subscribers. |
+| 2026-10-18 (Quranic job) | 72 (55 a week ago; +17 on 16–17 Oct, after the two breakouts) | about 3,500 (Reels 3–8, posted 12–17 Oct) | about 570 | (YouTube job) | (YouTube job) | Roughly on track: 30 Nov target is 300, which needs about 38 new followers a week; this week gave about 37. |

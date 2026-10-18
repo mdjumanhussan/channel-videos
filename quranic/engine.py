@@ -514,6 +514,21 @@ def draw_end(img, sc, tt):
         d.rounded_rectangle((W / 2 - 230, 730, W / 2 + 230, 830), 50, fill=(24, 119, 242, int(255 * bx)))
         stroke_text(d, (W / 2, 780), 'FOLLOW', F(52, 'Bold'), (255, 255, 255, int(255 * bx)), 0, shadow=False)
 
+def draw_lesson(img, sc, tt):
+    """Lesson card (optional, sc['lesson']=dict(text=..., after=line)): the one-line takeaway stays on screen in big type
+    while it is spoken, so sound-off viewers leave with it. Upper half, above the captions."""
+    ls = sc['lesson']; p = ease((tt - sc['_lines'][ls.get('after', 0)][0] + .1) / .45)
+    if p <= 0: return
+    d0 = ImageDraw.Draw(img); f = F(ls.get('size', 84), 'ExtraBold') if os.path.exists(GF + 'Poppins-ExtraBold.ttf') else F(ls.get('size', 84), 'Bold')
+    lines = wrap(d0, ls['text'].upper(), f, 880); lh = ls.get('size', 84) * 1.2
+    cy = ls.get('y', 600); y0 = cy - len(lines) * lh / 2
+    panel = Image.new('RGBA', (W, H), (0, 0, 0, 0)); pd = ImageDraw.Draw(panel)
+    pd.rounded_rectangle((70, y0 - 110, W - 70, y0 + len(lines) * lh + 40), 40, fill=(12, 8, 6, int(150 * p)), outline=GOLD + (int(190 * p),), width=3)
+    stroke_text(pd, (W / 2, y0 - 55), ls.get('kicker', 'The lesson').upper(), F(38, 'SemiBold'), GOLD + (int(255 * p),), 3)
+    for i, ln in enumerate(lines):
+        stroke_text(pd, (W / 2, y0 + lh / 2 + i * lh + (1 - p) * 20), ln, f, (WHITE if i % 2 == 0 else GOLD) + (int(255 * p),), 7)
+    img.alpha_composite(panel)
+
 # ------------------------------------------------------------------ scenes, camera, transitions
 def build_layers(sc):
     layers = []
@@ -553,6 +568,7 @@ def scene_frame(si, tt, tl):
         vs = sc['verse']; vs['_t0'] = info['lines'][vs.get('line', 0)][0] - .2
         draw_verse(img, vs, tt)
     if sc.get('end'): draw_end(img, sc, tt)
+    if sc.get('lesson'): draw_lesson(img, sc, tt)
     # caption of the line being spoken (skipped for lines read from a verse card, which already shows the words)
     li = max((i for i, (a, b) in enumerate(info['lines']) if tt >= a - .1), default=None)
     if li is not None and tt < info['lines'][li][1] + .35 and li not in sc.get('no_caption', ()) and not (sc.get('verse') and li == sc['verse'].get('line', 0)):
