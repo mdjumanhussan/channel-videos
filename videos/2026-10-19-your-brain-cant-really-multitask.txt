@@ -1,0 +1,46 @@
+Backup text for hand upload, in case Metricool fails this post (free-plan limit).
+Metricool accepted both posts for Tue 20 Oct 2026 (Sydney). Upload by hand ONLY if Metricool shows them as ERROR.
+
+LONG VIDEO (post 18:00 Sydney)
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-10-19-your-brain-cant-really-multitask.mp4
+Title: Your Brain Can't Really Multitask (It Switches)
+Audience: No, it's not made for kids. Category: Education. Visibility: Public.
+Tags: multitasking, can your brain multitask, task switching, focus, psychology explained
+Description:
+When you think you are doing two thinking tasks at once, your brain is really switching between them, and every switch costs time. This short animated explainer shows what happens in each switch and what the research found.
+
+What is covered:
+- A quick try-it test: counting and letters, separately and mixed
+- Earl Miller (MIT): we switch between tasks very rapidly
+- The two hidden steps in every switch: goal shifting and rule activation
+- A 2001 study: complex and unfamiliar tasks cost the most time
+- Quick question: laundry and TV, or an email and a phone call?
+- A 2015 study: even an unanswered call or text led to more mistakes
+- Supertaskers: about 1 in 40 people in a 2010 driving-simulator study
+
+The bar charts and time blocks are simplified for teaching.
+
+Sources:
+https://www.apa.org/topics/research/multitasking
+https://www.newswise.com/articles/is-multitasking-more-efficient
+https://www.npr.org/transcripts/95256794
+https://health.clevelandclinic.org/science-clear-multitasking-doesnt-work
+https://www.psychologicalscience.org/news/motr/youre-distracted-even-when-you-ignore-that-text.html
+https://www.sciencedaily.com/releases/2010/03/100329075911.htm
+
+#Psychology #Brain #Explained
+
+First comment: What do you most often try to do at the same time: messages while working, or TV while studying?
+
+SHORT (post 19:00 Sydney, upload as a Short)
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-10-19-your-brain-cant-really-multitask-short.mp4
+Title: Can your brain really multitask? #Shorts
+Audience: No, it's not made for kids.
+Description:
+For two thinking tasks, your brain does not work in parallel: it switches between them, and every switch costs time.
+
+Full video on the channel.
+
+#Psychology #Brain #Shorts
+
+First comment: Do you work better with one task at a time, or does switching feel faster to you?
