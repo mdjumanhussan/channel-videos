@@ -10,4 +10,5 @@
 | 2026-10-15 | 6 | Young Ibrahim and the Idols: "So Ask Them" | 2026-10-15 21:45 | Quran 21:51–67, 6:74, 37:83–96, 26:69–77 |
 | 2026-10-16 | 7 | Ibrahim and the Fire: "Be Coolness and Safety" | 2026-10-16 21:45 | Quran 21:66–70, 29:24, 37:97–98 |
 | 2026-10-17 | 8 | Ibrahim's Dream: "Do As You Are Commanded" | 2026-10-17 21:45 | Quran 37:99–111 |
-| 2026-10-18 | 9 | Ibrahim and Ismail Build the Kabah: "Our Lord, Accept From Us" | 2026-10-18 21:45 (Facebook, Instagram, TikTok) | Quran 14:35–41, 2:125–129, 22:26, 62:2, 2:144 |
+| 2026-10-18 | 9 | Ibrahim and Ismail Build the Kabah: "Our Lord, Accept From Us" | 2026-10-18 21:45 FAILED (Metricool monthly limit, nothing published) | Quran 14:35–41, 2:125–129, 22:26, 62:2, 2:144 |
+| 2026-10-19 | 9 (re-post) | Ibrahim and Ismail Build the Kabah: "Our Lord, Accept From Us" | manual (Metricool limit), for Juman to post 2026-10-19 21:45 | Quran 14:35–41, 2:125–129, 22:26, 62:2, 2:144 |

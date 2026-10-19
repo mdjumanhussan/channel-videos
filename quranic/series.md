@@ -16,7 +16,7 @@ Verse references are starting points. The daily job confirms every quoted verse 
 | 6 | Young Ibrahim and the idols | 21:51–67, 6:74–79 | 2026-10-15 | 2026-10-15 21:45 |
 | 7 | Ibrahim and the fire that turned cool | 21:68–70, 29:24 | 2026-10-16 | 2026-10-16 21:45 |
 | 8 | Ibrahim's dream and the great sacrifice | 37:99–111 | 2026-10-17 | 2026-10-17 21:45 |
-| 9 | Ibrahim and Ismail build the Kabah | 2:125–129, 14:35–41 | 2026-10-18 | 2026-10-18 21:45 (Facebook, Instagram, TikTok) |
+| 9 | Ibrahim and Ismail build the Kabah | 2:125–129, 14:35–41 | 2026-10-18 | 18 Oct Metricool post failed (monthly limit); manual (Metricool limit) 2026-10-19 21:45 |
 | 10 | Prophet Lut and his people | 11:77–83, 15:57–77 | | |
 | 11 | Yusuf, part 1: the dream and the well | 12:4–22 | | |
 | 12 | Yusuf, part 2: the test and the prison | 12:23–42 | | |
