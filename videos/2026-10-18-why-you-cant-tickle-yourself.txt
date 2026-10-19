@@ -1,0 +1,45 @@
+Upload text for 2026-10-18-why-you-cant-tickle-yourself.
+Metricool failed both posts on 19 Oct 2026 ("You have reached your Metricool account limit"), so they never went live. Upload by hand whenever convenient (one long video a day keeps the channel looking normal).
+
+LONG VIDEO
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-10-18-why-you-cant-tickle-yourself.mp4
+Title: Why You Can't Tickle Yourself
+Audience: No, it's not made for kids. Category: Education. Visibility: Public.
+Tags: why can't you tickle yourself, tickling science, brain prediction, efference copy, science explained
+Description:
+You can't tickle yourself, but a robot can make your own movement tickle you if the touch arrives a fifth of a second late. This short animated explainer shows how your brain predicts your own touch and turns it down.
+
+What is covered:
+- Why your own fingers on your palm feel like almost nothing
+- How the brain keeps a copy of every movement command and predicts the feeling (an efference copy)
+- 1998 brain scans: touch areas are less active when you touch yourself, and the cerebellum's role
+- Quick question: why would the brain turn down your own touch?
+- The 1999 robot test: a 0.2-second delay, or a twisted direction, brings the tickle back
+- The same trick keeps the room still when your eyes move
+- A 2003 finger-pressing study: why each person pushes back about 40% harder
+
+The tickle meters and the force bars are simplified for teaching.
+
+Sources:
+https://www.scientificamerican.com/article/why-cant-a-person-tickle/
+https://web.math.princeton.edu/~sswang/autism/blakemore_frith98_NN.pdf
+https://Gwern.net/doc/psychology/neuroscience/1999-blakemore.pdf
+https://en.wikipedia.org/wiki/Efference_copy
+https://www.ucl.ac.uk/news/2003/jul/playground-fights-are-wired-brain-say-ucl-scientists
+https://dtg.sites.fas.harvard.edu/NYT_07_2006.htm
+
+#Science #Brain #Explained
+
+First comment: Before this, did you think tickling was about your skin or your brain?
+
+SHORT (upload as a Short)
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-10-18-why-you-cant-tickle-yourself-short.mp4
+Title: Why can't you tickle yourself? #Shorts
+Description:
+Your brain predicts how your own touch will feel and turns it down, so with no surprise there is no tickle.
+
+Full video on the channel.
+
+#Science #Brain #Shorts
+
+First comment: Have you ever managed to tickle yourself, even a little?

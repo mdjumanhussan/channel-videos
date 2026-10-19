@@ -1,0 +1,49 @@
+Upload text for 2026-10-20-where-does-your-battery-charge-go.
+Post to YouTube on Wed 21 Oct 2026 (Sydney). Metricool's free plan hit its October limit, so posts it accepts fail at publish time.
+If Metricool shows these posts as PUBLISHED, do nothing. If they show ERROR (or are missing), upload by hand.
+
+LONG VIDEO (post 18:00 Sydney)
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-10-20-where-does-your-battery-charge-go.mp4
+Thumbnail (only if the channel is verified for custom thumbnails): https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-10-20-where-does-your-battery-charge-go.jpg
+Title: Your Battery Is Sealed. So Where Does Its Charge Go?
+Audience: No, it's not made for kids. Category: Education. Visibility: Public.
+Tags: phone battery, battery health, lithium ion battery, why batteries wear out, science explained
+Description:
+Your phone battery is sealed and nothing leaks out, yet every year a full charge lasts a little less. This short animated explainer shows where the lost capacity goes: lithium gets trapped in a thin crust inside the battery.
+
+What is covered:
+- How lithium ions shuttle between the metal oxide and the graphite when you charge and use your phone
+- The thin crust (the solid electrolyte interphase, or SEI) that forms on the graphite
+- Why lithium trapped in that crust can no longer carry charge
+- What one charge cycle is, and Apple's figures: about 80% capacity after 500 cycles (older iPhones) or 1,000 (iPhone 15 models)
+- Quick question: a full phone in a hot car, or a 40% phone in a cool room?
+- Battery University's estimates for one year of storage at different temperatures and charge levels
+- What helps: avoid heat, avoid long hours at 100%, and small top-ups are fine
+
+The battery drawings are simplified for teaching.
+
+Sources:
+https://www.electrochem.org/why-your-battery-doesnt-last-forever
+https://arxiv.org/pdf/2004.01458
+https://www.anl.gov/node/371966
+https://www.apple.com/ca/batteries/why-lithium-ion
+https://support.apple.com/en-gb/105105
+https://www.engadget.com/apple-says-the-iphone-15s-battery-has-double-the-promised-lifespan-213736866.html
+https://batteryuniversity.com/article/how-to-prolong-lithium-based-batteries
+
+#Science #Technology #Explained
+
+First comment: Do you charge your phone to 100% every night, or top it up during the day?
+
+SHORT (post 19:00 Sydney, upload as a Short)
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-10-20-where-does-your-battery-charge-go-short.mp4
+Title: Where does your battery's charge go? #Shorts
+Audience: No, it's not made for kids. Category: Education. Visibility: Public.
+Description:
+Nothing leaks out: lithium gets trapped in a thin crust inside the battery, so it can't carry charge any more.
+
+Full video on the channel.
+
+#Science #Technology #Shorts
+
+First comment: Is your phone's battery health still above 80%?

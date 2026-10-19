@@ -1,0 +1,45 @@
+Upload text for 2026-10-17-how-noise-cancelling-headphones-work.
+Metricool failed both posts on 18 Oct 2026 ("You have reached your Metricool account limit"), so they never went live. Upload by hand whenever convenient (one long video a day keeps the channel looking normal).
+
+LONG VIDEO
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-10-17-how-noise-cancelling-headphones-work.mp4
+Title: How Noise-Cancelling Headphones Work
+Audience: No, it's not made for kids. Category: Science & Technology. Visibility: Public.
+Tags: how noise cancelling headphones work, active noise cancellation, anc explained, destructive interference, science explained
+Description:
+Noise-cancelling headphones make things quieter by adding sound: they play the exact opposite of the noise. This short animated explainer shows how that works, and why it beats an engine hum but not a crying baby.
+
+What is covered:
+- Sound as a wave of squeezed and spread-out air
+- The flip: an opposite wave that cancels the noise (destructive interference)
+- Inside the earcup: outside mic, chip, speaker, and the inside mic that checks what is left
+- Quick question: engine hum or a baby crying, which is easier to cancel?
+- Why steady low sounds are easy and quick high sounds are hard
+- The soft seal that blocks high sounds
+- An old idea: Paul Lueg's 1930s patent and Amar Bose's 1978 flight
+
+The wave drawings are simplified for teaching.
+
+Sources:
+https://www.sciencefocus.com/future-technology/how-do-noise-cancelling-headphones-work/
+https://www.soundguys.com/what-is-active-noise-cancellation-28344/
+https://www.scienceabc.com/innovation/why-are-noise-canceling-headphones-less-effective-at-blocking-high-pitched-sounds
+https://www.ioa.org.uk/system/files/publications/HG%20LEVENTHALL%20ACTIVE%20ATTENUATORS%20A%20HISTORICAL%20REVIEW%20AND%20SOME%20RECENT%20DEVELOPMENTS.pdf
+https://en.wikipedia.org/wiki/Noise-cancelling_headphones
+https://boseaviation.com/about/history/
+
+#Science #HowItWorks #Explained
+
+First comment: Before this video, did you think noise-cancelling headphones just block sound, or add it?
+
+SHORT (upload as a Short)
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-10-17-how-noise-cancelling-headphones-work-short.mp4
+Title: How do headphones cancel noise? #Shorts
+Description:
+A microphone hears the noise and a chip plays its exact opposite, so the two waves cancel out.
+
+Full video on the channel.
+
+#Science #HowItWorks #Shorts
+
+First comment: Do your headphones cancel voices well, or mostly the low hum?
