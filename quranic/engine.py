@@ -383,6 +383,14 @@ def fx_particles(img, kind, t, seed=3, n=None, alpha=1.0, **kw):
             y0, sp, ln = rnd.uniform(0, H), rnd.uniform(900, 1700), rnd.uniform(30, 110)
             x = (rnd.uniform(0, W + 300) + t * sp) % (W + 300) - 150; y = y0 + 30 * math.sin(t * 1.5 + i)
             d.line([(x, y), (x - ln, y - ln * .12)], fill=col + (int(rnd.uniform(50, 130) * alpha),), width=rnd.choice([2, 2, 3]))
+    elif kind == 'stones':    # small stones falling at a slant from the sky, each with a faint hot streak (kw: col)
+        lay = Image.new('RGBA', (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(lay); col = kw.get('col', (255, 150, 70))
+        for i in range(n or 34):
+            x0, sp, r = rnd.uniform(-300, W + 100), rnd.uniform(700, 1300), rnd.uniform(5, 11)
+            y = (rnd.uniform(0, H) + t * sp) % (H + 300) - 150; x = x0 + y * .35
+            d.line([(x, y), (x - 70 * .35 * r / 6, y - 70 * r / 6)], fill=col + (int(120 * alpha),), width=max(2, int(r * .7)))
+            d.ellipse((x - r, y - r, x + r, y + r), fill=(40, 28, 24, int(255 * alpha)), outline=col + (int(200 * alpha),), width=2)
+        img.alpha_composite(lay.filter(ImageFilter.GaussianBlur(4))); img.alpha_composite(lay)
     elif kind == 'bubbles':
         d = ImageDraw.Draw(img)
         for i in range(n or 30):
@@ -432,7 +440,7 @@ def draw_caption(img, line, t0, t1, tt):
         idx += len(ch)
     d = ImageDraw.Draw(img); f = F(74, 'ExtraBold') if os.path.exists(GF + 'Poppins-ExtraBold.ttf') else F(74, 'Bold')
     lines = wrap(d, ' '.join(ch).upper(), f, 820)
-    y0 = 1190 - (len(lines) - 1) * 46; k = idx
+    y0 = getattr(EP, 'CAPTION_Y', 1190) - (len(lines) - 1) * 46; k = idx   # CAPTION_Y: optional per-episode caption height (centre of a 1-line caption)
     for li, ln in enumerate(lines):
         ws = ln.split(); sp = d.textlength(' ', font=f); widths = [d.textlength(w, font=f) for w in ws]
         x = W / 2 - (sum(widths) + sp * (len(ws) - 1)) / 2
