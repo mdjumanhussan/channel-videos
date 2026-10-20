@@ -12,3 +12,4 @@
 | 2026-10-17 | 8 | Ibrahim's Dream: "Do As You Are Commanded" | 2026-10-17 21:45 | Quran 37:99–111 |
 | 2026-10-18 | 9 | Ibrahim and Ismail Build the Kabah: "Our Lord, Accept From Us" | 2026-10-18 21:45 FAILED (Metricool monthly limit, nothing published) | Quran 14:35–41, 2:125–129, 22:26, 62:2, 2:144 |
 | 2026-10-19 | 9 (re-post) | Ibrahim and Ismail Build the Kabah: "Our Lord, Accept From Us" | manual (Metricool limit), for Juman to post 2026-10-19 21:45 | Quran 14:35–41, 2:125–129, 22:26, 62:2, 2:144 |
+| 2026-10-20 | 10 | Prophet Lut and His People: "Except Your Wife" | 2026-10-20 21:45, Facebook + Instagram + TikTok (Metricool post 400657797; may fail at publish if the monthly limit still applies) | Quran 29:28–35, 7:80–84, 11:77–83, 15:57–77, 51:31–37, 66:10 |
