@@ -1,0 +1,48 @@
+Upload text for 2026-10-21-why-onions-make-you-cry.
+Post to YouTube on Thu 22 Oct 2026 (Sydney). Metricool's free plan hit its October limit, so posts it accepts fail at publish time.
+If Metricool shows these posts as PUBLISHED, do nothing. If they show ERROR (or are missing), upload by hand.
+
+LONG VIDEO (post 18:00 Sydney)
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-10-21-why-onions-make-you-cry.mp4
+Thumbnail (only if the channel is verified for custom thumbnails): https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-10-21-why-onions-make-you-cry.jpg
+Title: The Onion's Chemical Trap: Why Cutting It Makes You Cry
+Audience: No, it's not made for kids. Category: Education. Visibility: Public.
+Tags: why do onions make you cry, onion tears, cutting onions, kitchen science, science explained
+Description:
+A whole onion never makes you cry, but cut it and your eyes sting within about 30 seconds. This short animated explainer shows the chemical trap inside every onion cell, and how to cry less.
+
+What is covered:
+- The glow-stick idea: two ingredients kept apart until something breaks them
+- Inside an onion cell: sulfur compounds, and an enzyme (alliinase) sealed in a pocket
+- How two enzymes turn them into a stinging gas, syn-propanethial-S-oxide, which peaks about 30 seconds after the cut
+- What the gas does to the nerve endings in your cornea, and why your eyes water
+- The missing piece: why garlic doesn't make you cry, and the second enzyme found in 2002
+- Quick question: a sharp knife or a dull one?
+- Why onions do this, and three ways to cry less: chill it, use a sharp knife, add a breeze
+
+The drawings and the gas curve are simplified for teaching.
+
+Sources:
+https://www.loc.gov/everyday-mysteries/food-and-nutrition/item/why-does-chopping-an-onion-make-you-cry/
+https://www.scientificamerican.com/article/what-is-the-chemical-proc/
+https://www.scientificamerican.com/blog/scicurious-brain/ignobels-2013-the-tearless-onion/
+https://chemistryworld.com/podcasts/propanethial-s-oxide-how-chopping-onions-makes-you-cry/3009790.article
+https://www.scienceabc.com/nature/onions-make-cry.html
+https://www.howitworksdaily.com/why-does-cutting-onions-make-us-cry/
+
+#Science #KitchenScience #Explained
+
+First comment: Which trick will you try next time: a cold onion, a sharper knife, or a fan?
+
+SHORT (post 19:00 Sydney, upload as a Short)
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-10-21-why-onions-make-you-cry-short.mp4
+Title: Why do onions make you cry? #Shorts
+Audience: No, it's not made for kids. Category: Education. Visibility: Public.
+Description:
+Cutting bursts the onion's cells, two enzymes make a stinging gas, and your eyes flush it out with tears.
+
+Full video on the channel.
+
+#Science #KitchenScience #Shorts
+
+First comment: Do onions make you cry every time, or have you found a trick that works?
