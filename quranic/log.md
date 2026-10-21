@@ -13,3 +13,5 @@
 | 2026-10-18 | 9 | Ibrahim and Ismail Build the Kabah: "Our Lord, Accept From Us" | 2026-10-18 21:45 FAILED (Metricool monthly limit, nothing published) | Quran 14:35–41, 2:125–129, 22:26, 62:2, 2:144 |
 | 2026-10-19 | 9 (re-post) | Ibrahim and Ismail Build the Kabah: "Our Lord, Accept From Us" | manual (Metricool limit), for Juman to post 2026-10-19 21:45 | Quran 14:35–41, 2:125–129, 22:26, 62:2, 2:144 |
 | 2026-10-20 | 10 | Prophet Lut and His People: "Except Your Wife" | 2026-10-20 21:45, Facebook + Instagram + TikTok (Metricool post 400657797; may fail at publish if the monthly limit still applies) | Quran 29:28–35, 7:80–84, 11:77–83, 15:57–77, 51:31–37, 66:10 |
+| 2026-10-21 | 10 (status) | Prophet Lut and His People: "Except Your Wife" | Metricool post 400657797 failed at 21:45 (monthly limit); Juman posted it by hand on Facebook 2026-10-20 14:21 | — |
+| 2026-10-21 | 11 | Yusuf, Part 1: The Dream and the Well | manual (Metricool limit), for Juman to post 2026-10-21 21:45 | Quran 12:4–22 (verse cards 12:4, 12:15, 12:18) |

@@ -498,6 +498,10 @@ def draw_title(img, sc, tt):
     img.alpha_composite(orn.filter(ImageFilter.GaussianBlur(6))); img.alpha_composite(orn)
     d = ImageDraw.Draw(img)
     if ti.get('kicker') and not ti.get('plain'): stroke_text(d, (W / 2, 330), ti['kicker'].upper(), F(40, 'SemiBold'), GOLD + (int(255 * p),), 4)
+    if ti.get('part'):   # optional series label, e.g. 'Part 1 of 3': a gold pill above the headline, shown from frame 1 (also with plain=True)
+        fp = F(42, 'Bold'); txt = ti['part'].upper(); tw = d.textlength(txt, font=fp)
+        d.rounded_rectangle((W / 2 - tw / 2 - 36, 330 - 36, W / 2 + tw / 2 + 36, 330 + 36), 36, fill=GOLD + (int(240 * p),))
+        stroke_text(d, (W / 2, 330), txt, fp, (24, 14, 6, int(255 * p)), 0, shadow=False)
     f = F(118, 'ExtraBold') if os.path.exists(GF + 'Poppins-ExtraBold.ttf') else F(118, 'Bold')
     ls = wrap(d, ti['text'].upper(), f, 960)
     for i, l in enumerate(ls):
