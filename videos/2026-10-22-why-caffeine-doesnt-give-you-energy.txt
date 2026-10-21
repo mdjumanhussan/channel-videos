@@ -1,0 +1,48 @@
+Upload text for 2026-10-22-why-caffeine-doesnt-give-you-energy.
+Post to YouTube on Fri 23 Oct 2026 (Sydney). Metricool's free plan hit its October limit, so posts it accepts fail at publish time.
+If Metricool shows these posts as PUBLISHED, do nothing. If they show ERROR (or are missing), upload by hand.
+
+LONG VIDEO (post 18:00 Sydney)
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-10-22-why-caffeine-doesnt-give-you-energy.mp4
+Thumbnail (only if the channel is verified for custom thumbnails): https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-10-22-why-caffeine-doesnt-give-you-energy.jpg
+Title: Caffeine Doesn't Give You Energy. It Hides Tiredness
+Audience: No, it's not made for kids. Category: Education. Visibility: Public.
+Tags: how caffeine works, does coffee give you energy, adenosine, caffeine and sleep, science explained
+Description:
+Caffeine adds no energy to your body. It blocks the chemical signal that tells your brain you are tired, and this short animated explainer shows how, how long it lasts, and why the tiredness comes back.
+
+What is covered:
+- The dashboard idea: caffeine is tape over a fuel warning light
+- Adenosine, the tiredness chemical that builds up the longer you are awake
+- How caffeine sits in adenosine's receptors without switching them on
+- How long it lasts: starts working in about 30 minutes; half-life about 5 hours in an average adult (2 to 12 hours, varies)
+- Quick question: a 2013 study of caffeine taken 6 hours before bed
+- Why the tiredness is still there when caffeine wears off
+- Tolerance, withdrawal headaches, and the FDA's 400 mg a day figure for most healthy adults
+
+The drawings and the caffeine curve are simplified for teaching. This is general information, not medical advice.
+
+Sources:
+https://www.ncbi.nlm.nih.gov/sites/books/NBK519490/
+https://www.sleepfoundation.org/nutrition/caffeine-and-sleep
+https://aasm.org/late-afternoon-and-early-evening-caffeine-can-disrupt-sleep-at-night/
+https://www.ncbi.nlm.nih.gov/sites/books/NBK430790/
+https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much
+https://irp.nih.gov/blog/post/2016/04/caffeines-fine-line-between-cognition-and-addiction
+
+#Science #Caffeine #Explained
+
+First comment: What time of day do you have your last coffee or tea?
+
+SHORT (post 19:00 Sydney, upload as a Short)
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-10-22-why-caffeine-doesnt-give-you-energy-short.mp4
+Title: Does coffee give you energy? #Shorts
+Audience: No, it's not made for kids. Category: Education. Visibility: Public.
+Description:
+Caffeine blocks your brain's tiredness signal instead of adding energy, so the tiredness is still there when it wears off.
+
+Full video on the channel.
+
+#Science #Caffeine #Shorts
+
+First comment: Does coffee still work for you, or does it barely do anything now?

@@ -95,6 +95,7 @@ def build_audio():
         for li, ln in enumerate(lines):
             a, sr = k.create(ln, voice=getattr(EP, 'VOICE', 'am_michael'), speed=getattr(EP, 'SPEED', 0.96), lang='en-us'); a = a.astype(np.float32)
             g = SCENE_GAP if li == len(lines) - 1 else GAP
+            g += getattr(EP, 'SHORT_PAUSES' if SHORT_MODE else 'PAUSES', {}).get((si, li), 0.0)   # optional beat after a key line
             starts.append((cur, cur + len(a) / SR)); chunks += [a, np.zeros(int(g * SR), np.float32)]
             cur += len(a) / SR + g
         tl.append({'start': s0 if si else 0.0, 'end': cur, 'lines': starts}); print(si, round(cur, 1), flush=True)
