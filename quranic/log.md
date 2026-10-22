@@ -15,3 +15,5 @@
 | 2026-10-20 | 10 | Prophet Lut and His People: "Except Your Wife" | 2026-10-20 21:45, Facebook + Instagram + TikTok (Metricool post 400657797; may fail at publish if the monthly limit still applies) | Quran 29:28–35, 7:80–84, 11:77–83, 15:57–77, 51:31–37, 66:10 |
 | 2026-10-21 | 10 (status) | Prophet Lut and His People: "Except Your Wife" | Metricool post 400657797 failed at 21:45 (monthly limit); Juman posted it by hand on Facebook 2026-10-20 14:21 | — |
 | 2026-10-21 | 11 | Yusuf, Part 1: The Dream and the Well | manual (Metricool limit), for Juman to post 2026-10-21 21:45 | Quran 12:4–22 (verse cards 12:4, 12:15, 12:18) |
+| 2026-10-22 | 11 (status) | Yusuf, Part 1: The Dream and the Well | posted by Juman by hand on Facebook 2026-10-21 22:10 | — |
+| 2026-10-22 | 12 | Yusuf, Part 2: The Test and the Prison | 2026-10-22 21:45, Facebook + Instagram + TikTok (Metricool post 402728619; may fail at publish if the monthly limit still applies) | Quran 12:21–42 (verse cards 12:23, 12:27, 12:33) |
