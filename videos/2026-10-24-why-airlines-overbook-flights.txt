@@ -1,0 +1,55 @@
+Hand-upload backup for 2026-10-24 (Metricool's free 20 posts a month are used up, so scheduled posts fail at publish time)
+
+POST TIMES (Sydney): long video Sunday 25 Oct 2026, 18:00. Short the same day, 19:00.
+Audience: "No, it's not made for kids". Upload the Short as a Short (vertical file).
+
+=== LONG VIDEO ===
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-10-24-why-airlines-overbook-flights.mp4
+Thumbnail (only if the channel is verified for custom thumbnails): https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-10-24-why-airlines-overbook-flights.jpg
+
+Title:
+Why Airlines Sell More Tickets Than There Are Seats
+
+Description:
+Airlines often sell more tickets than a plane has seats, and they do it on purpose. This short animated explainer shows why, how they predict who won't turn up, and what happens when everyone does.
+
+What is covered:
+- Why an empty seat earns an airline nothing, and why most no-shows are simply running late
+- The party trick you already use: more invitations than chairs
+- How airlines forecast no-shows from records of past flights
+- The law of large numbers: one passenger is unpredictable, a full plane is not
+- Quick question: which flight gets overbooked more?
+- Volunteers first, and what happens if nobody volunteers
+- How rare it is: 0.27 involuntary bumps per 10,000 passengers at the 10 US reporting airlines in early 2024
+
+The plane, ticket numbers and no-show chart are illustrative. This is general information, not legal advice; passenger rights differ by country and airline.
+
+Sources:
+https://www.marketplace.org/2015/04/27/business/ive-always-wondered/why-world-do-airlines-overbook-tickets
+https://www.transportation.gov/briefing-room/air-travel-consumer-report-may-2024-numbers
+https://www.travelersunited.org/denied-boarding-compensation-bumping/
+https://www.altexsoft.com/blog/overbooking-airlines-bumping/
+
+#Economics #Travel #Explained
+
+Tags: why airlines overbook, overbooking, airline overbooking explained, bumped from a flight, everyday economics
+Category: Education
+
+First comment (pin it):
+Have you ever been asked to give up your seat on a flight? Did you take the offer?
+
+=== SHORT ===
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-10-24-why-airlines-overbook-flights-short.mp4
+
+Title:
+Why sell more tickets than seats? #Shorts
+
+Description:
+Some passengers always miss flights, and with a full plane the number is predictable, so airlines sell a few extra tickets.
+
+Full video on the channel.
+
+#Economics #Travel #Shorts
+
+First comment:
+Would you give up your seat for a voucher? What would it take?
