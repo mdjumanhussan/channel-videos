@@ -18,3 +18,4 @@
 | 2026-10-22 | 11 (status) | Yusuf, Part 1: The Dream and the Well | posted by Juman by hand on Facebook 2026-10-21 22:10 | — |
 | 2026-10-22 | 12 | Yusuf, Part 2: The Test and the Prison | 2026-10-22 21:45, Facebook + Instagram + TikTok (Metricool post 402728619; may fail at publish if the monthly limit still applies) | Quran 12:21–42 (verse cards 12:23, 12:27, 12:33) |
 | 2026-10-23 | 12 (re-post) | Yusuf, Part 2: The Test and the Prison | 22 Oct post 402728619 failed (monthly limit, nothing published). Re-scheduled 2026-10-23 21:45, Facebook + Instagram + TikTok (Metricool post 403735203); hand-post backup sent to Juman | Quran 12:21–42 (verse cards 12:23, 12:27, 12:33) |
+| 2026-10-23 | Special | Surah An-Nasr: The Victory That Was a Farewell (88.5 s, made on Juman's request) | not scheduled; file and caption given to Juman to post by hand (videos/quranic/surah-110-an-nasr.txt) | Quran 110:1–3; Sahih al-Bukhari 4970, 4968 (confirmed on sunnah.com) |
