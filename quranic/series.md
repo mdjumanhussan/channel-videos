@@ -19,8 +19,8 @@ Verse references are starting points. The daily job confirms every quoted verse 
 | 9 | Ibrahim and Ismail build the Kabah | 2:125–129, 14:35–41 | 2026-10-18 | 18 Oct Metricool post failed (monthly limit); manual (Metricool limit): posted by Juman 2026-10-19 12:29 (Facebook) |
 | 10 | Prophet Lut and his people | 11:77–83, 15:57–77 | 2026-10-20 | 20 Oct 21:45 Metricool post failed (monthly limit); posted by Juman by hand 2026-10-20 14:21 (Facebook) |
 | 11 | Yusuf, part 1: the dream and the well | 12:4–22 | 2026-10-21 | manual (Metricool limit); posted by Juman by hand 2026-10-21 22:10 (Facebook) |
-| 12 | Yusuf, part 2: the test and the prison | 12:23–42 | 2026-10-22 | 22 Oct 21:45 Metricool post 402728619 failed (monthly limit), nothing published; re-scheduled 2026-10-23 21:45, Facebook + Instagram + TikTok (Metricool post 403735203; likely to fail too; backup text in videos/quranic/012-yusuf-2-the-test-and-the-prison.txt, Juman notified to post by hand if needed) |
-| 13 | Yusuf, part 3: the king's dream and the reunion | 12:43–101 | | |
+| 12 | Yusuf, part 2: the test and the prison | 12:23–42 | 2026-10-22 | Metricool posts 402728619 (22 Oct) and 403735203 (23 Oct) both failed (monthly limit); posted by Juman by hand 2026-10-23 13:48 (Facebook) |
+| 13 | Yusuf, part 3: the king's dream and the reunion | 12:43–101 | 2026-10-24 | 2026-10-24 21:45, Facebook + Instagram + TikTok (Metricool post 404713599; likely to fail at publish (monthly limit); backup text in videos/quranic/013-yusuf-3-the-kings-dream-and-the-reunion.txt, Juman notified to post by hand if needed) |
 | 14 | Prophet Ayyub: patience in hardship | 21:83–84, 38:41–44 | | |
 | 15 | Prophet Shuayb and the fair measure | 7:85–93, 11:84–95 | | |
 | 16 | Baby Musa in the river | 28:3–13, 20:37–40 | | |
