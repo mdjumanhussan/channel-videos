@@ -1,0 +1,54 @@
+Hand-upload backup for 2026-10-25 (Metricool's free 20 posts a month are used up, so scheduled posts fail at publish time)
+
+POST TIMES (Sydney): long video Monday 26 Oct 2026, 18:00. Short the same day, 19:00.
+Audience: "No, it's not made for kids". Upload the Short as a Short (vertical file).
+
+=== LONG VIDEO ===
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-10-25-why-you-forget-the-middle-of-a-list.mp4
+Thumbnail (only if the channel is verified for custom thumbnails): https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-10-25-why-you-forget-the-middle-of-a-list.jpg
+
+Title:
+Your Memory Has a Weak Spot: The Middle of a List
+
+Description:
+Hear a list of words and you will usually remember the first few and the last few, but lose the middle. This short animated explainer shows why, using classic memory experiments, and how to use it when you study or speak.
+
+What is covered:
+- The serial position effect: the U-shaped memory curve
+- Murdock's 1962 test: lists of 10 to 40 words, a U shape at every length
+- Why the start sticks: early words get the most rehearsal (Rundus, 1971)
+- Why the end sticks: the last words are still fresh in short-term memory
+- Quick question: what 30 seconds of counting does to the end of the list (Glanzer and Cunitz, 1966)
+- First impressions: Asch's 1946 six-trait experiment
+- Three ways to use it: put what matters first or last, review the middle first, write long lists down
+
+The bar charts show the typical shape and are illustrative, not exact data.
+
+Sources:
+https://www.simplypsychology.org/primacy-recency.html
+https://en.wikipedia.org/wiki/Serial-position_effect
+https://www.thebehavioralscientist.com/?p=8803
+
+#Psychology #Memory #Explained
+
+Tags: serial position effect, primacy and recency, why do we forget, memory explained, study tips
+Category: Education
+
+First comment (pin it):
+Which do you remember better from a long meeting or lesson: the start or the end?
+
+=== SHORT ===
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-10-25-why-you-forget-the-middle-of-a-list-short.mp4
+
+Title:
+Why do we forget the middle of a list? #Shorts
+
+Description:
+The first words get the most practice and the last are still fresh in short-term memory, so the middle gets neither.
+
+Full video on the channel.
+
+#Psychology #Memory #Shorts
+
+First comment:
+Next time you study, will you start with the middle?
