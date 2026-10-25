@@ -1,0 +1,57 @@
+Hand-upload backup for 2026-10-26 (Metricool's free 20 posts a month are used up, so scheduled posts fail at publish time)
+
+POST TIMES (Sydney): long video Tuesday 27 Oct 2026, 18:00. Short the same day, 19:00.
+Audience: "No, it's not made for kids". Upload the Short as a Short (vertical file).
+
+=== LONG VIDEO ===
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-10-26-why-the-sky-is-blue-not-violet.mp4
+Thumbnail (only if the channel is verified for custom thumbnails): https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-10-26-why-the-sky-is-blue-not-violet.jpg
+
+Title:
+Violet Light Scatters Most. So Why Is the Sky Blue?
+
+Description:
+Sunlight is white and space is black, yet the sky above you is blue, even though violet light scatters more than blue. This short animated explainer follows one sunbeam from the Sun to your eyes to show why, and why sunsets turn orange and red.
+
+What is covered:
+- Sunlight is every colour mixed; each colour is a wave
+- Why space and the Moon's sky look black
+- How tiny nitrogen and oxygen molecules scatter short blue waves far more than long red ones
+- Rayleigh scattering: halve the wavelength, 16 times the scattering; violet scatters about 10 times more than red
+- Quick question: if violet scatters most, why isn't the sky violet?
+- Sunsets: a longer path through the air scatters the blue away
+- Why clouds are white
+- Try it at home: a sky and a sunset in a glass of milky water
+
+The bars for sunlight and eye response are illustrative, not exact data.
+
+Sources:
+https://theconversation.com/why-is-the-sky-blue-246393
+https://www.space.com/why-is-the-sky-blue
+https://math.ucr.edu/home/baez/physics/General/BlueSky/blue_sky.html
+https://en.wikipedia.org/wiki/Rayleigh_scattering
+https://www.scientificamerican.com/article/sunset-colors-in-a-glass/
+
+#Science #Physics #Explained
+
+Tags: why is the sky blue, rayleigh scattering, why is the sky not violet, why are sunsets red, science explained
+Category: Science & Technology
+
+First comment (pin it):
+Before this video, did you think the sky was blue because it reflects the ocean?
+
+=== SHORT ===
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-10-26-why-the-sky-is-blue-not-violet-short.mp4
+
+Title:
+Why is the sky blue? #Shorts
+
+Description:
+Air molecules scatter short blue waves far more than long red ones, so blue light reaches your eyes from every part of the sky.
+
+Full video on the channel.
+
+#Science #Physics #Shorts
+
+First comment:
+Have you ever seen a sunset that was deep red? Where were you?
