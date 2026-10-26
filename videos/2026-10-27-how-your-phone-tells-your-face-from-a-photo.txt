@@ -1,0 +1,57 @@
+Hand-upload backup for 2026-10-27 (Metricool's free 20 posts a month are used up, so scheduled posts fail at publish time)
+
+POST TIMES (Sydney): long video Wednesday 28 Oct 2026, 18:00. Short the same day, 19:00.
+Audience: "No, it's not made for kids". Upload the Short as a Short (vertical file).
+
+=== LONG VIDEO ===
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-10-27-how-your-phone-tells-your-face-from-a-photo.mp4
+Thumbnail (only if the channel is verified for custom thumbnails): https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-10-27-how-your-phone-tells-your-face-from-a-photo.jpg
+
+Title:
+How Your Phone Tells Your Face From a Photo
+
+Description:
+In a 2023 test, a printed photo unlocked 19 of 48 phones, while others could not be fooled that way at all. This short animated explainer shows the difference: some face unlock only looks at your face, and some measures it with invisible dots.
+
+What is covered:
+- Simple face unlock: comparing two flat pictures, and why a photo can pass
+- 3D face unlock (e.g. Face ID): infrared light that works in the dark
+- More than 30,000 invisible dots, and why they shift over a bumpy surface
+- The depth map: the 3D shape of your face
+- Quick question: what does the depth map show for a life-size photo?
+- The match: a code of numbers, and Apple's "less than 1 in 1,000,000" figure
+- Limits: twins, lookalike siblings, children under 13; attention check; beards and makeup
+- Where the face data is kept, and a safer lock if your phone uses the camera only
+
+The dots, depth map and code numbers are simplified for teaching.
+
+Sources:
+https://support.apple.com/102381
+https://en.wikipedia.org/wiki/Face_ID
+https://www.which.co.uk/policy-and-insight/article/smartphones-have-face-recognition-that-can-be-easily-spoofed-with-2d-photo-which-finds-arM1G1p8R6mY
+https://www.theregister.com/2023/05/19/2d_photograph_facial_recog/
+https://slicker.me/ios/face_id.html
+
+#Technology #FaceUnlock #Explained
+
+Tags: how face id works, face unlock, can a photo unlock my phone, 3d face recognition, technology explained
+Category: Science & Technology
+
+First comment (pin it):
+Does your phone unlock with your face, a fingerprint, or a PIN?
+
+=== SHORT ===
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-10-27-how-your-phone-tells-your-face-from-a-photo-short.mp4
+
+Title:
+Why can a photo fool some phones? #Shorts
+
+Description:
+Camera-only face unlock compares flat pictures, while 3D face unlock measures your face with invisible dots, and a photo has no depth.
+
+Full video on the channel.
+
+#Technology #FaceUnlock #Shorts
+
+First comment:
+Did you know a printed photo could fool some phones?
