@@ -21,7 +21,7 @@ Verse references are starting points. The daily job confirms every quoted verse 
 | 11 | Yusuf, part 1: the dream and the well | 12:4–22 | 2026-10-21 | manual (Metricool limit); posted by Juman by hand 2026-10-21 22:10 (Facebook) |
 | 12 | Yusuf, part 2: the test and the prison | 12:23–42 | 2026-10-22 | Metricool posts 402728619 (22 Oct) and 403735203 (23 Oct) both failed (monthly limit); posted by Juman by hand 2026-10-23 13:48 (Facebook) |
 | 13 | Yusuf, part 3: the king's dream and the reunion | 12:43–101 | 2026-10-24 | 24 Oct Metricool post 404713599 failed (monthly limit, nothing published). Re-scheduled 2026-10-25 21:45 (Metricool post 405393477, failed: monthly limit); posted by Juman by hand 2026-10-25 14:50 (Facebook) |
-| 14 | Prophet Ayyub: patience in hardship | 21:83–84, 38:41–44 | 2026-10-26 | 26 Oct Metricool post 406161000 failed (monthly limit, nothing published). Re-scheduled 2026-10-27 21:45, Facebook + Instagram + TikTok (Metricool post 407352250; likely to fail: monthly limit); hand-post backup sent to Juman |
+| 14 | Prophet Ayyub: patience in hardship | 21:83–84, 38:41–44 | 2026-10-26 | 26 Oct Metricool post 406161000 failed (monthly limit, nothing published). Re-scheduled 2026-10-27 21:45, Facebook + Instagram + TikTok (Metricool post 407352250, failed: monthly limit). Re-scheduled 2026-10-28 21:45, Facebook + Instagram + TikTok (Metricool post 408483326; likely to fail: monthly limit); hand-post backup sent to Juman |
 | 15 | Prophet Shuayb and the fair measure | 7:85–93, 11:84–95 | | |
 | 16 | Baby Musa in the river | 28:3–13, 20:37–40 | | |
 | 17 | Musa and the fire on the mountain | 20:9–36, 28:29–35 | | |
