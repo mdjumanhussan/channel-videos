@@ -1,0 +1,56 @@
+HAND-UPLOAD TEXT: 2026-10-29-why-fridges-dont-make-cold
+Post times (Sydney): long video 18:00 on Fri 30 Oct, Short 19:00 (or as soon as you can, one video a day, oldest waiting video first).
+Audience: "No, it's not made for kids". Upload the Short as a Short.
+
+=== LONG VIDEO ===
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-10-29-why-fridges-dont-make-cold.mp4
+
+Title:
+Fridges Don't Make Cold
+
+Description:
+The air behind your fridge is warm, and that warmth came out of your food. This short animated explainer shows how a fridge moves heat out of a cold box and into your kitchen, using two simple tricks.
+
+What is covered:
+- What cold really is: heat taken away, and why heat only flows from warm to cooler by itself
+- The refrigerant: a fluid that carries heat round a loop of pipes, like a courier
+- Trick one: evaporating takes heat (why you feel cold after a shower); isobutane boils at about -12 °C
+- Trick two: squeezing a gas heats it (the warm bike pump), and the compressor
+- The coils on the back, and the narrow tube that makes the refrigerant very cold
+- Quick question: does leaving the fridge door open cool your kitchen?
+- Why the back is warm, how an air conditioner does the same thing, and why thick frost makes a fridge work less well
+
+The fridge and pipe diagrams are simplified for teaching, and the heat bar is not to scale.
+
+Sources:
+https://courses.ems.psu.edu/egee102/node/2402
+https://askdruniverse.wsu.edu/2017/12/11/how-does-our-refrigerator-work/
+https://www.ifixit.com/Wiki/How_a_Refrigerator_Works
+https://www.physics.usyd.edu.au/super/physics_tut/activities/Thermal_Physics/Bar_Fridge.pdf
+https://refrigeranthq.com/r-600a-isobutane-refrigerant-fact-info-sheet/
+https://www.explainthatstuff.com/airconditioner.html
+
+#Science #HowThingsWork #Explained
+
+Tags: how does a fridge work, how a refrigerator works, refrigeration cycle, why is the back of my fridge warm, science explained
+
+Category: Science & Technology
+
+First comment (pin it):
+Before this video, did you think leaving the fridge door open would cool the kitchen?
+
+=== SHORT ===
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-10-29-why-fridges-dont-make-cold-short.mp4
+
+Title:
+Does a fridge make cold? #Shorts
+
+Description:
+No. A fridge moves heat out of your food and dumps it out the back, using evaporation inside and a compressor outside.
+
+Full video on the channel.
+
+#Science #HowThingsWork #Shorts
+
+First comment:
+Have you ever felt the warm air behind your fridge?
