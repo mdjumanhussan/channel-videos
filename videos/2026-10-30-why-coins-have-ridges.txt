@@ -1,0 +1,58 @@
+HAND-UPLOAD TEXT: The Real Reason Coins Have Ridges
+Post times (Sydney): long video Sat 31 Oct 2026 18:00, Short 19:00.
+Metricool has these scheduled, but the free plan's monthly limit has made every YouTube post since 25 Oct fail at publish time.
+If the long video is not live on the channel by about 18:15, upload both by hand. If it did go live, do nothing.
+
+Files:
+Long video: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-10-30-why-coins-have-ridges.mp4
+Short:      https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-10-30-why-coins-have-ridges-short.mp4
+Thumbnail (only if the channel is verified for custom thumbnails): https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-10-30-why-coins-have-ridges.jpg
+
+Settings for both: Audience "No, it's not made for kids". Visibility Public. Category Education.
+Upload the Short as a Short (vertical file, under 60 seconds).
+
+=== LONG VIDEO ===
+Title:
+The Real Reason Coins Have Ridges
+
+Description:
+Run your thumb around the edge of many coins and you feel tiny ridges. They started as a security system against clipping, when people shaved silver off coins, and this short animated explainer shows how they worked and why they are still there.
+
+What is covered:
+- When coins were made of silver and gold, and worth the metal inside them
+- Clipping: shaving thin slivers off hand-struck coins and selling the silver
+- Why clipped money kept shrinking as it was passed on
+- The fix: machine-pressed coins with a ridged (milled) edge, so a shaved coin is easy to spot
+- Quick question: which coin should the shopkeeper refuse?
+- England's machine-made coins from 1662, the 1696 recoinage, and Isaac Newton at the Royal Mint
+- Why ridges stayed: tradition, harder to fake, and telling coins apart by touch (119 ridges on a US quarter, 118 on a dime)
+
+The coin drawings are simplified for teaching.
+
+Sources:
+https://en.wikipedia.org/wiki/Great_Recoinage_of_1696
+https://www.mentalfloss.com/article/28044/how-many-ridges-are-quarter-and-why-are-they-there-first-place
+https://learn.apmex.com/answers/why-do-coins-have-ridges-what-is-reeding/
+https://www.scienceabc.com/eyeopeners/why-do-some-coins-have-notches-reeding-on-the-edge-while-others-dont.html
+https://nowiknow.com/why-some-coins-have-ridges/
+
+#Money #History #Explained
+
+Tags: why do coins have ridges, reeded edge, coin clipping, milled edge coins, history of money
+
+First comment (post it yourself and pin it):
+Before this video, did you think the ridges were just for grip?
+
+=== SHORT ===
+Title:
+Why do coins have ridges? #Shorts
+
+Description:
+Ridges were put on coin edges so anyone could see if someone had shaved silver off a coin.
+
+Full video on the channel.
+
+#Money #History #Shorts
+
+First comment:
+Do the coins in your pocket have ridges or smooth edges?
