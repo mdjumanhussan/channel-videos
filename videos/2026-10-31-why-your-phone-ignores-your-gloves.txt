@@ -1,0 +1,59 @@
+HAND-UPLOAD TEXT (backup): Why Your Phone Ignores Your Gloves
+Post times (Sydney): long video Sun 1 Nov 2026 18:00, Short 19:00.
+Metricool has these scheduled. Its free-plan count resets on 1 Nov, so they should publish by themselves.
+If the long video is not live on the channel by about 18:15, upload both by hand. If it did go live, do nothing.
+
+Files:
+Long video: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-10-31-why-your-phone-ignores-your-gloves.mp4
+Short:      https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-10-31-why-your-phone-ignores-your-gloves-short.mp4
+Thumbnail (only if the channel is verified for custom thumbnails): https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-10-31-why-your-phone-ignores-your-gloves.jpg
+
+Settings for both: Audience "No, it's not made for kids". Visibility Public. Category Science & Technology.
+Upload the Short as a Short (vertical file, under 60 seconds).
+
+=== LONG VIDEO ===
+Title:
+Why Your Phone Ignores Your Gloves
+
+Description:
+Tap your phone with gloves on and nothing happens; take one off and it works straight away. This short animated explainer shows how a phone screen feels the electricity in your finger, and why gloves block it.
+
+What is covered:
+- The grid of see-through wires under the glass, in rows and columns
+- The small electric field at every crossing, and how the phone keeps checking them
+- How your fingertip weakens the field at one spot, and how two fingers make pinch to zoom work
+- Why wool, leather and cotton are insulators, so nothing changes through a glove
+- Quick question: a plastic pen, or a glove with silver thread in the fingertip?
+- Touchscreen gloves, phone styluses, and the 2010 reports of sausage styluses in South Korea
+- Older pressure screens, like some cash machines and self-checkouts, that do work with gloves
+
+The grid, field dots and readings are simplified for teaching.
+
+Sources:
+https://en.wikipedia.org/wiki/Capacitive_sensing
+https://www.sciencealert.com/how-does-a-touchscreen-actually-work
+https://nelson-miller.com/what-is-mutual-capacitance-touchscreen-technology
+https://mediadevil.com/blogs/guides/how-do-touchscreen-gloves-actually-work-and-why-cheap-ones-stop-working
+https://us.ktcplay.com/blogs/support-tips/why-gloves-dont-work-on-capacitive-touch-screens
+https://www.nbcbayarea.com/news/local/sausage-stylus-a-meaty-must-have/1860135/
+
+#Technology #HowThingsWork #Explained
+
+Tags: why touchscreen doesn't work with gloves, how touchscreens work, capacitive touchscreen, touchscreen gloves, technology explained
+
+First comment (post it yourself and pin it):
+Have you ever tried tapping your phone with your nose or knuckle when wearing gloves?
+
+=== SHORT ===
+Title:
+Why don't phones work with gloves? #Shorts
+
+Description:
+Your phone's screen senses the electricity in your fingertip, and ordinary gloves don't conduct, so the screen can't feel you through them.
+
+Full video on the channel.
+
+#Technology #HowThingsWork #Shorts
+
+First comment:
+Do you own a pair of touchscreen gloves?
