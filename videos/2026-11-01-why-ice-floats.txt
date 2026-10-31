@@ -1,0 +1,57 @@
+HAND-UPLOAD TEXT (backup): Ice Breaks a Rule Almost Every Solid Follows
+Post times (Sydney): long video Mon 2 Nov 2026 18:00, Short 19:00.
+Metricool has these scheduled (the free-plan count reset on 1 Nov), so they should publish by themselves.
+If the long video is not live on the channel by about 18:15, upload both by hand. If it did go live, do nothing.
+
+Files:
+Long video: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-01-why-ice-floats.mp4
+Short:      https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-01-why-ice-floats-short.mp4
+Thumbnail (only if the channel is verified for custom thumbnails): https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-01-why-ice-floats.jpg
+
+Settings for both: Audience "No, it's not made for kids". Visibility Public. Category Science & Technology.
+Upload the Short as a Short (vertical file, under 60 seconds).
+
+=== LONG VIDEO ===
+Title:
+Ice Breaks a Rule Almost Every Solid Follows
+
+Description:
+For most substances, the solid sinks in its own liquid, yet the ice in your drink floats. This short animated explainer shows how water's hydrogen bonds lock ice into open, six-sided rings, and why that matters for icebergs, burst pipes and fish in frozen lakes.
+
+What is covered:
+- What decides whether something floats: how tightly it is packed (the cork example)
+- Why the solid form of most substances is packed tighter than the liquid, so it sinks
+- The water molecule: one oxygen, two hydrogens, and the weak pulls called hydrogen bonds
+- Freezing: the bonds lock molecules into a honeycomb with open space, so ice takes about 9% more room
+- Quick question: how much of an iceberg is under the water?
+- Why water pipes can burst in a hard frost
+- Why lakes freeze from the top, with water densest at about 4 °C, so fish survive under the ice
+
+The molecule, lattice and lake drawings are simplified for teaching.
+
+Sources:
+https://courses.lumenlearning.com/umes-cheminter/?p=2714
+https://www.childrensmuseum.org/stories/why-does-ice-float
+https://wtamu.edu/~cbaird/sq/2013/12/05/why-does-ice-form-on-the-top-of-a-lake/
+https://www.sciencelearn.org.nz/resources/1154-icebergs
+
+#Science #Chemistry #Explained
+
+Tags: why does ice float, why ice floats on water, hydrogen bonds, density of ice, science explained
+
+First comment (post it yourself and pin it):
+Before this video, did you know most solids sink in their own liquid?
+
+=== SHORT ===
+Title:
+Why does ice float? #Shorts
+
+Description:
+When water freezes, hydrogen bonds lock its molecules into open rings, so ice takes up more room and is lighter than the same amount of water.
+
+Full video on the channel.
+
+#Science #Chemistry #Shorts
+
+First comment:
+Have you ever had a bottle crack in the freezer?
