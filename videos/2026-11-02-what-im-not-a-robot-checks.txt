@@ -1,0 +1,53 @@
+BACKUP TEXT for a hand upload (only needed if Metricool fails to publish these posts)
+
+Times to post (Sydney): long video Tue 3 Nov 2026 18:00, Short 19:00.
+Audience: "No, it's not made for kids". Upload the Short as a Short.
+
+=== LONG VIDEO ===
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-02-what-im-not-a-robot-checks.mp4
+Thumbnail (only if the channel is verified for custom thumbnails): https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-02-what-im-not-a-robot-checks.jpg
+
+Title:
+The 'I'm Not a Robot' Box Isn't About the Click
+
+Description:
+The "I'm not a robot" box looks like a simple click, but the click is not what it is checking. This short animated explainer shows how CAPTCHAs began, how millions of people helped digitise old newspapers by typing two wobbly words, and why the tick box now leans on clues from your browser.
+
+What is covered:
+- What CAPTCHA stands for, and why it is a test a computer gives to a person (named in 2003 at Carnegie Mellon)
+- reCAPTCHA's two words (2007): one known word to check you, one unreadable word from a scanned page
+- How matching answers helped digitise The New York Times archive and pages for Google Books
+- Street View photos (from 2012) and the traffic-light grid
+- The 2014 tick box: people judged low risk just tick; others get a picture puzzle
+- Quick question: does the box lean more on your mouse, or on your browser and cookies?
+- A 2024 ETH Zurich study: an image AI solved 100% of the picture puzzles, and why the newest version usually shows no puzzle at all
+
+The drawings are simplified for teaching.
+
+Sources:
+https://en.wikipedia.org/wiki/CAPTCHA
+https://en.wikipedia.org/wiki/ReCAPTCHA
+https://petapixel.com/2024/09/30/scientists-made-an-ai-model-that-beats-captchas-every-single-time
+https://thejournal.com/Articles/2024/09/30/New-Research-Confirms-AI-Can-Defeat-Image-Based-CAPTCHAs.aspx
+https://arxiv.org/abs/2409.08831
+
+#Technology #HowThingsWork #Explained
+
+Tags: what does i'm not a robot check, how does recaptcha work, captcha explained, recaptcha history, technology explained
+Category: Science & Technology
+First comment: Have you ever had to do the traffic-light puzzle three times in a row?
+
+=== SHORT ===
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-02-what-im-not-a-robot-checks-short.mp4
+
+Title:
+What does 'I'm not a robot' check? #Shorts
+
+Description:
+Mostly clues from your browser, like cookies and history, not your click; the picture puzzles are only a backup.
+
+Full video on the channel.
+
+#Technology #HowThingsWork #Shorts
+
+First comment: Do some websites give you more picture puzzles than others?
