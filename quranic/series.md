@@ -24,7 +24,7 @@ Verse references are starting points. The daily job confirms every quoted verse 
 | 14 | Prophet Ayyub: patience in hardship | 21:83–84, 38:41–44 | 2026-10-26 | 26 Oct Metricool post 406161000 failed (monthly limit, nothing published). Re-scheduled 2026-10-27 21:45, Facebook + Instagram + TikTok (Metricool post 407352250, failed: monthly limit). Re-scheduled 2026-10-28 21:45 (Metricool post 408483326, failed: monthly limit); posted by Juman by hand 2026-10-28 09:38 (Facebook) |
 | 15 | Prophet Shuayb and the fair measure | 7:85–93, 11:84–95 | 2026-10-29 | 2026-10-29 21:45, Facebook + Instagram + TikTok (Metricool post 409613039, failed: monthly limit; not on the page as of 30 Oct 12:55). Re-scheduled 2026-10-30 21:45, Facebook + Instagram + TikTok (Metricool post 410739657, failed: monthly limit; not on the page as of 31 Oct 12:55). Re-scheduled 2026-10-31 21:45 (Metricool post 411852995, failed: monthly limit; not on the page as of 1 Nov 12:53). Re-scheduled 2026-11-01 21:45, Facebook + Instagram + TikTok (Metricool post 412606040, published on Facebook, Instagram and TikTok) |
 | 16 | Baby Musa in the river | 28:3–13, 20:37–40 | 2026-11-02 | 2026-11-02 21:45, Facebook + Instagram + TikTok (Metricool post 413470487) |
-| 17 | Musa and the fire on the mountain | 20:9–36, 28:29–35 | | |
+| 17 | Musa and the fire on the mountain | 20:9–36, 28:29–35 | 2026-11-03 | 2026-11-03 21:45, Facebook + Instagram + TikTok (Metricool post 414751780) |
 | 18 | Musa and the magicians of Firawn | 7:103–126, 20:56–73 | | |
 | 19 | The parting of the sea | 26:52–68, 20:77–79 | | |
 | 20 | Musa and Khidr (the wise servant) | 18:60–82 | | |

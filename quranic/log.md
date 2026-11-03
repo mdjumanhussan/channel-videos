@@ -33,3 +33,5 @@
 | 2026-11-01 | 15 (re-post) | Prophet Shuayb and the Fair Measure | 31 Oct post 411852995 failed (monthly limit, nothing published; not on the page as of 1 Nov 12:53). Re-scheduled 2026-11-01 21:45, Facebook + Instagram + TikTok (Metricool post 412606040, Pending; Metricool count reset on 1 Nov) | Quran 7:85–93, 11:84–95 (verse cards 11:85, 11:87, 11:88) |
 | 2026-11-02 | 15 (status) | Prophet Shuayb and the Fair Measure | Metricool post 412606040 published 2026-11-01 21:45 on Facebook, Instagram and TikTok | — |
 | 2026-11-02 | 16 | Baby Musa in the River | 2026-11-02 21:45, Facebook + Instagram + TikTok (Metricool post 413470487) | Quran 28:3–13, 20:37–40 (verse cards 28:7, 28:9, 28:13) |
+| 2026-11-03 | 16 (status) | Baby Musa in the River | Metricool post 413470487 published 2026-11-02 21:45 on Facebook, Instagram and TikTok | — |
+| 2026-11-03 | 17 | Musa and the Fire by the Mountain | 2026-11-03 21:45, Facebook + Instagram + TikTok (Metricool post 414751780) | Quran 20:9–36, 28:29–35 (verse cards 28:30, 28:31, 20:24, 20:25, 20:26, 20:36) |
