@@ -37,3 +37,4 @@
 | 2026-11-03 | 17 | Musa and the Fire by the Mountain | 2026-11-03 21:45, Facebook + Instagram + TikTok (Metricool post 414751780) | Quran 20:9–36, 28:29–35 (verse cards 28:30, 28:31, 20:24, 20:25, 20:26, 20:36) |
 | 2026-11-04 | 17 (status) | Musa and the Fire by the Mountain | Metricool post 414751780 published 2026-11-03 21:45 on Facebook, Instagram and TikTok | — |
 | 2026-11-04 | 18 | Musa and the Magicians of Pharaoh | 2026-11-04 21:45, Facebook + Instagram + TikTok (Metricool post 416018757) | Quran 7:103–126, 20:56–73, 26:34–51 (verse cards 7:113, 20:68, 7:117, 20:70, 20:72) |
+- 2026-11-04 (manual, from chat): Remade "They Brought Elephants to Destroy the Kaaba" with a first-second hook and voice (28.5s). Scheduled 2026-11-05 06:00 Sydney (= 19:00 Lagos) after page analysis showed the audience is mostly West Africa. Ref: Surah Al-Fil 105:1.
