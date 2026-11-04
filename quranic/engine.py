@@ -571,6 +571,7 @@ def scene_frame(si, tt, tl):
     ts = tt - info['start']
     for fx in sc.get('fx', []):
         kind, kw = (fx, {}) if isinstance(fx, str) else fx
+        if callable(kind): kind(img, tt, info, **kw); continue     # episode's own live drawing, redrawn every frame: fn(img, tt, info, **kw). Use with cam='hold'.
         fx_particles(img, kind, tt, seed=si * 7 + 3, **kw)
     img = bloom(img, sc.get('bloom', .55))
     img.alpha_composite(VIG)
