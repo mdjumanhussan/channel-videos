@@ -35,3 +35,5 @@
 | 2026-11-02 | 16 | Baby Musa in the River | 2026-11-02 21:45, Facebook + Instagram + TikTok (Metricool post 413470487) | Quran 28:3–13, 20:37–40 (verse cards 28:7, 28:9, 28:13) |
 | 2026-11-03 | 16 (status) | Baby Musa in the River | Metricool post 413470487 published 2026-11-02 21:45 on Facebook, Instagram and TikTok | — |
 | 2026-11-03 | 17 | Musa and the Fire by the Mountain | 2026-11-03 21:45, Facebook + Instagram + TikTok (Metricool post 414751780) | Quran 20:9–36, 28:29–35 (verse cards 28:30, 28:31, 20:24, 20:25, 20:26, 20:36) |
+| 2026-11-04 | 17 (status) | Musa and the Fire by the Mountain | Metricool post 414751780 published 2026-11-03 21:45 on Facebook, Instagram and TikTok | — |
+| 2026-11-04 | 18 | Musa and the Magicians of Pharaoh | 2026-11-04 21:45, Facebook + Instagram + TikTok (Metricool post 416018757) | Quran 7:103–126, 20:56–73, 26:34–51 (verse cards 7:113, 20:68, 7:117, 20:70, 20:72) |
