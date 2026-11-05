@@ -245,7 +245,7 @@ CAPTION = """The army behind them. The sea ahead. 🌊
 
 Allah inspired Musa (Moses), peace be upon him: "Travel by night with My servants; indeed, you will be pursued." (Quran 26:52)
 
-Pharaoh's army reached them at sunrise. His companions said: "Indeed, we are to be overtaken." (Quran 26:61)
+Pharaoh's army reached them at sunrise. The companions of Musa said: "Indeed, we are to be overtaken." (Quran 26:61)
 
 Musa answered: "No! Indeed, with me is my Lord; He will guide me." (Quran 26:62)
 

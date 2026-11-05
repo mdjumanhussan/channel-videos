@@ -26,7 +26,7 @@ Verse references are starting points. The daily job confirms every quoted verse 
 | 16 | Baby Musa in the river | 28:3–13, 20:37–40 | 2026-11-02 | 2026-11-02 21:45, Facebook + Instagram + TikTok (Metricool post 413470487) |
 | 17 | Musa and the fire on the mountain | 20:9–36, 28:29–35 | 2026-11-03 | 2026-11-03 21:45, Facebook + Instagram + TikTok (Metricool post 414751780) |
 | 18 | Musa and the magicians of Firawn | 7:103–126, 20:56–73 | 2026-11-04 | 2026-11-04 21:45, Facebook + Instagram + TikTok (Metricool post 416018757) |
-| 19 | The parting of the sea | 26:52–68, 20:77–79 | | |
+| 19 | The parting of the sea | 26:52–68, 20:77–79 | 2026-11-05 | 2026-11-06 21:45, Facebook + Instagram + TikTok (Metricool post 417246328) |
 | 20 | Musa and Khidr (the wise servant) | 18:60–82 | | |
 | 21 | Qarun and his treasure | 28:76–82 | | |
 | 22 | The cow of Bani Israil | 2:67–73 | | |

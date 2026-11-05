@@ -38,3 +38,5 @@
 | 2026-11-04 | 17 (status) | Musa and the Fire by the Mountain | Metricool post 414751780 published 2026-11-03 21:45 on Facebook, Instagram and TikTok | — |
 | 2026-11-04 | 18 | Musa and the Magicians of Pharaoh | 2026-11-04 21:45, Facebook + Instagram + TikTok (Metricool post 416018757) | Quran 7:103–126, 20:56–73, 26:34–51 (verse cards 7:113, 20:68, 7:117, 20:70, 20:72) |
 - 2026-11-04 (manual, from chat): Remade "They Brought Elephants to Destroy the Kaaba" with a first-second hook and voice (28.5s). Scheduled 2026-11-05 06:00 Sydney (= 19:00 Lagos) after page analysis showed the audience is mostly West Africa. Ref: Surah Al-Fil 105:1.
+| 2026-11-05 | 18 (status) | Musa and the Magicians of Pharaoh | Metricool post 416018757 published 2026-11-04 21:45 on Facebook, Instagram and TikTok | — |
+| 2026-11-05 | 19 | The Army Behind, the Sea Ahead | 2026-11-06 21:45, Facebook + Instagram + TikTok (Metricool post 417246328). 6 Nov, not 5 Nov: the Elephants remake already went out 5 Nov 06:00 (one Reel per day) | Quran 26:52–68, 20:77–79, 10:90–91 (verse cards 26:52, 26:54, 26:61, 26:62, 26:63, 26:65, 10:91) |
