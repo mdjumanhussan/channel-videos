@@ -1,0 +1,44 @@
+LONG VIDEO (post 18:00 Sydney, Sunday 8 Nov 2026)
+Title: The Hidden Coil Inside Your Bank Card
+
+Description:
+Your bank card has no battery, yet it pays with a tap. This short animated explainer shows the hidden coil of wire inside the card, how the card reader powers it, and how the chip answers back.
+
+What is covered:
+- The flat coil of wire that runs around the edge of the card
+- How the reader's coil makes a magnetic field that flips about 13.5 million times a second
+- How that field powers the chip, the same idea as a wireless phone charger
+- Quick question: how does the card answer without its own power?
+- Load switching: how the reader feels ones and zeros
+- Why you have to hold the card close
+- The one-time code the chip makes for every payment
+- Bus and train cards, passports with a chip, and phones that pay
+
+The drawings are simplified for teaching. The amount, counter and code shown on screen are illustrative examples.
+
+Sources:
+https://www.wikiwand.com/en/articles/Near-field_communication
+https://www.wikiwand.com/en/articles/ISO_14443
+https://www.itwissen.info/en/contactless-chipcard-113292.html
+https://arxiv.org/abs/1507.06427
+https://corebaseit.com/posts/emv-arqc-why-chip-cards-cant-be-cloned
+https://cloudsecurityalliance.org/articles/what-is-a-cryptogram-on-a-credit-card
+https://en.wikipedia.org/wiki/Qi_(standard)
+
+#Technology #HowItWorks #Explained
+
+Tags: how does tap to pay work, how contactless cards work, NFC explained, contactless payment, technology explained
+First comment: Before this video, did you think your card had a tiny battery inside?
+
+SHORT (post 19:00 Sydney, Sunday 8 Nov 2026, upload as a Short)
+Title: How does a card pay with no battery? #Shorts
+
+Description:
+The card reader's magnetic field powers a hidden coil in your card, and the chip answers by switching a tiny load on and off.
+
+Full video on the channel.
+
+#Technology #HowItWorks #Shorts
+First comment: Card or phone: which do you tap more often?
+
+Audience: "No, it's not made for kids". Category: Science & Technology.
