@@ -27,7 +27,7 @@ Verse references are starting points. The daily job confirms every quoted verse 
 | 17 | Musa and the fire on the mountain | 20:9–36, 28:29–35 | 2026-11-03 | 2026-11-03 21:45, Facebook + Instagram + TikTok (Metricool post 414751780) |
 | 18 | Musa and the magicians of Firawn | 7:103–126, 20:56–73 | 2026-11-04 | 2026-11-04 21:45, Facebook + Instagram + TikTok (Metricool post 416018757) |
 | 19 | The parting of the sea | 26:52–68, 20:77–79 | 2026-11-05 | 2026-11-06 21:45, Facebook + Instagram + TikTok (Metricool post 417246328) |
-| 20 | Musa and Khidr (the wise servant) | 18:60–82 | | |
+| 20 | Musa and Khidr (the wise servant) | 18:60–82 | 2026-11-06 | 2026-11-07 21:45, Facebook + Instagram + TikTok (Metricool post 418444586; may fail at publish: it is the 21st post of November on a 20-post plan; hand-post backup sent to Juman) |
 | 21 | Qarun and his treasure | 28:76–82 | | |
 | 22 | The cow of Bani Israil | 2:67–73 | | |
 | 23 | Talut, Jalut and young Dawud | 2:246–251 | | |
