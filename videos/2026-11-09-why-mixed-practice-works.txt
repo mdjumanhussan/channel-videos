@@ -1,0 +1,47 @@
+SHORT STORY LONG THINKING - upload text for 2026-11-09 (Metricool's free November posts are used up, so upload these by hand)
+Post times (Sydney): long video Tue 10 Nov 18:00, Short Tue 10 Nov 19:00.
+Audience: "No, it's not made for kids". Upload the Short as a Short.
+
+=== LONG VIDEO ===
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-09-why-mixed-practice-works.mp4
+Thumbnail (only if the channel is verified): https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-09-why-mixed-practice-works.jpg
+Title: Mixed Practice Feels Worse. It Works Better.
+Category: Education
+
+Description:
+In one study, students who did worse during practice scored about three times higher on the test a week later. This short animated explainer shows what mixed (interleaved) practice is, the experiments behind it, and when it helps.
+
+What is covered:
+- Blocked practice: one kind of problem at a time
+- The 2007 shapes experiment: 89% vs 60% in practice, 63% vs 20% on the test a week later
+- Why the block group picked the wrong formula
+- The hidden skill: deciding which kind of problem it is
+- Quick question: learning painters by their style
+- Mixed study: 59% vs 36% on new paintings, though most people judged one-at-a-time better
+- The limits: what a review of 59 studies found
+- How to mix your own practice
+
+The shapes, paintings and people are drawn for teaching; the people icons are illustrative.
+
+Sources:
+https://www.gwern.net/doc/psychology/spaced-repetition/2007-rohrer.pdf
+https://digitalcommons.usf.edu/psy_facpub/1767/
+https://www.unh.edu/teaching-learning-resource-hub/sites/default/files/media/2023-06/itow-interleaved-training-and-category-learning-kang.pdf
+https://www.psychologie.uni-wuerzburg.de/fileadmin/06020400/2019/Brunmair_Richter_in_press__2019_META-ANALYSIS_OF_INTERLEAVED_LEARNING.pdf
+https://www.learningscientists.org/blog/2025/8/28-1
+
+#Learning #StudyTips #Explained
+
+Tags: interleaved practice, how to study, study tips, interleaving vs blocking, learning science
+First comment: Do you study one topic at a time, or mix them up?
+
+=== SHORT ===
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-09-why-mixed-practice-works-short.mp4
+Title: Why does shuffled practice win? #Shorts
+Description:
+Shuffled practice makes you choose which method each problem needs, the same choice a test asks for. In one study it scored about three times higher a week later.
+
+Full video on the channel.
+
+#Learning #StudyTips #Shorts
+First comment: What would you mix up in your own practice?
