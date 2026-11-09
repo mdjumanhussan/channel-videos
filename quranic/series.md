@@ -28,7 +28,7 @@ Verse references are starting points. The daily job confirms every quoted verse 
 | 18 | Musa and the magicians of Firawn | 7:103–126, 20:56–73 | 2026-11-04 | 2026-11-04 21:45, Facebook + Instagram + TikTok (Metricool post 416018757) |
 | 19 | The parting of the sea | 26:52–68, 20:77–79 | 2026-11-05 | 2026-11-06 21:45, Facebook + Instagram + TikTok (Metricool post 417246328) |
 | 20 | Musa and Khidr (the wise servant) | 18:60–82 | 2026-11-06 | 2026-11-07 21:45, Facebook + Instagram + TikTok (Metricool post 418444586; may fail at publish: it is the 21st post of November on a 20-post plan; hand-post backup sent to Juman) |
-| 21 | Qarun and his treasure | 28:76–82 | 2026-11-07 | 2026-11-08 21:45, Facebook + Instagram + TikTok (Metricool post 419605582) |
+| 21 | Qarun and his treasure | 28:76–82 | 2026-11-07 | 2026-11-08 21:45, Facebook + Instagram + TikTok (Metricool post 419605582, failed: monthly limit; not on the page as of 9 Nov 12:55). Re-scheduled 2026-11-10 21:45, Facebook + Instagram + TikTok (Metricool post 421278064; may fail again: monthly limit; hand-post backup sent to Juman) |
 | 22 | The cow of Bani Israil | 2:67–73 | 2026-11-08 | 2026-11-09 21:45, Facebook + Instagram + TikTok (Metricool post 420416130) |
 | 23 | Talut, Jalut and young Dawud | 2:246–251 | | |
 | 24 | Prophet Dawud: mountains and birds praise with him | 34:10–11, 38:17–26 | | |
