@@ -1,0 +1,46 @@
+SHORT STORY LONG THINKING - upload text for 2026-11-10 (Metricool's free November posts are used up, so upload these by hand)
+Post times (Sydney): long video Wed 11 Nov 18:00, Short Wed 11 Nov 19:00.
+Audience: "No, it's not made for kids". Upload the Short as a Short.
+
+=== LONG VIDEO ===
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-10-why-the-first-price-sticks.mp4
+Thumbnail (only if the channel is verified): https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-10-why-the-first-price-sticks.jpg
+Title: Why the First Price You See Sticks
+Category: Education
+
+Description:
+In a famous 1974 study, a rigged wheel of fortune moved people's guesses by 20 points. This short animated explainer shows the anchoring effect: why the first number you see pulls your judgement, where you meet it every day, and one simple way to protect your wallet.
+
+What is covered:
+- The 1974 wheel of fortune experiment (Tversky and Kahneman)
+- Anchoring and adjustment: why you stop too soon
+- Quick test: 8 x 7 x 6 x 5 x 4 x 3 x 2 x 1 in five seconds
+- Estate agents and listing prices, and legal experts and random numbers
+- "Was" prices, menus and opening offers: about 37 cents per extra dollar in negotiations
+- The limits: which anchoring results hold up and which have mixed repeats
+- How to give yourself a second starting point
+
+Prices on the tags and menu are examples, and the adjustment drawings are illustrative.
+
+Sources:
+https://en.wikipedia.org/wiki/Anchoring_effect
+https://www.lesswrong.com/posts/eXwpbnSeRHTahvJAx/is-anchoring-a-reliable-cognitive-bias
+https://www.pon.harvard.edu/daily/negotiation-skills-daily/the-enduring-power-of-anchors/
+https://ideas.repec.org/a/eee/jobhdp/v39y1987i1p84-97.html
+https://pubmed.ncbi.nlm.nih.gov/16382081/
+
+#Psychology #Money #Explained
+
+Tags: anchoring effect, anchoring bias, why the first price matters, psychology of pricing, behavioural economics
+First comment: Has a "was" price ever talked you into buying something?
+
+=== SHORT ===
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-10-why-the-first-price-sticks-short.mp4
+Title: Why does the first number stick? #Shorts
+Description:
+The first number you see becomes your starting point, and you adjust away from it too little, so pick your own number before you look.
+
+Full video on the channel.
+
+#Psychology #Money #Shorts
+First comment: Which anchor gets you most: sale tags, menus, or first offers?
