@@ -1,0 +1,49 @@
+HAND-UPLOAD TEXT for 2026-11-11-how-song-recognition-works (use only if Metricool fails to publish)
+
+== LONG VIDEO: post Thursday 12 Nov 2026, 18:00 Sydney ==
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-11-how-song-recognition-works.mp4
+Thumbnail (only if the channel is verified): https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-11-how-song-recognition-works.jpg
+
+Title: How Your Phone Names a Song From a Noisy Room
+
+Description:
+Your phone can name a song in a noisy café from a few seconds of sound. This short animated explainer shows the audio fingerprinting method that Shazam's Avery Wang described in 2003: a picture of the sound, a map of its loudest points, pairs of points turned into codes, and a match found by lining those codes up in time.
+
+What is covered:
+- Turning sound into a picture (a spectrogram)
+- Keeping only the loudest points: the "constellation map"
+- Why chatter and clinking cups don't stop it
+- Quick question: why isn't one loud note enough?
+- Pairs of points plus their time gap: codes about a million times more specific
+- Lining up the codes: the tallest pile wins
+- The limits: live recordings
+
+The spectrogram, star maps, example code and pile heights are illustrative drawings.
+
+Sources:
+https://www.princeton.edu/~cuff/ele201/files/Wang03-shazam.pdf
+https://ir.webis.de/anthology/2003.ismir_conference-2003.5
+https://www.techspot.com/article/2753-how-shazam-works/
+https://gizmodo.com/5647458/how-shazam-works-to-identify-nearly-every-song-you-throw-at-it
+
+#Technology #HowItWorks #Explained
+
+Tags: how does shazam work, song recognition, audio fingerprinting, how music recognition works, technology explained
+Category: Science & Technology. Audience: No, it's not made for kids. Visibility: Public.
+First comment: Which song did you last look up with your phone?
+
+== SHORT: post Thursday 12 Nov 2026, 19:00 Sydney (upload as a Short) ==
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-11-how-song-recognition-works-short.mp4
+
+Title: How does your phone name a song? #Shorts
+
+Description:
+It keeps the loudest points of the sound, joins them in pairs with the time gap between them, and finds the song where those codes line up in time.
+
+Full video on the channel.
+
+#Technology #HowItWorks #Shorts
+
+Tags: how does shazam work, song recognition, shorts
+Audience: No, it's not made for kids. Visibility: Public.
+First comment: Has your phone ever failed to find a song? Where were you?
