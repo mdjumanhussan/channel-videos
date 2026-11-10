@@ -1,6 +1,6 @@
-BACKUP ONLY. Metricool post 420416130 is booked for tonight, Monday 9 Nov 21:45 Sydney. Check the page at about 21:50. Post by hand only if the Reel is not there.
+BACKUP ONLY. The 9 Nov Metricool post failed (monthly limit) and the Reel is not on the page. Metricool post 422632592 is booked for Wednesday 11 Nov 21:45 Sydney. Check the page at about 21:50. Post by hand only if the Reel is not there.
 
-Why it may fail: Metricool says the November post limit is reached (the 8 Nov posts all failed with that message).
+Why it may fail: every Metricool post since 8 Nov has failed with "You have reached your Metricool account limit". The count resets on 1 Dec.
 
 Video: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/quranic/022-the-cow-of-bani-israil.mp4
 Post it as a Reel on Facebook (Quranic Story page), Instagram and TikTok (quranicstory.reels). Upload the file itself in each app. Turn on the AI-generated label where the app offers it.
