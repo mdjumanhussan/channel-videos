@@ -1,0 +1,51 @@
+HAND-UPLOAD TEXT for 2026-11-12-why-your-voice-sounds-wrong-recorded (use only if Metricool fails to publish)
+
+== LONG VIDEO: post Friday 13 Nov 2026, 18:00 Sydney ==
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-12-why-your-voice-sounds-wrong-recorded.mp4
+Thumbnail (only if the channel is verified): https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-12-why-your-voice-sounds-wrong-recorded.jpg
+
+Title: Why Your Voice Sounds Wrong on Recordings
+
+Description:
+Most people cringe when they hear their own voice on a recording. This short animated explainer shows the two roads your voice takes to your inner ear, why the road through your head makes you sound deeper to yourself, and what a 2013 study found when people rated their own voice without knowing it.
+
+What is covered:
+- Air conduction and bone conduction: two roads to the inner ear
+- Why your head boosts the deep, low parts of your voice
+- Try it: fingers in your ears, then hum
+- Why a microphone makes you sound higher and thinner
+- Which voice other people hear
+- Voice confrontation: why it feels so bad
+- The 2013 study: 80 people, their own voice hidden in the mix
+
+The head drawings are simplified, and the bars and star scores are illustrative.
+
+Sources:
+https://www.scientificamerican.com/article/why-does-my-voice-sound-different/
+https://wonderopolis.org/wonder/why-does-my-voice-sound-different-on-a-recording
+https://www.scienceabc.com/humans/why-do-we-hate-our-own-voice
+https://www.sciencedaily.com/releases/2013/09/130912112733.htm
+https://hearingreview.com/inside-hearing/research/study-says-we-actually-like-our-own-voice
+https://www.discovermagazine.com/why-the-sound-of-your-voice-makes-you-cringe-42563
+
+#Science #HumanBody #Explained
+
+Tags: why does my voice sound different on recordings, bone conduction, voice confrontation, why do i hate my voice, science explained
+Category: Science & Technology. Audience: No, it's not made for kids. Visibility: Public.
+First comment: Did you try the fingers-in-your-ears hum? Did you sound deeper?
+
+== SHORT: post Friday 13 Nov 2026, 19:00 Sydney (upload as a Short) ==
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-12-why-your-voice-sounds-wrong-recorded-short.mp4
+
+Title: Why does my voice sound weird recorded? #Shorts
+
+Description:
+When you talk, you hear yourself through the air and through the bones of your head, which adds deep sound; a microphone hears only the air, so you sound higher and thinner.
+
+Full video on the channel.
+
+#Science #HumanBody #Shorts
+
+Tags: why does my voice sound different on recordings, bone conduction, shorts
+Audience: No, it's not made for kids. Visibility: Public.
+First comment: Which sounds more like you: the voice in your head, or the recording?
