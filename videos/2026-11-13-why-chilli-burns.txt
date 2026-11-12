@@ -1,0 +1,52 @@
+HAND-UPLOAD TEXT for 2026-11-13-why-chilli-burns (use only if Metricool fails to publish)
+
+== LONG VIDEO: post Saturday 14 Nov 2026, 18:00 Sydney ==
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-13-why-chilli-burns.mp4
+Thumbnail (only if the channel is verified): https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-13-why-chilli-burns.jpg
+
+Title: There's No Heat in Chilli. So What Burns?
+
+Description:
+A chilli straight from the fridge is cold, yet it still burns. This short animated explainer shows the heat sensor in your nerves that chilli tricks, the Nobel-winning discovery behind it, and why milk calms the burn better than water.
+
+What is covered:
+- TRPV1: a heat gate on your nerve endings that opens near 43 °C
+- Capsaicin: the chilli molecule that opens the gate with no heat at all
+- How the gate was found in 1997 (2021 Nobel Prize)
+- The cold version: menthol, mint and TRPM8
+- Quick question: water or milk?
+- Why water spreads capsaicin and milk's casein carries it away (a 2019 study of seven drinks)
+- Why birds can eat chillies without feeling the burn
+
+Gates, molecules, cells and drink icons are simplified drawings for teaching.
+
+Sources:
+https://www.nobelprize.org/prizes/medicine/2021/press-release/
+https://pmc.ncbi.nlm.nih.gov/articles/PMC4843893
+https://theconversation.com/why-some-like-it-hot-the-science-of-spiciness-192291
+https://theconversation.com/explainer-why-chilli-burns-and-milk-helps-soothe-the-pain-30162
+https://health.clevelandclinic.org/does-milk-help-with-spicy-food/
+https://www.mdlinx.com/article/hot-sauce-got-you-fired-up-drink-milk-research-says/lfc-525
+https://bakerinstitute.org/research/2021-nobel-prize-medicine-awarded-researchers-who-told-us-how-chili-peppers-make-you-hot-and-menthol
+
+#Science #HumanBody #Explained
+
+Tags: why does chilli burn, capsaicin, TRPV1, why milk helps spicy food, science explained
+Category: Science & Technology. Audience: No, it's not made for kids. Visibility: Public.
+First comment: Water or milk: which did you guess before the answer?
+
+== SHORT: post Saturday 14 Nov 2026, 19:00 Sydney (upload as a Short) ==
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-13-why-chilli-burns-short.mp4
+
+Title: Why does chilli burn if it's not hot? #Shorts
+
+Description:
+Capsaicin in chilli opens TRPV1, the heat sensor on your nerves, so your brain feels a burn with no heat at all.
+
+Full video on the channel.
+
+#Science #HumanBody #Shorts
+
+Tags: why does chilli burn, capsaicin, shorts
+Audience: No, it's not made for kids. Visibility: Public.
+First comment: What's the hottest thing you've ever eaten?
