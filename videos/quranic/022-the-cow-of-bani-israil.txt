@@ -1,4 +1,4 @@
-BACKUP ONLY. The 9 Nov Metricool post failed (monthly limit) and the Reel is not on the page. Metricool post 422632592 is booked for Wednesday 11 Nov 21:45 Sydney. Check the page at about 21:50. Post by hand only if the Reel is not there.
+BACKUP ONLY. The 9 Nov and 11 Nov Metricool posts failed (monthly limit) and the Reel is not on the page. Metricool post 425175327 is booked for Friday 13 Nov 21:45 Sydney. Check the page at about 21:50. Post by hand only if the Reel is not there.
 
 Why it may fail: every Metricool post since 8 Nov has failed with "You have reached your Metricool account limit". The count resets on 1 Dec.
 
