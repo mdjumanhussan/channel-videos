@@ -1,0 +1,58 @@
+HAND-UPLOAD TEXT (use this if Metricool fails to publish)
+Post times (Australia/Sydney): long video Sun 15 Nov 2026 18:00, Short 19:00.
+Audience: "No, it's not made for kids". Category: Education. Upload the Short as a Short.
+
+=== LONG VIDEO ===
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-14-how-memory-palaces-work.mp4
+Thumbnail (only if the channel is verified): https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-14-how-memory-palaces-work.jpg
+
+Title:
+Memory Champions Aren't Smarter. Try Their Trick
+
+Description:
+Memory champions can learn about a hundred words in five minutes, yet brain scans suggest their brains are built much like yours. This short animated explainer shows the ancient memory palace trick they use, lets you try it on a shopping list as you watch, and looks at a 2017 study where ordinary people more than doubled their recall in 40 days.
+
+What is covered:
+- What brain scans of memory champions found (2003): not smarter, same structure, more use of areas for places and routes
+- The legend of Simonides and the collapsed banquet hall
+- How the memory palace (method of loci) works: a place you know, stops in order, vivid pictures
+- Try it: five things to buy, placed around your home
+- Why it works: every picture gets an address, and the route keeps the order
+- The 2017 study: 26 words to 62 after 40 days of 30-minute practice
+- The catch: it takes practice
+
+The house, icons, scans and connection patterns are simplified drawings; the legend scene is drawn for illustration.
+
+Sources:
+https://www.sciencedaily.com/releases/2017/03/170308131236.htm
+https://www.eurekalert.org/news-releases/750131
+https://www.discovermagazine.com/you-can-become-a-memory-champion-too-11671
+https://neurosciencenews.com/memory-training-longevity-6221/
+https://www.reliasmedia.com/articles/27930-a-look-at-some-memorable-brains
+https://cdn.auntminnie.com/clinical-news/mri/article/15563972/fmri-reveals-secrets-of-better-memory
+https://mindhacks.com/2005/08/11/the-2005-world-memory-championships/
+https://newcriterion.com/article/cavernous-imaginations/
+https://www.todayifoundout.com/index.php/2016/09/forgotten-memory-palaces/
+
+#Psychology #Learning #Explained
+
+Tags: memory palace, method of loci, how to memorize, memory champions, study tips
+
+First comment:
+Did you get all five things back? Which picture stuck best?
+
+=== SHORT ===
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-14-how-memory-palaces-work-short.mp4
+
+Title:
+How do memory champions remember? #Shorts
+
+Description:
+They put a strange picture of each thing at a stop along a route through a place they know, then walk the route in their mind.
+
+Full video on the channel.
+
+#Psychology #Learning #Shorts
+
+First comment:
+Which place would you use for your memory palace?
