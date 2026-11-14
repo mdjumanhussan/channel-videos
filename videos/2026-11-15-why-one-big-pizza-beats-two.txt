@@ -1,0 +1,53 @@
+HAND-UPLOAD TEXT (use this if Metricool fails to publish)
+Post times (Australia/Sydney): long video Mon 16 Nov 2026 18:00, Short 19:00.
+Audience: "No, it's not made for kids". Category: Education. Upload the Short as a Short.
+
+=== LONG VIDEO ===
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-15-why-one-big-pizza-beats-two.mp4
+Thumbnail (only if the channel is verified): https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-15-why-one-big-pizza-beats-two.jpg
+
+Title:
+Why One 18-Inch Pizza Beats Two 12-Inch Pizzas
+
+Description:
+One 18-inch pizza gives you more pizza than two 12-inch pizzas, even though two sounds like more. This short animated explainer shows the simple square rule behind it, how to compare pizza prices fairly, and the one case where two pizzas win.
+
+What is covered:
+- Why pizza size is the width, but you eat the area
+- The square rule: twice as wide means four times the area
+- The numbers: 113, 226 and 254 square inches
+- Quick question: is a 16-inch pizza twice an 8-inch one?
+- What NPR found in 74,476 pizza prices (2014)
+- Price per square inch, and why you should check the inches, not the size names
+- The twist: two pizzas have about a third more crust
+- The same rule for TV screens and cake tins
+
+The prices per square inch shown on screen and the bar heights are illustrative. Areas are rounded.
+
+Sources:
+https://www.wfae.org/2014-02-26/74-476-reasons-you-should-always-get-the-bigger-pizza
+https://www.mentalfloss.com/food/pizza/want-more-pizza-order-one-18-inch-pie-instead-two-12-inch-pies
+https://bigthink.com/surprising-science/the-science-is-in-you-should-always-order-the-biggest-pizza/
+
+#Math #Money #Explained
+
+Tags: one 18 inch pizza vs two 12 inch, pizza math, pizza size comparison, price per square inch, area of a circle
+
+First comment:
+Before this video, would you have picked the one big pizza or the two smaller ones?
+
+=== SHORT ===
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-15-why-one-big-pizza-beats-two-short.mp4
+
+Title:
+Is one 18-inch pizza more than two 12s? #Shorts
+
+Description:
+Yes: one 18-inch pizza is about 254 square inches, two 12-inch pizzas are about 226, because area grows with the width times itself.
+
+Full video on the channel.
+
+#Math #Money #Shorts
+
+First comment:
+Crust lovers: would you still pick the two smaller pizzas?
