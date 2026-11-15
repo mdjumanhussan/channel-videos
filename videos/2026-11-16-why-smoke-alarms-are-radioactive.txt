@@ -1,0 +1,56 @@
+HAND-UPLOAD TEXT (use this if Metricool fails to publish)
+Post times (Australia/Sydney): long video Tue 17 Nov 2026 18:00, Short 19:00.
+Audience: "No, it's not made for kids". Category: Science & Technology. Upload the Short as a Short.
+
+=== LONG VIDEO ===
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-16-why-smoke-alarms-are-radioactive.mp4
+Thumbnail (only if the channel is verified): https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-16-why-smoke-alarms-are-radioactive.jpg
+
+Title:
+The Radioactive Speck Inside Many Smoke Alarms
+
+Description:
+Many smoke alarms hold a tiny, sealed speck of radioactive americium, and it is there on purpose. This short animated explainer shows how that speck lets the alarm notice smoke, why it is safe in normal use, and how the other kind of alarm uses light instead.
+
+What is covered:
+- The speck: americium-241 in a metal cup the size of a pencil eraser
+- Alpha particles: they travel only a few inches, and paper stops them
+- The chamber: two charged plates, ions, and a tiny steady current
+- Why smoke makes the current drop and sets off the alarm
+- Quick question: is it dangerous? (no, in normal use; never take one apart)
+- Photoelectric alarms: smoke scatters a light beam onto a sensor
+- Which kind notices flaming and smouldering fires first (NIST tests)
+- What Fire and Rescue NSW recommends
+
+The alarm, chamber and particles are simplified drawings, and the dose bars are illustrative.
+
+Sources:
+https://www.nrc.gov/reading-rm/doc-collections/fact-sheets/smoke-detectors.html
+https://www.epa.nsw.gov.au/Your-environment/Radiation/protection-information/household-smoke-detectors
+https://www.cdc.gov/nceh/radiation/emergencies/isotopes/americium.htm
+https://wx1.ans.org/pi/np/smoke
+https://www.nist.gov/document/smokedetectorsq-asfeb2008pdf
+https://www.mentalfloss.com/technology/how-do-smoke-alarms-work
+
+#Science #HowThingsWork #Explained
+
+Tags: smoke alarm radioactive, americium smoke detector, how smoke alarms work, ionisation vs photoelectric smoke alarm, science explained
+
+First comment:
+Did you know your smoke alarm might be radioactive, or did this surprise you?
+
+=== SHORT ===
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-16-why-smoke-alarms-are-radioactive-short.mp4
+
+Title:
+Why is my smoke alarm radioactive? #Shorts
+
+Description:
+A speck of americium turns the air in a small chamber into ions so a tiny current flows; smoke blocks the ions, the current drops, and the alarm sounds.
+
+Full video on the channel.
+
+#Science #HowThingsWork #Shorts
+
+First comment:
+Which kind is on your ceiling: ionisation or photoelectric?
