@@ -7,7 +7,7 @@ Both daily jobs read this file. Update the numbers on Sundays from Metricool.
 
 | Platform | Requirement for ad money | Where we are (17 Oct 2026) |
 |---|---|---|
-| Facebook (Quranic Story) — Content Monetization | 10,000 Page followers + 600,000 minutes watched in the last 60 days (about 10,000 min a day) + 5 videos + Page 30+ days old. Australia is eligible. Meta also has to invite the Page. | 752 followers (7 Nov 2026). Reels posted 1–7 Nov got about 350 minutes watched; big weeks reach about 5,800. |
+| Facebook (Quranic Story) — Content Monetization | 10,000 Page followers + 600,000 minutes watched in the last 60 days (about 10,000 min a day) + 5 videos + Page 30+ days old. Australia is eligible. Meta also has to invite the Page. | 873 followers (14 Nov 2026, up from 752 on 7 Nov). Reels posted 9–15 Nov: about 15,300 views and 2,430 minutes watched (most from two hand-posted hadith/Seerah Reels). |
 | YouTube (Short Story Long Thinking) — full YPP (ads) | 1,000 subscribers + 4,000 public watch hours in 12 months, or 10 million Shorts views in 90 days. **From 1 Feb 2027 new applicants need 8,000 hours or 20 million Shorts views.** | 4 subscribers. |
 | YouTube — first tier (fan funding, no ads) | 500 subscribers + 3,000 watch hours in 12 months, or 3 million Shorts views in 90 days + 3 uploads in 90 days. | 4 subscribers. |
 
