@@ -1,0 +1,45 @@
+SHORT STORY LONG THINKING - hand-upload text for 2026-11-17-why-popcorn-pops
+Post times (Sydney): long video Wed 18 Nov 2026 18:00, Short 19:00.
+Audience: "No, it's not made for kids". Upload the Short as a Short. Category: Science & Technology. Public.
+
+=== LONG VIDEO ===
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-17-why-popcorn-pops.mp4
+Title: Popcorn Is a Tiny Pressure Cooker
+
+Description:
+Every popcorn kernel is a tiny sealed pressure cooker, and the pop you hear is not the shell cracking. This short animated explainer follows one kernel from the pan to the jump on a millisecond clock, using a 2015 high-speed camera study.
+
+What is covered:
+- The three parts of a kernel: the hull, starch, and about 14% water
+- Why steam builds up inside (about 10 bar, the researchers' estimate)
+- The bursting point: about 180 °C (17 of 50 kernels popped at 170 °C, 48 of 50 at 180 °C)
+- The pop on a clock: starch foam at 6.9 ms, a starch "leg" at 13.8 ms, the jump at 20.7 ms
+- Quick question: what makes the pop sound?
+- Why most cracks are silent, and the sound comes about 6 ms later as steam escapes
+- Why some kernels never pop, and why ordinary corn doesn't pop like this
+
+Kernels, gauges and sound waves are simplified drawings.
+
+Sources:
+https://pmc.ncbi.nlm.nih.gov/articles/PMC4345489
+https://royalsociety.org/blog/2015/02/the-science-of-popcorn
+https://www.sciencealert.com/mystery-solved-how-popcorn-pops
+https://www.sciencebuddies.org/stem-activities/explore-the-pop-in-popcorn
+https://www.snexplores.org/blog/eureka-lab/how-popcorn-got-its-pop
+https://foodcrumbles.com/why-does-popcorn-pop
+
+#Science #Popcorn #Explained
+
+Tags: why does popcorn pop, popcorn science, how popcorn pops, kitchen science, science explained
+First comment: Which surprised you more: that they all burst near 180 °C, or that most cracks are silent?
+
+=== SHORT ===
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-17-why-popcorn-pops-short.mp4
+Title: What makes popcorn go pop? #Shorts
+Description:
+The pop isn't the shell cracking: it's trapped steam rushing out when the hull bursts at about 180 °C.
+
+Full video on the channel.
+
+#Science #Popcorn #Shorts
+First comment: Pan or microwave: how do you make yours?
