@@ -1,0 +1,47 @@
+LONG VIDEO (post 18:00 Sydney, Sunday 22 Nov 2026)
+Video: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-21-how-banks-create-money.mp4
+Thumbnail (only if the channel is verified for custom thumbnails): https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-21-how-banks-create-money.jpg
+
+Title:
+Banks Don't Lend Out Your Savings
+
+Description:
+When a bank makes a loan, it doesn't hand over other people's savings: it creates a new deposit in the borrower's account, and repaying the loan makes that money disappear. This short animated explainer follows one illustrative car loan, using the Bank of England's and the Reserve Bank of Australia's own explanations.
+
+What is covered:
+- The story many of us learned: the bank as a middleman
+- One car loan: two new lines in the bank's books
+- Most money is bank deposits: in Australia in 2018, about $75 billion of notes and coins out of about $2 trillion
+- Quick question: when you repay a loan, where does the money go?
+- Why repaying a loan (or a credit card) destroys money
+- Three limits: profitable lending, capital rules, interest rates
+- Why deposits still matter to your bank
+
+The car loan, balances and credit card are illustrative examples. This video explains how banking works; it is not financial advice.
+
+Sources:
+https://www.bankofengland.co.uk/-/media/boe/files/quarterly-bulletin/2014/money-creation-in-the-modern-economy
+https://www.rba.gov.au/speeches/2018/sp-ag-2018-09-19.html
+https://www.rba.gov.au/publications/bulletin/2018/sep/money-in-the-australian-economy.html
+
+#Money #Economics #Explained
+
+Tags: how do banks create money, where does money come from, money creation explained, how bank loans work, economics explained
+Category: Education. Audience: No, it's not made for kids.
+First comment: Did you learn the "bank as a middleman" story at school too?
+
+SHORT (post 19:00 Sydney, Sunday 22 Nov 2026; upload as a Short)
+Video: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-21-how-banks-create-money-short.mp4
+
+Title:
+Where does loan money come from? #Shorts
+
+Description:
+Banks don't lend out other people's savings: a new loan creates new money in your account, and repaying it makes that money disappear.
+
+Full video on the channel.
+
+#Money #Economics #Shorts
+
+Audience: No, it's not made for kids.
+First comment: Before this, where did you think loan money came from?
