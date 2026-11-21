@@ -1,0 +1,48 @@
+LONG VIDEO (post 18:00 Sydney, Monday 23 Nov 2026)
+Video: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-22-why-leap-years-exist.mp4
+Thumbnail (only if the channel is verified for custom thumbnails): https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-22-why-leap-years-exist.jpg
+
+Title:
+A Year Isn't 365 Days
+
+Description:
+A year is not 365 days: Earth takes about 365 and a quarter days to come back to the same season, so the calendar needs a leap day. This short animated explainer shows how fast the calendar would drift without it, why 1900 was not a leap year, and how close today's calendar is to Earth's real year.
+
+What is covered:
+- The real year: about 365.2422 days, almost six hours more than 365
+- The drift: almost a day every four years, about 24 days a century
+- The fix: a leap day every fourth year (Julian calendar, 46 BC)
+- Quick question: was 1900 a leap year?
+- Why a quarter day is slightly too much, and the 10 days skipped in 1582
+- The century rule: 1700, 1800 and 1900 had no leap day; 2000 did; 2100 won't
+- How close it is now: one day out in more than 3,000 years
+
+The 750-year season swap is our own arithmetic from the figures above; the orbit and calendar pages are simplified drawings.
+
+Sources:
+https://aa.usno.navy.mil/faq/leap_years
+https://www.scientificamerican.com/article/why-do-we-have-a-leap-year-anyway/
+https://www.astronomy.com/science/why-do-we-need-a-leap-day-so-it-doesnt-snow-in-the-summer/
+https://www.livescience.com/45768-gregorian-calendar.html
+https://warwick.ac.uk/news/knowledgecentre/science/physics-astrophysics/leap_years
+
+#Science #Calendar #Explained
+
+Tags: why do we have leap years, leap year explained, why was 1900 not a leap year, gregorian calendar, science explained
+Category: Science & Technology. Audience: "No, it's not made for kids".
+First comment: Do you know anyone born on February 29? When do they celebrate?
+
+SHORT (post 19:00 Sydney, Monday 23 Nov 2026; upload as a Short)
+Video: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-22-why-leap-years-exist-short.mp4
+
+Title:
+Why does February get a 29th? #Shorts
+
+Description:
+Earth takes about 365 and a quarter days to come back to the same season, so every fourth year gets February 29, and most century years skip it.
+
+Full video on the channel.
+
+#Science #Calendar #Shorts
+
+First comment: Did you know 1900 had no February 29?
