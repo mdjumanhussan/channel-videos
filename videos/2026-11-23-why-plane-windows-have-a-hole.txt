@@ -1,0 +1,49 @@
+LONG VIDEO (post 18:00 Sydney, Tuesday 24 Nov 2026)
+Video: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-23-why-plane-windows-have-a-hole.mp4
+Thumbnail (only if the channel is verified for custom thumbnails): https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-23-why-plane-windows-have-a-hole.jpg
+
+Title:
+Why Plane Windows Have a Tiny Hole
+
+Description:
+That tiny hole near the bottom of a plane window is there on purpose: it lets cabin air into the gap between the panes, so the outer pane carries the pressure and the middle pane stays ready as a spare. This short animated explainer walks through the three panes, the pressure difference at cruising height, and the hole's second job of letting moisture out.
+
+What is covered:
+- Three panes: outer, middle (with the hole) and an inner scratch pane that carries no load
+- At about 35,000 ft, outside air presses about a third as hard as cabin air (about 3.4 vs 11 psi)
+- The cabin feels like a mountain about 7,000 ft high
+- How the breather hole balances the middle pane and puts the load on the outer pane
+- Quick question: why load just one pane?
+- The middle pane as a spare: rated for 1.5 times normal pressure in a Boeing 737 manual
+- The second job: letting moisture out so the window fogs and frosts less
+
+The window and cross-sections are simplified drawings. "Half a kilo on every fingertip-sized patch" is our own arithmetic from the pressures above (11 - 3.4 psi is about 0.53 kg per square centimetre).
+
+Sources:
+https://gizmodo.com/why-is-there-a-hole-in-airplane-windows-1703660371
+https://www.iflscience.com/why-is-there-a-tiny-hole-in-airplane-windows-82433
+https://fortune.com/2015/06/01/airplane-window-holes/
+https://www.mentalfloss.com/transportation/planes-airports/why-do-airplane-windows-have-tiny-holes
+https://www.globalair.com/articles/why-do-airplane-windows-have-tiny-holes/11063
+https://time.com/4725944/tiny-hole-airplane-windows-travel
+
+#Science #Aviation #Explained
+
+Tags: why do plane windows have holes, airplane window hole, breather hole, how airplane windows work, science explained
+Category: Science & Technology. Audience: "No, it's not made for kids".
+First comment: Window seat people: had you ever spotted the tiny hole before?
+
+SHORT (post 19:00 Sydney, Tuesday 24 Nov 2026; upload as a Short)
+Video: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-23-why-plane-windows-have-a-hole-short.mp4
+
+Title:
+Why do plane windows have a hole? #Shorts
+
+Description:
+The hole lets cabin air into the gap, so the outer pane carries the pressure and the middle pane stays ready as a spare; it also lets moisture out.
+
+Full video on the channel.
+
+#Science #Aviation #Shorts
+
+First comment: Next time you fly, will you look for the hole?

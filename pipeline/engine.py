@@ -236,8 +236,10 @@ def make_thumb():
     size = 190
     while max(c.tw(l, size, 'Bold') for l in lines) > (1040 if art else 1700): size -= 6
     y0 = 540 - (len(lines) - 1) * size * .58
+    cols = getattr(EP, 'THUMB_COLS', None)             # optional per-line colours; default: white lines, last one yellow
     for i, l in enumerate(lines):
-        c.text(90, y0 + i * size * 1.16, l, size, YE if i == len(lines) - 1 else INK, 1, 'lm', 'Bold', stroke=6)
+        col = cols[i] if cols and i < len(cols) else (YE if i == len(lines) - 1 else INK)
+        c.text(90, y0 + i * size * 1.16, l, size, col, 1, 'lm', 'Bold', stroke=6)
     yb = y0 + (len(lines) - 1) * size * 1.16 + size * .62; c.rr(90, yb, 410, yb + 14, 6, CY)
     post(img.reduce(S), 4.0).resize((1280, 720), Image.LANCZOS).save(OUT + '/thumb.jpg', quality=92)
     return True
