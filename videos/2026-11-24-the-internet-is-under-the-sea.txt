@@ -1,0 +1,52 @@
+YOUTUBE UPLOAD TEXT: 2026-11-24 episode (post 25 Nov 2026, Sydney time)
+Audience: "No, it's not made for kids". Category: Science & Technology.
+
+=== LONG VIDEO (post at 18:00) ===
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-24-the-internet-is-under-the-sea.mp4
+
+Title:
+The Internet Isn't in the Sky. It's Under the Sea.
+
+Description:
+About 99% of the data that crosses between countries travels through cables on the ocean floor, not through satellites. This short animated explainer shows how thin those cables are, how laser light carries your data inside them, how boosters get it across an ocean, and what really breaks them.
+
+What is covered:
+- The route of a video call between countries: down to the sea floor, not up to space
+- More than 500 cables, about 1.7 million km in all (over 40 times around Earth)
+- Deep-sea cables are roughly as thick as a garden hose; near the shore they get steel armour
+- Hair-thin glass fibres carry data as flashes of laser light
+- Quick question: how does light cross a whole ocean?
+- Boosters along the cable, powered through a copper layer
+- 150 to 200 cable incidents a year: about 80% from ship anchors and fishing, under 1% from sharks and other fish (up to 2006)
+- Repairs take days to months, and what happened to Tonga in 2022
+
+The globe, cable drawings and the cables-vs-satellites bars are simplified and illustrative. "Over 40 times around Earth" is our own arithmetic (1.7 million km / about 40,000 km).
+
+Sources:
+https://news.un.org/en/story/2026/02/1166867
+https://resources.telegeography.com/2023-mythbusting-part-3
+https://www.engadget.com/2187834/how-transatlantic-internet-cables-work/
+https://www.computerworld.com/article/1622668/9-things-you-didnt-know-about-googles-undersea-cable-2.html
+
+#Technology #Internet #Explained
+
+Tags: how does the internet cross the ocean, undersea internet cables, submarine cables explained, how fiber optic cables work, technology explained
+
+First comment:
+Before this, did you think the internet went through satellites or cables?
+
+=== SHORT (post at 19:00, upload as a Short) ===
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-24-the-internet-is-under-the-sea-short.mp4
+
+Title:
+How does the internet cross oceans? #Shorts
+
+Description:
+About 99% of data between countries travels as laser light through hair-thin glass, inside cables on the sea floor about as thick as a garden hose.
+
+Full video on the channel.
+
+#Technology #Internet #Shorts
+
+First comment:
+Did you know sharks almost never break these cables?
