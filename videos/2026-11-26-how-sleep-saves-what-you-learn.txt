@@ -1,0 +1,53 @@
+YOUTUBE UPLOAD TEXT: 2026-11-26 episode (post 27 Nov 2026, Sydney time)
+Audience: "No, it's not made for kids". Category: Education.
+
+=== LONG VIDEO (post at 18:00) ===
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-26-how-sleep-saves-what-you-learn.mp4
+
+Title:
+Sleep Is When Learning Sticks
+
+Description:
+People who sleep after learning something forget less than people who stay awake for the same time. This short animated explainer shows what the brain seems to be doing at night: replaying the day in deep sleep and, scientists think, moving new memories from the hippocampus into the cortex.
+
+What is covered:
+- Same list, two nights: why the sleeper remembers more
+- 1924: less forgetting after sleep than after being awake
+- One early idea: nothing new crowds in while you sleep
+- The hippocampus (a quick notepad) and the cortex (the long-term library)
+- Replay: in rats, the same brain cells fire again during sleep, in the same order, up to 20 times faster
+- Quick question: REM sleep or deep sleep?
+- Slow brain waves, sleep spindles, and the leading theory of how memories move
+- A UC Berkeley study: people who napped 100 minutes learned new names and faces about 20% better
+- Why timing matters, and what an all-nighter skips
+
+The word lists, syllable cards, brain, track and bars are simplified drawings; the bars show the reported 20% difference, not raw scores. This video explains how memory works; it is not medical advice.
+
+Sources:
+https://pmc.ncbi.nlm.nih.gov/articles/PMC10807868
+https://www.scientificamerican.com/blog/guest-blog/sleep-on-it/
+https://pmc.ncbi.nlm.nih.gov/articles/PMC4263505
+https://www.nature.com/articles/nrn2762
+
+#Learning #Sleep #Explained
+
+Tags: does sleep help memory, sleep and learning, memory consolidation explained, why sleep after studying, psychology of learning
+
+First comment:
+Do you learn better if you study at night and sleep on it, or first thing in the morning?
+
+=== SHORT (post at 19:00, upload as a Short) ===
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-26-how-sleep-saves-what-you-learn-short.mp4
+
+Title:
+Why does sleep help you remember? #Shorts
+
+Description:
+While you sleep, your brain replays what you learned, mostly in deep sleep, and is thought to file it into long-term memory.
+
+Full video on the channel.
+
+#Learning #Sleep #Shorts
+
+First comment:
+Have you ever woken up and suddenly understood something from the night before?
