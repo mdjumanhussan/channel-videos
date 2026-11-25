@@ -545,8 +545,10 @@ def draw_lesson(img, sc, tt):
 def build_layers(sc):
     layers = []
     for spec in sc['layers']:
-        fn, depth = (spec, None) if callable(spec) else spec
-        p = P(); fn(p); layers.append((p.finish(), depth if depth is not None else len(layers) / max(1, len(sc['layers']) - 1)))
+        fn, depth, blur = (spec, None, 0) if callable(spec) else (tuple(spec) + (0,))[:3]   # optional 3rd item: depth-of-field blur radius (px)
+        p = P(); fn(p); im = p.finish()
+        if blur: im = im.filter(ImageFilter.GaussianBlur(blur))
+        layers.append((im, depth if depth is not None else len(layers) / max(1, len(sc['layers']) - 1)))
     return layers
 
 def cam_view(sc, depth, u):
@@ -630,6 +632,7 @@ def frame(tl, tt):
                 pts = [(W / 2 + r * math.cos(math.radians(rot + 45 + 90 * k)), H / 2 + r * math.sin(math.radians(rot + 45 + 90 * k))) for k in range(4)]
                 od.line(pts + [pts[0]], fill=GOLD + (230,), width=10)
             img.alpha_composite(ol.filter(ImageFilter.GaussianBlur(3))); img.alpha_composite(ol)
+    if hasattr(EP, 'POST'): img = EP.POST(img, tt)      # optional episode colour grade / film grain, before the badge and progress bar
     draw_chrome(img, tt, tl[-1]['end'])
     
     return img.convert('RGB')
@@ -705,7 +708,8 @@ def check():
     for sc in SC:
         if sc.get('verse'): a, e, r = verse_parts(sc['verse']['key'], sc['verse'].get('ar'), sc['verse'].get('en')); print('VERSE', r, '|', e)
     words = sum(len(l.split()) for sc in SC for l in sc['lines'])
-    print('scenes', len(SC), 'words', words); assert 115 <= words <= 185, 'script should be 115-185 words (~45-70 s)'
+    lo, hi = getattr(EP, 'WORDS', (115, 185))           # an episode may set a shorter range, e.g. WORDS = (85, 130) for a ~35-45 s Reel
+    print('scenes', len(SC), 'words', words); assert lo <= words <= hi, f'script should be {lo}-{hi} words'
 
 def load(path):
     global EP, SC, OUT

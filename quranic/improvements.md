@@ -89,3 +89,12 @@ Each daily run adds the latest numbers and one improvement. Goal: more people wa
 - Keep Reels nearer 85–95 s (Adam ran 104 s).
 - More motion in each scene: drifting clouds, moving water, flickering lantern flames.
 - Richer scenery: more detail in trees, water reflections, distant birds.
+
+## 2026-11-25 diagnosis (on Juman's request: "Islamic videos reach millions, ours not 10,000")
+
+- Almost every Reel stops at 200-300 views (Facebook's first test audience). Average watch is 3-8 s on 60-70 s Reels (5-12%). Guides cite ~60% as a good baseline and 15-30 s (up to 60 s for stories) as the sweet spot (https://www.opus.pro/blog/ideal-facebook-reels-length-format-retention).
+- Breakouts (thirsty dog 9.3k, al-Amin cloth 9.3k, Ayyub 6k, Ali's sons 5.7k, cave of Hijrah 5.3k): one moment, one emotion, a hopeful payoff people share. Destruction-of-a-nation stories stayed near 250.
+- Weak spots: frame 1 is a wall of title text over flat shapes; voice bm_george is Kokoro's lowest-graded voice; too much text competing with speech (Emplifi: text overlays lower 10 s retention on speech-driven Reels, https://emplifi.io/resources/facebook-reels-data/).
+- Reel 25 tries all fixes at once: 49 s, cinematic macro look (engine: per-layer depth-of-field blur, POST grade/grain hook, WORDS override), spoken hook in second 1, CAPTION_Y 1470, loop end, voice am_michael. Judge it at 72 h against the ~250 baseline.
+- Biggest remaining upgrade: a natural human narrator (ElevenLabs connector needs reconnecting with permissions) and real recitation for verse moments.
+- Film grain makes x264 files huge (315 MB at crf 19). Re-encode grainy Reels with -crf 22 -maxrate 4.5M -bufsize 9M before pushing (GitHub limit 100 MB); Reel 25 came out at 29 MB.
