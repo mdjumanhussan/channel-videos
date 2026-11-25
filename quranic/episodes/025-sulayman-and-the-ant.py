@@ -15,7 +15,7 @@ Improvements tried (diagnosis 25 Nov: 3-8 s average watch on 60-70 s Reels):
 - Cinematic macro look: depth-of-field blur on far and near layers, warm grade, film grain, rim-lit hero ant.
 - Captions lower (CAPTION_Y 1470) so the picture owns the middle of the screen.
 - Loop: the last scene returns to the hook's picture.
-- Deeper, warmer narrator voice (am_michael) instead of bm_george."""
+- Human-quality narrator (vidIQ voiceover, Brian) instead of Kokoro bm_george; Kokoro am_michael was the first cut."""
 import sys, os
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
 from engine import *
@@ -25,6 +25,11 @@ VOICE, SPEED = 'am_michael', 1.1
 WORDS = (85, 130)
 CAPTION_Y = 1470
 THUMB_AT = 0.8
+# Narration: vidIQ voiceover, voice "Brian - Deep, Resonant and Comforting" (voiceoverId 9a50709f-86d6-4925-b52c-db35e60f6e23,
+# full audio https://assets.vidiq.com/voiceovers/0e949607-e5bd-47e3-bfe6-e215e3d1e6c3/9a50709f-86d6-4925-b52c-db35e60f6e23.mp3).
+# The engine renders picture + ambience on these line timings; vidIQ compose then lays the voiceover on top.
+EXT_LINES = [(0, 2.586), (2.586, 3.553), (6.139, 6.766), (12.904, 2.429), (15.334, 1.306), (16.64, 6.844), (23.484, 1.646),
+             (25.13, 2.273), (27.402, 2.508), (29.91, 3.161), (33.071, 1.228), (34.299, 5.564), (39.863, 3.318), (43.18, 2.429), (45.61, 4.911)]
 TITLE = 'The Ant Who Spoke Up'
 HITS = [(5, 0, 0.0)]      # 'Sulayman smiled, amused at her speech.'
 

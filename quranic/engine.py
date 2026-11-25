@@ -655,9 +655,25 @@ def to_phonemes(k, text, lang):
     if seg.strip(): out.append(k.tokenizer.phonemize(seg, lang))
     return ' '.join(o.strip() for o in out if o.strip())
 
+def build_ext_timeline():
+    """EP.EXT_LINES = [(start_s, dur_s), ...], one per narration line, from an outside voiceover (e.g. vidIQ). The voice is mixed
+    in later by the voiceover service, so voice.wav here holds only ambience, whooshes and hits; the timeline follows the outside audio."""
+    ext = EP.EXT_LINES; tl = []; i = 0; off = getattr(EP, 'EXT_OFFSET', 0.0)
+    for si, sc in enumerate(SC):
+        starts = []
+        for _ in sc['lines']:
+            a, d = ext[i]; i += 1; starts.append((a + off, a + off + d))
+        tl.append({'start': 0.0 if si == 0 else tl[-1]['end'], 'end': starts[-1][1] + .15, 'lines': starts})
+    for si in range(len(tl) - 1): tl[si]['end'] = tl[si + 1]['lines'][0][0] - .05; tl[si + 1]['start'] = tl[si]['end']
+    tl[-1]['end'] += 1.2
+    assert i == len(ext), 'EXT_LINES must have one entry per narration line'
+    return tl
+
 def build_audio():
-    from kokoro_onnx import Kokoro
     import soundfile as sf
+    if hasattr(EP, 'EXT_LINES'):
+        tl = build_ext_timeline(); voice_a = np.zeros(int(tl[-1]['end'] * SR), np.float32); return _mix(tl, voice_a, sf)
+    from kokoro_onnx import Kokoro
     k = Kokoro(MODELS + '/kokoro.onnx', MODELS + '/voices.bin')
     voice = getattr(EP, 'VOICE', 'bm_george'); speed = getattr(EP, 'SPEED', 1.0); lang = 'en-gb' if voice[:1] == 'b' else 'en-us'
     gap, sgap = .22, .45
@@ -672,6 +688,9 @@ def build_audio():
         tl.append({'start': s0 if si else 0.0, 'end': cur, 'lines': starts}); print(si, round(cur, 1), flush=True)
     chunks.append(np.zeros(int(1.0 * SR), np.float32)); tl[-1]['end'] = cur + 1.0
     voice_a = np.concatenate(chunks); voice_a = voice_a / max(1e-6, np.abs(voice_a).max()) * .9
+    _mix(tl, voice_a, sf)
+
+def _mix(tl, voice_a, sf):
     # ambience: soft warm air (filtered noise) + a gentle whoosh at each star transition. No music.
     n = len(voice_a); rng = np.random.default_rng(7); noise = rng.standard_normal(n).astype(np.float32)
     from scipy.signal import butter, lfilter
@@ -733,6 +752,6 @@ if __name__ == '__main__':
         assert all(p.wait() == 0 for p in ps), 'render failed'
         open(OUT + '/list.txt', 'w').write('file part0.mp4\nfile part1.mp4\n')
         subprocess.check_call(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'concat', '-i', OUT + '/list.txt', '-i', OUT + '/voice.wav', '-c:v', 'copy',
-                               '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', '-af', 'highpass=f=70,equalizer=f=3200:t=q:w=1:g=2.5,acompressor=threshold=-20dB:ratio=3:attack=5:release=90,loudnorm=I=-14:TP=-1.5', '-shortest', '-movflags', '+faststart', OUT + '/video.mp4'])
+                               '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', '-af', ('anull' if hasattr(EP, 'EXT_LINES') else 'highpass=f=70,equalizer=f=3200:t=q:w=1:g=2.5,acompressor=threshold=-20dB:ratio=3:attack=5:release=90,loudnorm=I=-14:TP=-1.5'), '-shortest', '-movflags', '+faststart', OUT + '/video.mp4'])
         subprocess.check_call(['ffmpeg', '-y', '-loglevel', 'error', '-ss', str(getattr(EP, 'THUMB_AT', 1.5)), '-i', OUT + '/video.mp4', '-frames:v', '1', OUT + '/thumb.jpg'])
         print('DONE', OUT + '/video.mp4')
