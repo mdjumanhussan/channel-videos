@@ -1,0 +1,51 @@
+YOUTUBE UPLOAD TEXT: 2026-11-27 episode (post 28 Nov 2026, Sydney time)
+Audience: "No, it's not made for kids". Category: Education.
+
+=== LONG VIDEO (post at 18:00) ===
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-27-why-insurance-needs-lots-of-people.mp4
+
+Title:
+Why Insurance Only Works With Lots of People
+
+Description:
+Insurance works by pooling: many people each pay a little, and that money covers the few who have a loss that year. This short animated explainer shows why the trick only works with a big group, and what can break it.
+
+What is covered:
+- Your house burns down: who really pays to rebuild it?
+- Risk pooling: premiums from everyone, claims for a few
+- A textbook example: 100,000 people, about 250 claims of $1,000, so $2.50 each
+- Why 10 cars are a gamble: about one year in four, two or more are stolen
+- Quick question: how predictable are 100,000 cars?
+- The law of large numbers, with coin flips
+- What a premium pays for: expected claims, running costs, profit and a cushion
+- Why one hurricane hitting one stretch of coast could empty the pool, and why insurers spread their risk
+
+The $300,000 house and $1,000 premium are illustrative. The theft bars are simulated (a 1 in 10 chance per car); the coin flips and premium sizes are examples. 'Within a few hundred' is our own arithmetic for 100,000 cars at 1 in 10. This video explains how insurance works; it is not financial advice.
+
+Sources:
+https://www.gov.uk/hmrc-internal-manuals/general-insurance-manual/gim1130
+https://saylordotorg.github.io/text_risk-management-for-enterprises-and-individuals/s10-02-nature-of-insurance.html
+https://www.britannica.com/money/how-does-insurance-work
+
+#Money #Insurance #Explained
+
+Tags: how does insurance work, insurance explained, risk pooling, law of large numbers, money explained
+
+First comment:
+Before this, did you think your premiums were saved up just for you?
+
+=== SHORT (post at 19:00, upload as a Short) ===
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-27-why-insurance-needs-lots-of-people-short.mp4
+
+Title:
+Your house burns down. Who pays? #Shorts
+
+Description:
+Insurance pools money: most customers never claim in a given year, so their premiums pay for the few who do, and with a huge group the total becomes predictable.
+
+Full video on the channel.
+
+#Money #Insurance #Shorts
+
+First comment:
+Would you rather be in a pool of 10 people or 100,000?
