@@ -1,0 +1,58 @@
+YOUTUBE UPLOAD TEXT (Short Story Long Thinking)
+Post the long video at 18:00 and the Short at 19:00, Sydney time, on Sun 29 Nov 2026.
+Audience: "No, it's not made for kids". Upload the Short as a Short (vertical file).
+
+=== LONG VIDEO ===
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-28-why-you-count-after-lightning.mp4
+Thumbnail (only if the channel is verified for custom thumbnails): https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-28-why-you-count-after-lightning.jpg
+
+Title:
+3 Seconds From Flash to Thunder = About 1 km
+
+Description:
+Count the seconds between a lightning flash and its thunder, divide by three, and you get roughly how many kilometres away it struck. This short animated explainer shows what thunder actually is, why the flash beats the sound, and why thunder sometimes cracks and sometimes rumbles.
+
+What is covered:
+- The count: one, two, three, boom
+- What thunder is: air heated to about 30,000 °C in a few millionths of a second
+- Why the squeezed air bursts outward, and how the shock wave becomes ordinary sound
+- Light (about 300,000 km a second) vs sound (about a third of a kilometre a second)
+- Quick question: nine seconds, how far?
+- The rule: seconds ÷ 3 = km (÷ 5 for miles)
+- Why thunder cracks when close and rumbles when far
+- How far thunder carries (usually about 15 km, up to about 25 km on a still night)
+- The rule to keep: when thunder roars, go indoors, and wait 30 minutes after the last rumble
+
+The drawings are simplified and not to scale. "Close to a million times faster" is our own arithmetic (about 300,000 km/s ÷ about 0.34 km/s). The count gives a rough distance only; it is not a safety test.
+
+Sources:
+https://www.weather.gov/safety/lightning-science-thunder
+https://nssl.noaa.gov/education/svrwx101/lightning/faq
+https://scijinks.gov/about/k-12-education/severe-weather/what-causes-lightning-and-thunder
+https://media.bom.gov.au/social/blog/1750/explainer-what-is-thunder/
+https://weather.metoffice.gov.uk/learn-about/weather/types-of-weather/thunder-and-lightning
+https://www.canada.ca/en/environment-climate-change/services/lightning/science/how-thunder-sounds.html
+
+#Science #Weather #Explained
+
+Tags: how far away is lightning, lightning and thunder, what causes thunder, flash to bang rule, science explained
+Category: Science & Technology
+
+First comment (pin it):
+What's the shortest count you've ever had between a flash and its thunder?
+
+=== SHORT ===
+File: https://raw.githubusercontent.com/mdjumanhussan/channel-videos/main/videos/2026-11-28-why-you-count-after-lightning-short.mp4
+
+Title:
+How far away is that lightning? #Shorts
+
+Description:
+Count the seconds from a lightning flash to its thunder and divide by three: that's roughly the distance in kilometres, because light arrives almost instantly and sound travels about a third of a kilometre each second.
+
+Full video on the channel.
+
+#Science #Weather #Shorts
+
+First comment:
+Have you ever heard thunder with no gap at all after the flash?
